@@ -484,7 +484,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-ipaudiopro
-Version: 1.4
+Version: 1.3
 Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the
  background while watching something else
 Section: base
@@ -494,12 +494,12 @@ License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions
 Homepage: https://github.com/
-Depends: alsa-plugins, enigma2, libasound2, libavcodec61, libavformat61, libc6, libgcc1, libstdc++6, python3-cryptography
+Depends: alsa-conf, alsa-plugins, alsa-state, enigma2, libasound2, libavcodec60, libavformat60, libc6, libgcc1, libstdc++6, python3-cryptography
 Source: enigma2-plugin-extensions-ipaudiopro.bb
-Filename: enigma2-plugin-extensions-ipaudiopro_1.4_cortexa15hf-neon-vfpv4.ipk
-Size: 885378
-MD5Sum: 200ad7d6494654ca696bf5338f130e93
-SHA256sum: 3d1230bc7883545f0d0132899b6a3f54c047e4159ce4b7c9c02781c7d5185d30
+Filename: enigma2-plugin-extensions-ipaudiopro_1.3+git124+cd654700+cd6547059e-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1071562
+MD5Sum: 816c93df3034bf37d14afe08f42e89f3
+SHA256sum: 74b25c1c0377073dccb47c01e9aee0ebdb3556c5a1524edf88b2128e8bdee2e9
 
 Package: enigma2-plugin-extensions-iptvarchive
 Version: 2.0.88
