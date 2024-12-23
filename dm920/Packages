@@ -352,9 +352,9 @@ Conflicts: enigma-kernel-module
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: 796a23c1b249809c6fc15c59758f078b
-SHA256sum: 2ad44342386cd1283f0cccff708c8c6c958b1b245908014752630a2c6d150ebe
-Size: 1292
+MD5Sum: 0bc2a05adeaac7d174f45e99b679cc70
+SHA256sum: ef7d5cdae958ae2b853e320575403e7fc65aa68b92f47aa5d487e783ae59dd9f
+Size: 1290
 Filename: enigma-info_py3.12-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
