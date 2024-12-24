@@ -437,22 +437,6 @@ Size: 13994916
 MD5Sum: 3b797485c7a964ac65af6e0e940e24db
 SHA256sum: 938834c651c472f6f212a16c12bce043c6d43985d61674bf0ea614894484a269
 
-Package: enigma2-plugin-extensions-foreca
-Version: 3.0+git334
-Description: Weather forecast for the upcoming 10 days
-Section: base
-Priority: optional
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-License: GPL-2.0-or-later
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-foreca
-Depends: python3-core, python3-html, python3-pillow, python3-requests
-Source: enigma2-plugin-extensions-foreca.bb
-Filename: enigma2-plugin-extensions-foreca_3.0+git334_cortexa15hf-neon-vfpv4.ipk
-Size: 654126
-MD5Sum: e21df3dc5410de78522efa51eafa6b99
-SHA256sum: d5d54a566210c9c302047e1f52c7b7d5e5985fa48db8c60fda6970081835176d
-
 Package: enigma2-plugin-extensions-freeserver
 Version: 8.3.8.r1
 Section: base
