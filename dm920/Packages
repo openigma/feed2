@@ -352,9 +352,9 @@ Conflicts: enigma-kernel-module
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: d69580879f941b493ac16acd6a03ed64
-SHA256sum: 9a8e18dce5014239cc0c8cdaf0f628149e6fe4f6a5dcbeae4acbac58c0380a4c
-Size: 1290
+MD5Sum: 6bc8ebd9b6cfaf117e8fe3e509834d9a
+SHA256sum: 825576dce220a2b214beb10ce80e1e7910b07f6d9451f877cd2559379f4c13d0
+Size: 1294
 Filename: enigma-info_py3.12-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -619,9 +619,9 @@ Provides: enigma2-plugin-extensions-openwebif-terminal
 Section: base
 Architecture: dm920
 Maintainer: Open Vision Developers
-MD5Sum: 1180d4824cb67762a59d71d21abe07f4
-SHA256sum: 1b5ba581c5de4c967c5ad5735c28c4cdef104b248ea56c8dceace0d14e68769a
-Size: 3784680
+MD5Sum: abdaea46756b5752afd961c00a0a0e64
+SHA256sum: 7a35c524acfcbdf0722ea86c75e60deed7bb4b405bda309c36dca10cb1d9e937
+Size: 3784372
 Filename: enigma2-plugin-extensions-openwebif_1.5.2-227-gf65c54a1-r0_dm920.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: enigma2-plugin-extensions-openwebif version git-r0
