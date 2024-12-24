@@ -1140,7 +1140,7 @@ License: CLOSED
 Priority: optional
 
 Package: enigma2-plugin-softcams-oscam-smod
-Version: 1.20+git2389+01bc9cd0+01bc9cdbdc-r2
+Version: 1.20+git2399+01bc9cd0+01bc9cdbdc-r2
 Description: OSCam-smod 1.20+git2389+01bc9cd0+01bc9cdbdc (IPv6/IPv4 Dual-Stack support)
  Combining the benefits of
  - latest trunk
