@@ -1,49 +1,3 @@
-Package: 3rd-party-feed-configs-dbg
-Version: 1.0-r0
-Section: devel
-Architecture: dm920
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bfcc78b61a913cb6c6b71d54bd7e7eef
-SHA256sum: e5565806769f3bf5aaed1adff0cd12385777f8debb5c49fb603f65b72f09313c
-Size: 588
-Filename: 3rd-party-feed-configs-dbg_1.0-r0_dm920.ipk
-Source: 3rd-party-feed-configs.bb
-Description: Configuration files for 3rd-party feeds - Debugging files
-OE: 3rd-party-feed-configs
-License: GPL-2.0-only
-Priority: optional
-
-Package: 3rd-party-feed-configs-dev
-Version: 1.0-r0
-Recommends: 3rd-party-feed-configs (= 1.0-r0)
-Section: devel
-Architecture: dm920
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff3a23bfc97ca19949b9c5cc68c91a79
-SHA256sum: 2a9f1587b88691ab7ebdf8b6089ed8ebd22146bf7470d3973ffb0265f3d82dc4
-Size: 622
-Filename: 3rd-party-feed-configs-dev_1.0-r0_dm920.ipk
-Source: 3rd-party-feed-configs.bb
-Description: Configuration files for 3rd-party feeds - Development files
-OE: 3rd-party-feed-configs
-License: GPL-2.0-only
-Priority: optional
-
-Package: 3rd-party-feed-configs
-Version: 1.0-r0
-Section: base
-Architecture: dm920
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 152858c266f4dc4daae785c813a302a1
-SHA256sum: e1657de94f7f7f6f0a0ac5c7664bfac8d1486d0a8c51b7f127ec90c5a3c2e26a
-Size: 746
-Filename: 3rd-party-feed-configs_1.0-r0_dm920.ipk
-Source: 3rd-party-feed-configs.bb
-Description: Configuration files for 3rd-party feeds
-OE: 3rd-party-feed-configs
-License: GPL-2.0-only
-Priority: optional
-
 Package: alsa-state-dbg
 Version: 0.2.0-r0.8
 Section: devel
@@ -172,6 +126,53 @@ OE: base-files
 License: GPL-2.0-only
 Priority: optional
 
+Package: boxmodel-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: Dr. Ideal
+MD5Sum: 4b63d5d895aced1093eabe7d6a0da8bc
+SHA256sum: 0f4b63cef887d96348cfc7c60745b3692ddad733c951e96fffd4e78d47181ef6
+Size: 5648
+Filename: boxmodel-dbg_1.0-r0_dm920.ipk
+Source: boxmodel.bb
+Description: BoxModel proc Helper - Debugging files
+OE: boxmodel
+License: GPL-2.0-only
+Priority: optional
+
+Package: boxmodel-dev
+Version: 1.0-r0
+Recommends: boxmodel (= 1.0-r0), kernel-3.14-1.17-dm920-dev, kernel-module-boxmodel-3.14-1.17-dm920-dev
+Section: devel
+Architecture: dm920
+Maintainer: Dr. Ideal
+MD5Sum: 6f6519e4523dc8c9378f3fb8bf817362
+SHA256sum: f10d02ce905368e74ae1aa5f8bfc60b8dc9289578165f36c9eeafa32441f7e91
+Size: 612
+Filename: boxmodel-dev_1.0-r0_dm920.ipk
+Source: boxmodel.bb
+Description: BoxModel proc Helper - Development files
+OE: boxmodel
+License: GPL-2.0-only
+Priority: optional
+
+Package: boxmodel
+Version: 1.0-r0
+Depends: kernel-module-boxmodel-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: Dr. Ideal
+MD5Sum: 344cc366b67c3a118278a429c244cdd7
+SHA256sum: 2af52acd92961f39e03e59d5e49cf28bbd6b96ca0a3df204a0b21d7811d37220
+Size: 634
+Filename: boxmodel_1.0-r0_dm920.ipk
+Source: boxmodel.bb
+Description: BoxModel proc Helper
+OE: boxmodel
+License: GPL-2.0-only
+Priority: optional
+
 Package: directfb-dbg
 Version: 1.7.7-r0
 Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, libstdc++-dbg, zlib-dbg
@@ -276,9 +277,9 @@ Version: 1.0-r0
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5ef0938421c2ff75e594ac9ad761d10c
-SHA256sum: c29f86500db97776e1bbb70ec43cbac0c716857eed9f6d1ab736de9fd09dd1c4
-Size: 858
+MD5Sum: 80f4aa340f2d908b77f2ca9054a326dc
+SHA256sum: 2ad5b96373f62f8e9ca65bb04b69cd018e6068c8283c1cd1058606a564438609
+Size: 786
 Filename: distro-feed-configs_1.0-r0_dm920.ipk
 Source: distro-feed-configs.bb
 Description: Configuration files for online package repositories aka feeds
@@ -310,15 +311,76 @@ Conflicts: enigma-kernel-module
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 0708566195184c2d86c4ca99b750b5b1
-SHA256sum: b884f35bd266eecda8178801666a49d642b48c622dfe8c6a0e3f8104cf70173a
-Size: 1348
+MD5Sum: 7b1ae5aa813f1d2e9bda033cefef1416
+SHA256sum: 4188ef96b6a7afeca3294e73ab4c38446e3448355b0a763e6260b58862e3a1e4
+Size: 1354
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
 OE: enigma-info
 License: GPL-2.0-only
 Priority: required
+
+Package: enigma2-alliance-plugins-dbg
+Version: git3874+620ee530+620ee53576-r0
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: b93018a52841f36bb22ceaa55c77f08e
+SHA256sum: d098db52318b056205aed8e891e2cb810fc2b4aa3035bcbee6722d371d9baba2
+Size: 566
+Filename: enigma2-alliance-plugins-dbg_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: Additional plugins for Enigma2 - Debugging files
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-alliance-plugins-dev
+Version: git3874+620ee530+620ee53576-r0
+Recommends: bluez-alsa-dev, bluez-conf-dev, bluez-hidd-dev, bridge-utils-dev, djmount-dev, enigma2-alliance-plugins (= git3874+620ee530+620ee53576-r0), hddtemp-dev, hostapd-dev, minidlna-dev, ppp-dev, python3-beautifulsoup4-dev, python3-dev, python3-dnspython-dev, python3-icalendar-dev, python3-lxml-dev, python3-pyamf-dev, python3-pyusb-dev, python3-simplejson-dev, rtmpdump-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, usbutils-dev, wvdial-dev, wvstreams-dev
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 9cf265db18fa0dc7dae641ec1e2b4863
+SHA256sum: 7208543ab85a37ae3ae39ed5b4616d1ff1f5e5d4310e34b6b13004bd07dbd7a7
+Size: 760
+Filename: enigma2-alliance-plugins-dev_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: Additional plugins for Enigma2 - Development files
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-alliance-plugins-meta
+Version: git3874+620ee530+620ee53576-r0
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 80350df06b627b207e99e904479cb8d5
+SHA256sum: 9aa64b73f04c7e054ed368ca9dc51bef756db40cbfbc28a94ff7011d06b3b734
+Size: 2676
+Filename: enigma2-alliance-plugins-meta_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-alliance-plugins
+Version: git3874+620ee530+620ee53576-r0
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 8a6831e599d6833b53ce073fbdfcced5
+SHA256sum: b5a4e75cb472f28410cc7c999f35eae1dbd048fc5b463749e0114f62cb7fc470
+Size: 1092
+Filename: enigma2-alliance-plugins_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
 
 Package: enigma2-boxlogos-dbg
 Version: 1.0+gitr28+45a84500+45a845077c-r0
@@ -416,6 +478,36 @@ Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-display-skins-meta
+Version: git297+8f654780+8f6547808a-r0
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 7b02da38032513aba5069d75796a198d
+SHA256sum: 192aa4a144db1f95b0fbbbe6d6122a76d13ff7283dfa53d5058df029cd78bfad
+Size: 1706
+Filename: enigma2-display-skins-meta_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-display-skins
+Version: git297+8f654780+8f6547808a-r0
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: b037b84edaa176c1482f7518a75787b6
+SHA256sum: 97afbb98fa2ba7b48dc33d8f89f0a49d08ea1f2e976d7cd3cb228d81840f0bd7
+Size: 498
+Filename: enigma2-display-skins_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Display Skins for Enigma2
+OE: enigma2-display-skins
+License: Proprietary
 Priority: optional
 
 Package: enigma2-fonts
@@ -1183,6 +1275,262 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-display-oe-a-lcdskin-10
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 56bf5a94ab03879a47fcce72e5ed7f87
+SHA256sum: 5a2d2801da46fb79e90d4136011614450abc6b20f32aa26880937e4c1a63c387
+Size: 23670
+Filename: enigma2-plugin-display-oe-a-lcdskin-10_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-10
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-11
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 185a8176754dedd77b400f23853c07ed
+SHA256sum: 8386b1f1bc3826dde5aa2afaf49e78a4d9b9a1cc323c2aaacd331b617cb19311
+Size: 72926
+Filename: enigma2-plugin-display-oe-a-lcdskin-11_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-11
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-12
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: a95b11d458fb9da64bb217a9d2e31a06
+SHA256sum: a540e1d684594cb3388a5f74c20b3eeaf1a7a89ecc7cb6fbdd8e98b639091045
+Size: 56996
+Filename: enigma2-plugin-display-oe-a-lcdskin-12_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-12
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-13
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 0d2294d0631e74d285e2b6d833b54920
+SHA256sum: 6878dcaf44e3b76110c862bc6988d4af5ea781ad61e0f134df207d44fb4491dd
+Size: 467354
+Filename: enigma2-plugin-display-oe-a-lcdskin-13_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-13
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-1
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 1177bcf4b213fdff88304762e10f0adb
+SHA256sum: 1f9bb9c5b8795bb2f0a13584a918f0c6b96337b6f80a1c4118b7759e25de499b
+Size: 16534
+Filename: enigma2-plugin-display-oe-a-lcdskin-1_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-1
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-2
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 412d029cad01f94ddfc40cda81cb7240
+SHA256sum: bbeb4c303e4d15a687c9e555c3168122dacad2788e3c77413b48f720fc6ec2eb
+Size: 16170
+Filename: enigma2-plugin-display-oe-a-lcdskin-2_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-2
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-3
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 8535c270b0507a371bc6529a6a9026cc
+SHA256sum: c9f2114b6cd190d88fbd96902b1334b3f01e028ce25d03ddd2489d7ae2764dd4
+Size: 19466
+Filename: enigma2-plugin-display-oe-a-lcdskin-3_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-3
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-4
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: d746f78db7110057236aca8c86215495
+SHA256sum: 34cc1f53c17d636bf76860f972d0b5898128c43e7456d733581063178f2c1537
+Size: 15662
+Filename: enigma2-plugin-display-oe-a-lcdskin-4_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-4
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-5
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: c6d1a2fa27250d37f0bca4a641dafacb
+SHA256sum: bc12d5f43c5236e4ec703fb1ef9ec7f6a935f4e40a9cd2917887ca2eabaed0fd
+Size: 28454
+Filename: enigma2-plugin-display-oe-a-lcdskin-5_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-5
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-6
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 897304b0691fb593e74eb5f0f416c02b
+SHA256sum: 006fbc8b70087613168e875cec6b4b0945a7237f263278300045907f78da5727
+Size: 12046
+Filename: enigma2-plugin-display-oe-a-lcdskin-6_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-6
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-7
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: 2c9e6b6ccc0a5d891491272dad3b827d
+SHA256sum: 0412c9128ec9549c0dfb19f7d605195af02b62fdf25f09e4d7a920d8b542926a
+Size: 16612
+Filename: enigma2-plugin-display-oe-a-lcdskin-7_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-7
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-8
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: d0b03af544d8a09f6717f4f457b9302e
+SHA256sum: 867c4678c78b3add8fc370f239b852be21ab29536aaebe202a0b2f5bf646001a
+Size: 18770
+Filename: enigma2-plugin-display-oe-a-lcdskin-8_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-8
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-display-oe-a-lcdskin-9
+Version: git297+8f654780+8f6547808a-r0
+Depends: enigma2-display-skins
+Section: base
+Architecture: dm920
+Maintainer: oe-aliance
+MD5Sum: deed2ae5c56d189a982af0ba4ee995f8
+SHA256sum: 4a332ffbfa3d00efde0cc55e00190126e4a8c3b30ab9d76c2ffed253352706b8
+Size: 26804
+Filename: enigma2-plugin-display-oe-a-lcdskin-9_git297+8f654780+8f6547808a-r0_dm920.ipk
+Source: enigma2-display-skins.bb
+Description: Enigma2 Display Skin: oe-a-lcdskin-9
+OE: enigma2-display-skins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-advancedmovieselection-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 6cb0770787e54c092327fc7b281466e3
+SHA256sum: 44943504acbc1ecf49c1ab438ff75305bdd96e2181bdf0e3ecbd12b2a84aefb9
+Size: 71460
+Filename: enigma2-plugin-extensions-advancedmovieselection-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-advancedmovieselection (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-advancedmovieselection-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 02fbd59889450d865bf93dd2f20cbc2f
+SHA256sum: 48a9f2943f0f51d23ee652ae853525bdfbcd8f160f519134a4f304be74fa5d31
+Size: 154856
+Filename: enigma2-plugin-extensions-advancedmovieselection-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-advancedmovieselection (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-advancedmovieselection
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 3fedf75595bbd769869b09f9dc19e1c7
+SHA256sum: fcb5fb6cfe621c52bf22b1aa2167568b11fc6317a96aba96405b7f8cbb403af0
+Size: 591602
+Filename: enigma2-plugin-extensions-advancedmovieselection_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-advancedmovieselection
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-aihdcontroler
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -1229,6 +1577,54 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-audiorestart-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: d71d1f9499b8f136cc83541140a4d515
+SHA256sum: 5f09fd7a5fe96b0dd8860f4f8e558c35d2fe3a47e98423a71a15024b76396c28
+Size: 4240
+Filename: enigma2-plugin-extensions-audiorestart-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-audiorestart (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-audiorestart-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: c3f8fa041142d7aec81e410373c5be2f
+SHA256sum: cd07bc4c4678fd71acb546efcd66a41c1c7487e4e33196f85f9f0e3b26e94902
+Size: 3056
+Filename: enigma2-plugin-extensions-audiorestart-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-audiorestart (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-audiorestart
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: d9d638337c7bff4641639ac33fb1f083
+SHA256sum: a08334bd399dc82aeacff2c24675254ff951c51f4ea07ee3cccdb657c329cb99
+Size: 17256
+Filename: enigma2-plugin-extensions-audiorestart_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-audiorestart
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-audiosync
 Version: y-git5829+60bffea0+60bffea9af-r0
 Replaces: enigma2-plugin-extensions-ac3lipsync
@@ -1243,6 +1639,54 @@ Filename: enigma2-plugin-extensions-audiosync_y-git5829+60bffea0+60bffea9af-r0_d
 Source: enigma2-plugins.bb
 Description: extensions-audiosync
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autoblchanger-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: e031dabb431c84f06e9b21c1b0c2320d
+SHA256sum: 017664b419434c1ab815c244b73e7d84154dc69933e8fa464a4708c15939493b
+Size: 3824
+Filename: enigma2-plugin-extensions-autoblchanger-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-autoblchanger (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autoblchanger-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 3216d63192fae88dbe84e2fff5c59a24
+SHA256sum: a3a151b0393655373e11a73c28a3851e7cc9683664f79ad89323f10aeb342701
+Size: 5684
+Filename: enigma2-plugin-extensions-autoblchanger-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-autoblchanger (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-autoblchanger
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: f9b49291c5871059a40979c04f619530
+SHA256sum: 7fec79d973f47e678013487e121a2172b1ae07869d7eb00363fb328a4566763b
+Size: 1941586
+Filename: enigma2-plugin-extensions-autoblchanger_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-autoblchanger
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -1274,6 +1718,102 @@ Filename: enigma2-plugin-extensions-babelzapper_y-git5829+60bffea0+60bffea9af-r0
 Source: enigma2-plugins.bb
 Description: extensions-babelzapper
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-birthdayreminder-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 9679f62898472604cd990c5aae187d7e
+SHA256sum: ed954310081d6273c36113ef3736a2ac8682b7e7268add9b8024367ffc3b720f
+Size: 10174
+Filename: enigma2-plugin-extensions-birthdayreminder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-birthdayreminder (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-birthdayreminder-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8fdc2583db0f7943803a5170cb62e70a
+SHA256sum: 5916d21c3ab68f54d888430f42f7697380a65e4a32a6e85de17dca5de1e698a4
+Size: 11098
+Filename: enigma2-plugin-extensions-birthdayreminder-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-birthdayreminder (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-birthdayreminder
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 0030399b8331fc1ffb1d18920bb4e564
+SHA256sum: c88ad3b79c9b0c18d289ff4c3175d6aa2f7f4f818eedd3863062567bb468b3c0
+Size: 40096
+Filename: enigma2-plugin-extensions-birthdayreminder_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-birthdayreminder
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 68f3f5c6458bf1ad9ed21d37049e0e8c
+SHA256sum: e5f54997fa2667740b07a7846542b18ec7db44cf02edd68b38f57bab23adb22e
+Size: 10430
+Filename: enigma2-plugin-extensions-bmediacenter-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-bmediacenter (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 1272e8ad55c255dae53eff8ff24e5f3d
+SHA256sum: 1a7a5c13f23c4fc484c79dbc30651b8b3292f25cfccae00323345e54416d799a
+Size: 31398
+Filename: enigma2-plugin-extensions-bmediacenter-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-bmediacenter (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-bmediacenter
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 946e8582866610b191dde1df5f43a8ac
+SHA256sum: 17cef2a9898da6ad0b251f4d1cf7884681236f635ae36d1c180889403058efcd
+Size: 5525364
+Filename: enigma2-plugin-extensions-bmediacenter_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-bmediacenter
+OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
@@ -1325,6 +1865,118 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-chefkoch-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 786a5582becb40fa88f8756ba66ec1e0
+SHA256sum: 4fff5ed103b51162a24b37183aa4433513086d7f111f5e0ab839caf36018b379
+Size: 17120
+Filename: enigma2-plugin-extensions-chefkoch-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-chefkoch (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-chefkoch
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 734a689961dbed980b04e76a3270010f
+SHA256sum: 6ccca3039dd61c49bb682976159dee83eddb5c0aa47cd6995a4231b42efbcdf8
+Size: 109016
+Filename: enigma2-plugin-extensions-chefkoch_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-chefkoch
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-clevertanken-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 83a3567c26748eeee5164af25e774b92
+SHA256sum: fb8893b8da034cbf24dffe7ba4a702e373a67bbfaf95341ce62f4c55d2c6567c
+Size: 10504
+Filename: enigma2-plugin-extensions-clevertanken-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-clevertanken (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-clevertanken
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: e0b26fba11ad0d32bc9a9aac62047b06
+SHA256sum: 18314c3142102c18d86d9f5ad52b48229303b7dbf7830b8a9cdd9a3adb164389
+Size: 46902
+Filename: enigma2-plugin-extensions-clevertanken_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-clevertanken
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-curlytx-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 6328ee4a5037902cc0b015c23bdeb76c
+SHA256sum: 54ab9664332d915ff566daa65905d787c350f099be898d03e027ff09460c7f7b
+Size: 7066
+Filename: enigma2-plugin-extensions-curlytx-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-curlytx (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-curlytx-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: c4ef264a96c9368c740ee26b66022958
+SHA256sum: d396b965e6c66c935d7b2dea213f20411d8d3e7fe92db93c467dda9a7ca6450b
+Size: 6824
+Filename: enigma2-plugin-extensions-curlytx-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-curlytx (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-curlytx
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 89261a4cbab038668f45969c7e404b02
+SHA256sum: 9b2021b70902b00f8f8de7fc2ddd2b04895c66614d27833944bb00fa84d3aae3
+Size: 21952
+Filename: enigma2-plugin-extensions-curlytx_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-curlytx
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-cutlisteditor-src
 Version: 3.13+git22716+cd96a900+cd96a9037d-r0
 Depends: enigma2
@@ -1355,6 +2007,54 @@ Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-dlnabrowser-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: aad69c1386b5ae03e3604b9662a899ab
+SHA256sum: d7ebd8565d494d25d7c06e5b97f77f8e6d34bc8e2fb862b336da3f18025dd251
+Size: 6160
+Filename: enigma2-plugin-extensions-dlnabrowser-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-dlnabrowser (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dlnabrowser-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 432f965bb0a2f755783957849ff53781
+SHA256sum: f1b6a2c4feab29be3b507a48cec6e8ec35d37c452fff63335e931846a3be2f06
+Size: 9468
+Filename: enigma2-plugin-extensions-dlnabrowser-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-dlnabrowser (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-dlnabrowser
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: e42bc702a8e3f5d4763e9ee166362c7c
+SHA256sum: 7414baafb4c3a25200b2793d0288c0551401f9a83aed6bd75ea4c4b11d60f66b
+Size: 97254
+Filename: enigma2-plugin-extensions-dlnabrowser_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-dlnabrowser
+OE: enigma2-alliance-plugins
+License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dreamexplorer
@@ -1529,6 +2229,38 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-ecasa-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 832700e4a8df9c1f7c9b87e656e03a14
+SHA256sum: 380fc438d5363f3f5089fb46c2cafd07b2114d570b57e263addc8f5797d5262b
+Size: 13188
+Filename: enigma2-plugin-extensions-ecasa-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-ecasa (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ecasa
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: f655593e9db7e4963976d4c9b4e5712f
+SHA256sum: 9892d061b812e2ee658d413d3dd8e61af8e51d52ae91887f5b41f1a8aced3dd3
+Size: 35488
+Filename: enigma2-plugin-extensions-ecasa_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-ecasa
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-eibox
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -1557,6 +2289,134 @@ Filename: enigma2-plugin-extensions-emailclient_y-git5829+60bffea0+60bffea9af-r0
 Source: enigma2-plugins.bb
 Description: extensions-emailclient
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emission-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 08e13b51afb96795f4ce9b2f3923c1d5
+SHA256sum: 956c3c7aa262b8bb79f212b93d5afac2551e7098c890a73fb11193891dcda15e
+Size: 10682
+Filename: enigma2-plugin-extensions-emission-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-emission (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-emission
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 6b3e2eb690810e004d872851ab6b464f
+SHA256sum: 7ab63cb66afc270f891db930ea314d263fbe22dd58a24438b846a427429258ed
+Size: 24742
+Filename: enigma2-plugin-extensions-emission_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-emission
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 0b7ea70de7a0ec8a71523e3bde6fa93f
+SHA256sum: 0c3520b9989c9c7efca6e70ca2a5890cadba9b1440d6aed556323abf6d9ff00f
+Size: 4896
+Filename: enigma2-plugin-extensions-eparted-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eparted (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: cdd15117862a5404f40d667687879f3c
+SHA256sum: cb800f52bf6c86c04c862e56ebba93a2cdebbbc7bbdfd0d4055be6c4533dc14f
+Size: 7256
+Filename: enigma2-plugin-extensions-eparted-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eparted (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eparted
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: ae603bbbd762e25374ed148edbeae952
+SHA256sum: e601e787ca979498818c868321e3a811907be7aad8a2757586f1bacf4c41ccfe
+Size: 26562
+Filename: enigma2-plugin-extensions-eparted_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eparted
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgexport-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: ad8d529435e47451b2d6f5961ae65ea9
+SHA256sum: 4dfb50c321d48614d0cb1ee9aa61ac1a969881e11a7a0a6faec0a087a1059f7e
+Size: 6432
+Filename: enigma2-plugin-extensions-epgexport-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-epgexport (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgexport-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: c082318d7333ab280338b6e9fa0f1acb
+SHA256sum: d6405572d7e46cbfaacab54d8ea4dfd444599ae20806fc435e19f2a42bce79ef
+Size: 12512
+Filename: enigma2-plugin-extensions-epgexport-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-epgexport (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgexport
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: bb1d112d975694996d948465154c8daa
+SHA256sum: 863ca864cd7074c46639e55b14c044102038eac049c4ba40b13e8d933c27335f
+Size: 42806
+Filename: enigma2-plugin-extensions-epgexport_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-epgexport
+OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
@@ -1591,6 +2451,102 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-epgtranslator-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 3151473af241e09d60e458f919893b7d
+SHA256sum: 5ac69b6a8bf2be18e87315751c33b582d90aebde10c19043b798731f6e633d45
+Size: 9028
+Filename: enigma2-plugin-extensions-epgtranslator-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-epgtranslator (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgtranslator-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 1d73a8e1c26524741046e59400c7d573
+SHA256sum: 2a0ba4ae9c31f2696a805bbd40ed8b1b086664a40e4c2019cc6925043de5532d
+Size: 29860
+Filename: enigma2-plugin-extensions-epgtranslator-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-epgtranslator (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-epgtranslator
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 425f83f1486ab884d2959990d08b68e3
+SHA256sum: 61a60fb58d6f53b429e1ae391e014f53673e70f829b5afa12ee0045f136b2a57
+Size: 100184
+Filename: enigma2-plugin-extensions-epgtranslator_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-epgtranslator
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eurotictv-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: bc0d1f2f1943d8fd83593a2067741d00
+SHA256sum: e2699b94413ef3518a145b5638c77b458dd03e86205c0e4a69730f25af53d8e4
+Size: 3348
+Filename: enigma2-plugin-extensions-eurotictv-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eurotictv (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eurotictv-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 36dd4511ac14978847ea31d1b209d73a
+SHA256sum: 20db045b2e856c321c452cabd6afd2e496566c04ff0ad6f12e337a1c59fdc69b
+Size: 3716
+Filename: enigma2-plugin-extensions-eurotictv-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eurotictv (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-eurotictv
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 236afc48f71a3e5bbe00519b4bbe9624
+SHA256sum: b9a568f0f09938fd8514c7473aea965847d47de41a8b644b5e50a47a424028a8
+Size: 57384
+Filename: enigma2-plugin-extensions-eurotictv_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-eurotictv
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-fancontrol2
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: hdparm, smartmontools
@@ -1604,6 +2560,38 @@ Filename: enigma2-plugin-extensions-fancontrol2_y-git5829+60bffea0+60bffea9af-r0
 Source: enigma2-plugins.bb
 Description: extensions-fancontrol2
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-fempa-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 1016698dcb7998a4a34157c35730750a
+SHA256sum: 13d8102ba31d07d1e8a794f2b0e212b4005535f6cc46d2c7291caae598fe6f9d
+Size: 2450
+Filename: enigma2-plugin-extensions-fempa-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-fempa (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-fempa
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: cb87138de01e346a7c6c483c4b68890f
+SHA256sum: 5f81d27c2d749de9e3e856dd7da18fdc05c612e6ad86f944e3114604c44a9b49
+Size: 410762
+Filename: enigma2-plugin-extensions-fempa_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-fempa
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -1682,6 +2670,38 @@ Filename: enigma2-plugin-extensions-ftpbrowser_y-git5829+60bffea0+60bffea9af-r0_
 Source: enigma2-plugins.bb
 Description: extensions-ftpbrowser
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-googlemaps-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 89aa8a27d147d536a3e99ae200fec007
+SHA256sum: 05effd7b39f26b9cee05eee15327c5777a9c5e0ec43dc49fc934fbf1d505abc9
+Size: 15068
+Filename: enigma2-plugin-extensions-googlemaps-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-googlemaps (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-googlemaps
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 26a0964c71adbdf0338f7641d3682849
+SHA256sum: 0f9fd4b3e0161a6e57f43fda9a7b651ab2e9aa092c408bfa9e9d9ac19bae27ee
+Size: 58154
+Filename: enigma2-plugin-extensions-googlemaps_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-googlemaps
+OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
@@ -1764,6 +2784,54 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-infobartunerstate-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 1f3406e5a91c96601b2b3830676e9bc3
+SHA256sum: a1a8ba3d5cce09ec3b487012c8dfea7552256510f9371c55b5050d92766171e0
+Size: 9236
+Filename: enigma2-plugin-extensions-infobartunerstate-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-infobartunerstate (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobartunerstate-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: eb169b98fc882655d3327198ca8fbdef
+SHA256sum: 36669e67c364095dbdeb33c6183b1300a124bbc2329ce541191a7006049e4bbb
+Size: 18750
+Filename: enigma2-plugin-extensions-infobartunerstate-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-infobartunerstate (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-infobartunerstate
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 2c11ffdb982985c19bbe8a6756e01101
+SHA256sum: 0fc364b203cb4693fedfc9fc05a7beb32278d753968297f4b08dce2226931305
+Size: 63980
+Filename: enigma2-plugin-extensions-infobartunerstate_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-infobartunerstate
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-kiddytimer
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -1807,6 +2875,38 @@ Filename: enigma2-plugin-extensions-logomanager_y-git5829+60bffea0+60bffea9af-r0
 Source: enigma2-plugins.bb
 Description: extensions-logomanager
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-lottoextended-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 4c2db3eeb2f57a277dbe7bfd8ba7c04e
+SHA256sum: 9c1d28933ebb20e982d0be906a986e8bf0a62ee14207f8bcb88af008183a1747
+Size: 14824
+Filename: enigma2-plugin-extensions-lottoextended-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-lottoextended (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-lottoextended
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: a9b96153f268c3259242dde5ec3482b7
+SHA256sum: 922ee1a36611f6dedb6e9de7b20a955e74a02832abb15ba16ebc6f4f3cb388c2
+Size: 48612
+Filename: enigma2-plugin-extensions-lottoextended_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-lottoextended
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -1982,6 +3082,38 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-moviesearch-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: bbefdafbbb487ba791d37083193d65cd
+SHA256sum: 733962cfe695f3c73b56783390d660c392edbb2589c1153117bfc2d012d6b242
+Size: 1908
+Filename: enigma2-plugin-extensions-moviesearch-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-moviesearch (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-moviesearch
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 92713c086723767d91c662eb4e7cf381
+SHA256sum: 589a22376b263888e2697c6397b5be50bd80a87ade2318c7f6155c8483c77444
+Size: 3844
+Filename: enigma2-plugin-extensions-moviesearch_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-moviesearch
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-movietagger
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -1995,6 +3127,52 @@ Source: enigma2-plugins.bb
 Description: extensions-movietagger
 OE: enigma2-plugins
 License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-multibootselector-dbg
+Version: 1.16-git45+e6821a30+e6821a3b06-r0
+Section: devel
+Architecture: dm920
+Maintainer: oe-a
+MD5Sum: 547fc9eef78d9f2f930d67bcb9fa475f
+SHA256sum: c1afcd9fba2d916f6e2f3215ba1d7ebdd5fdc89b71f635bb9503663cc9e5b4b0
+Size: 580
+Filename: enigma2-plugin-extensions-multibootselector-dbg_1.16-git45+e6821a30+e6821a3b06-r0_dm920.ipk
+Source: enigma2-plugin-extensions-multibootselector.bb
+Description: multiboot-selector for dreamos - Debugging files
+OE: enigma2-plugin-extensions-multibootselector
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-multibootselector-dev
+Version: 1.16-git45+e6821a30+e6821a3b06-r0
+Recommends: enigma2-plugin-extensions-multibootselector (= 1.16-git45+e6821a30+e6821a3b06-r0)
+Section: devel
+Architecture: dm920
+Maintainer: oe-a
+MD5Sum: 3a3713a162227dba2f877cc14cd52841
+SHA256sum: 6b14de7f8d797e9897837154aa39afc325dfdd2eb088b63473a8b91ea9e8cd1f
+Size: 618
+Filename: enigma2-plugin-extensions-multibootselector-dev_1.16-git45+e6821a30+e6821a3b06-r0_dm920.ipk
+Source: enigma2-plugin-extensions-multibootselector.bb
+Description: multiboot-selector for dreamos - Development files
+OE: enigma2-plugin-extensions-multibootselector
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-multibootselector
+Version: 1.16-git45+e6821a30+e6821a3b06-r0
+Section: base
+Architecture: dm920
+Maintainer: oe-a
+MD5Sum: cbdd3911ecc930d21ecf00ffd7d05c0b
+SHA256sum: d938b4f527bedde2aaf1230654e083df7a793303211dc3c3881521f9bce448f6
+Size: 23104
+Filename: enigma2-plugin-extensions-multibootselector_1.16-git45+e6821a30+e6821a3b06-r0_dm920.ipk
+Source: enigma2-plugin-extensions-multibootselector.bb
+Description: multiboot-selector for dreamos
+OE: enigma2-plugin-extensions-multibootselector
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-multirc
@@ -2072,6 +3250,54 @@ Filename: enigma2-plugin-extensions-ofdb_y-git5829+60bffea0+60bffea9af-r0_dm920.
 Source: enigma2-plugins.bb
 Description: extensions-ofdb
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ondemand-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 15ddad274a5101433879ee8ea531edbc
+SHA256sum: 1ccc0253abc943200b07d54ba7491ab7a24e9c7afcd548a045a21f996d0286ad
+Size: 15738
+Filename: enigma2-plugin-extensions-ondemand-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-ondemand (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ondemand-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: c79e0eab3ea73d5b6a958b1f05c824fc
+SHA256sum: 910f302422c14171f16f0d9143975b3b22a0a9258ee1ef204f826dcf274a91aa
+Size: 49840
+Filename: enigma2-plugin-extensions-ondemand-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-ondemand (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-ondemand
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: db36ea069ad9632b56a861db50f8c780
+SHA256sum: 311b28a9546538a7bffb2604a2d99e378d707f096ca910cfb80e6455e5c316df
+Size: 825694
+Filename: enigma2-plugin-extensions-ondemand_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-ondemand
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -2200,6 +3426,102 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-piconmanager-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 2861eb6918112aedb6811e2ab96b9088
+SHA256sum: de3769263f274d5b051048abc2cb2098e2a61b6ad2bc2d29735450a7642c5d77
+Size: 6786
+Filename: enigma2-plugin-extensions-piconmanager-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconmanager (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconmanager-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: cd8789ccaa0f37b9e969a2198267bdde
+SHA256sum: c768b1b8635eb07e384f338c263e243df3a9597c1b863057ef40976bb00ac290
+Size: 16818
+Filename: enigma2-plugin-extensions-piconmanager-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconmanager (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconmanager
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: fb2819ad3075c4f3b1fe3025f9e9911b
+SHA256sum: 6399f8fdf085c4cfe4adcfc0be872465341a2750d9e989d555466b9cfeeaf79d
+Size: 160724
+Filename: enigma2-plugin-extensions-piconmanager_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconmanager
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconsupdater-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 9d4d61709831cc1b64c3f09a3ebb164b
+SHA256sum: 3da654f2bc6d911edec0fd3816470b616e748787d4bbce56c4170568bcdd2fb9
+Size: 4216
+Filename: enigma2-plugin-extensions-piconsupdater-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconsupdater (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconsupdater-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: b45b21add1f4c0cb3797379c00be7e9b
+SHA256sum: 14031f52b648a957bed1d5b5296e1b46052493de14501335227b683d4a763fbb
+Size: 14244
+Filename: enigma2-plugin-extensions-piconsupdater-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconsupdater (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-piconsupdater
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 72002d0115c30a828bdfc6d2b38670fe
+SHA256sum: 478c543d6102b5d8dd14d66b3e0e71010ab195ef99a9967e9b315b3165dc45c3
+Size: 39628
+Filename: enigma2-plugin-extensions-piconsupdater_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-piconsupdater
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-pictureplayer-src
 Version: 3.13+git22716+cd96a900+cd96a9037d-r0
 Depends: enigma2
@@ -2229,6 +3551,54 @@ Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: e5e9506adacf1575991e6090c59e9b38
+SHA256sum: ae4b225ac4a635c90a0732c5526fe92a494c356f694cbe335a28d63efd2d2217
+Size: 4990
+Filename: enigma2-plugin-extensions-podcast-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-podcast (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 760f4dd2ad3bfab8a05a08dee6d06481
+SHA256sum: 29ee155f9eef51bdab376af70781ed7089aebcd9f391cf1f480357ca83edf467
+Size: 5864
+Filename: enigma2-plugin-extensions-podcast-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-podcast (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-podcast
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 9e61e3572ea98ee4996cef876ffa77be
+SHA256sum: 43663cb042d7a23d96f5efb4c42192341ebb067d9b0945384f9c8c8218d0fb96
+Size: 23832
+Filename: enigma2-plugin-extensions-podcast_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-podcast
+OE: enigma2-plugins-alliance
+License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-porncenter
@@ -2263,6 +3633,102 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-pushservice-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: f2d52098012b9b6afe3486377e2330d7
+SHA256sum: 634fc778e3b81f279999551de63d11b56a6f71edd3f3a9420f9b0980cc08caad
+Size: 7048
+Filename: enigma2-plugin-extensions-pushservice-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-pushservice (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-pushservice-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8dd9601588ee354cddccdf0e808cc931
+SHA256sum: af1c450cafe5f3c452f56287f1461c3ebf8f35e6c914b9a8aaa324e006a12d58
+Size: 26650
+Filename: enigma2-plugin-extensions-pushservice-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-pushservice (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-pushservice
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 922cf8a35189769b8a825ff6da105bea
+SHA256sum: 672c5154ea808822a85c7d600a76d99bdb24b6b4785e7af17d2b284b35b86350
+Size: 72944
+Filename: enigma2-plugin-extensions-pushservice_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-pushservice
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 0f8520ff1ddaa9ec79b6462f7be63876
+SHA256sum: 7bd1bb6b156ec5259676d90e90537db3217a7a0f2ef0339e2142386b681a188d
+Size: 7112
+Filename: enigma2-plugin-extensions-quickbutton-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-quickbutton (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: ced20fa69425ef2d45fa1a885e8a1a83
+SHA256sum: 41f6c020820478246ced2e2a67f265025348eadb226e33efcd18bebc696a4e27
+Size: 4474
+Filename: enigma2-plugin-extensions-quickbutton-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-quickbutton (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-quickbutton
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: d8ebcd4f9330ad7a85182f4f02d9d5eb
+SHA256sum: 96652605c03c1a1d2c411df2c66c0b1e7cda35486341215b37972b3d79ff3d0a
+Size: 19258
+Filename: enigma2-plugin-extensions-quickbutton_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-quickbutton
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-reconstructapsc
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -2278,6 +3744,213 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-remotechannelstreamconverter-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 8488574669bd5a19a8b3df45714b0011
+SHA256sum: e9628417f815d19cd9162e9eecb201128d03f4bafcc3f605a77f87cd95a57248
+Size: 8982
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-remotechannelstreamconverter (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-remotechannelstreamconverter-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: b960f2125c7337788de2c450d66759ea
+SHA256sum: d500622977a081192ce97a720d92d15a7b47a429bccb0f21efe9af4ed168ba64
+Size: 8192
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-remotechannelstreamconverter (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-remotechannelstreamconverter
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 756baa17e9496b1ad853cc45298e8eaf
+SHA256sum: ba2ec4aa1769843722df68edde45f3f4118a392f694ac6b8cade66f7c62a42b9
+Size: 31516
+Filename: enigma2-plugin-extensions-remotechannelstreamconverter_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-remotechannelstreamconverter
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-remotetimer-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 938d62371a13de4502e7ba50b75b1e8b
+SHA256sum: cc79982ade5ce232683082b191bddd06dd06a717b9586e682b802c262cd9a5a2
+Size: 6652
+Filename: enigma2-plugin-extensions-remotetimer-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-remotetimer (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-remotetimer
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 0c2bc21bce20fa60eb75475a74c3cda2
+SHA256sum: 662505a5ce966fb25fb3c6e4a8c6078b727ce8b244eaf89b60189bf9983ff869
+Size: 17064
+Filename: enigma2-plugin-extensions-remotetimer_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-remotetimer
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-rsdownloader-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 5e9aa15e924e50c4a2a2dc4512cb22a6
+SHA256sum: f124d4dc3fcf699a9c2d006cfc0383beb74413a8aef0b27100bfbc41ef85dffb
+Size: 11706
+Filename: enigma2-plugin-extensions-rsdownloader-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-rsdownloader (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-rsdownloader-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 843f5515038779e950aa35b7b51b81c4
+SHA256sum: 8de52884072e4cbce6b38299dde6ba465bb864b5986e7d4d14d98776711fc177
+Size: 15476
+Filename: enigma2-plugin-extensions-rsdownloader-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-rsdownloader (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-rsdownloader
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: dcdb69891b8a785a7033543e9d60dc44
+SHA256sum: 9110bd34d3ff3ebfc379b3ba9636ff5e088e2e354a4968024cad7226e025a7d5
+Size: 57148
+Filename: enigma2-plugin-extensions-rsdownloader_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-rsdownloader
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-schiffe-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 723b0cdd404170a0bf8075ed3cf0845d
+SHA256sum: e08307be3628631c68030e5764812fe80f77744a00722d7fb96e2e90524f1fe0
+Size: 6246
+Filename: enigma2-plugin-extensions-schiffe-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-schiffe (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-schiffe
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8fc437b3b8a65ada0b502810b6c92aad
+SHA256sum: 401161a977fc9d62698d6f8e6b2fc52f0220b5a094befb5119ca1706c44acbc0
+Size: 170086
+Filename: enigma2-plugin-extensions-schiffe_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-schiffe
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dbg
+Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8e6bc7d56f9cb360a4ac9b0760bcaf79
+SHA256sum: f3306a65fb6eb7a2c42d503a9314fe622a79147e1894137442196034f0da4c20
+Size: 622
+Filename: enigma2-plugin-extensions-screenposition-dbg_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0 - Debugging files
+OE: enigma2-plugin-extensions-screenposition
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition-dev
+Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
+Recommends: enigma2-plugin-extensions-screenposition (= 2.0+git6+0b2e06b0+0b2e06b258-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6ab9fdd4118d8ab54319a7d09a11b27d
+SHA256sum: f07240934b73c3d2567a90e1fb6c04745c2f3e95cb87a6ecb6f43a88caa40209
+Size: 670
+Filename: enigma2-plugin-extensions-screenposition-dev_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0 - Development files
+OE: enigma2-plugin-extensions-screenposition
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-screenposition
+Version: 2.0+git6+0b2e06b0+0b2e06b258-r0
+Depends: python3-core
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 11f33ca418fa6c53496ac89d4c8bf86c
+SHA256sum: fdce1376f9f9b8c903c7427dcb08a62801570ea5fa2fc81a49d2462a8b886a10
+Size: 5808
+Filename: enigma2-plugin-extensions-screenposition_2.0+git6+0b2e06b0+0b2e06b258-r0_dm920.ipk
+Source: enigma2-plugin-extensions-screenposition.bb
+Description: enigma2-plugin-extensions-screenposition version 2.0+git-r0
+OE: enigma2-plugin-extensions-screenposition
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-extensions-seekbar
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -2291,6 +3964,149 @@ Source: enigma2-plugins.bb
 Description: extensions-seekbar
 OE: enigma2-plugins
 License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-series2folder-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: eff6a76641a32d8ff90c93aa27d2895c
+SHA256sum: 0b89ece806a7ff5e196a893eccd5e574996d3876f793ecf96f72172dfca5eba8
+Size: 5610
+Filename: enigma2-plugin-extensions-series2folder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-series2folder (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-series2folder-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8d493fdd4834337d901edaee3dd88f66
+SHA256sum: a73fa414bb1cc63d008901eeda505014003e98415824f127ccaf7d719c5da561
+Size: 11358
+Filename: enigma2-plugin-extensions-series2folder-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-series2folder (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-series2folder
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 7bc0849d3d7fc47001c79e6a71cb5e5e
+SHA256sum: 1fe84184b73066c08522e7aae35fd8d79b90973edc483659a3a6f60d7ab540c9
+Size: 30386
+Filename: enigma2-plugin-extensions-series2folder_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-series2folder
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: ba3d05a6ef99bdc560aa57bbfa773350
+SHA256sum: a3bc52d669a1bc14050172a721629ef682ae9d9ead7ce7938f6a26f4e0bf7c0d
+Size: 12002
+Filename: enigma2-plugin-extensions-seriesplugin-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-seriesplugin (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 13f3bf7516c0cc6fc2f6c63d5e3d8eb6
+SHA256sum: 18e8bd7a7202049cce204d0635cc5145111b70c53fd10da113ee885af4a49c76
+Size: 37288
+Filename: enigma2-plugin-extensions-seriesplugin-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-seriesplugin (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-seriesplugin
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 5d4e2a5aee2946829e820e3a1f60cba7
+SHA256sum: 1b61699e65e956677b48882bfec848a1408cca3e451a5cc6131eab94b5985da9
+Size: 147554
+Filename: enigma2-plugin-extensions-seriesplugin_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-seriesplugin
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dbg
+Version: 0.2+git20+abd5cda0+abd5cda28c-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f0351558b04b8467040ac7e8c0182de0
+SHA256sum: d1918bc7e2a2df5f5efacfd20a400bac98254e3b979950ac735655518af0cac1
+Size: 634
+Filename: enigma2-plugin-extensions-shootyourscreen-dbg_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Debugging files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen-dev
+Version: 0.2+git20+abd5cda0+abd5cda28c-r0
+Recommends: aio-grab-dev, enigma2-plugin-extensions-shootyourscreen (= 0.2+git20+abd5cda0+abd5cda28c-r0), python3-core-dev, python3-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 92657361612df5786b2946006a8acadc
+SHA256sum: e5ad68579b5aaedacee0e195ad8976bd4ca15ce3c97e82173a0ab3f434263a5c
+Size: 692
+Filename: enigma2-plugin-extensions-shootyourscreen-dev_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0 - Development files
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-extensions-shootyourscreen
+Version: 0.2+git20+abd5cda0+abd5cda28c-r0
+Depends: aio-grab, python3-core
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e1d9962923e9ed794e41b20e263ca0a0
+SHA256sum: c4f6789a3f3c0ce10d6db9dcebd090e545794d0a9aaa2a0685152ec9ff1b1f83
+Size: 18524
+Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+abd5cda0+abd5cda28c-r0_dm920.ipk
+Source: enigma2-plugin-extensions-shootyourscreen.bb
+Description: enigma2-plugin-extensions-shootyourscreen version 0.2+git-r0
+OE: enigma2-plugin-extensions-shootyourscreen
+License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-shoutcast
@@ -2419,6 +4235,134 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-startuptostandby-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 29074151d0bf396af11962c70b8c79c7
+SHA256sum: 3d6916cdfde2134f728397e2fa8f442f9a089b83833657b4a00751b2a1f21341
+Size: 1504
+Filename: enigma2-plugin-extensions-startuptostandby-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-startuptostandby (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-startuptostandby
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: ffbcbef345081a44354f6ebd9d307142
+SHA256sum: 6d5eb9f79e39c6916ccf929dee5cbf21b5bdc2adb837aee59fd62cd7207ae2ec
+Size: 2708
+Filename: enigma2-plugin-extensions-startuptostandby_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-startuptostandby
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamtv-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 43297a08b0c5058fae3653f47a809981
+SHA256sum: e9c4e11ec7b0c94ce8e8bf7a3d815802da981fdb1179d136a5f9b99fb8785ae9
+Size: 5126
+Filename: enigma2-plugin-extensions-streamtv-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-streamtv (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-streamtv
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: e83f08ccf536df8e9be989b1a684fdca
+SHA256sum: 2055b6deee1fde51c4600c34f33e2cdd1b1cd09078d34bc83ebe51c108faa105
+Size: 124128
+Filename: enigma2-plugin-extensions-streamtv_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-streamtv
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-subsdownloader2-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 860baa3767e816a51e9243f453960451
+SHA256sum: 24f9fd6fb118aeb31bf4405eb698a0ffa18d22569dd1de3afeddbd9d046fd4e4
+Size: 68712
+Filename: enigma2-plugin-extensions-subsdownloader2-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-subsdownloader2 (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-subsdownloader2
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: e70c68f6d9f4a32f41fc2f741ee12dfe
+SHA256sum: c46fb7886e7229e240ab1ced94661c3bfee1e1587484eaaaf73c2e330b1a59b7
+Size: 198752
+Filename: enigma2-plugin-extensions-subsdownloader2_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-subsdownloader2
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-sudoku-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 446c0478e076f030edcf3d74ae5ee81e
+SHA256sum: 362ac74cd3501ea1f5b48f5567fafea9b083adc3a7cecd5ffe9c2be107ed90bd
+Size: 6314
+Filename: enigma2-plugin-extensions-sudoku-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-sudoku (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-sudoku
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: b30a02f2058bdb9001c59cdaefb6a34d
+SHA256sum: b4832c2773db02aa5f91fbedc61347cab00e28c4272d6df71693c67944c605fa
+Size: 315934
+Filename: enigma2-plugin-extensions-sudoku_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-sudoku
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-svdrp
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: python3-twisted-protocols
@@ -2447,6 +4391,134 @@ Filename: enigma2-plugin-extensions-tageditor_y-git5829+60bffea0+60bffea9af-r0_d
 Source: enigma2-plugins.bb
 Description: extensions-tageditor
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-teletext-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 76742a218cda5b55a0d5431b909c0579
+SHA256sum: fb247590b24f2cd816960da587c4e760b486adec00e5183928ba0e98f5ba3e2c
+Size: 10278
+Filename: enigma2-plugin-extensions-teletext-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-teletext (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-teletext-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: f1fd18ad6c0f0c1e62f993d3aa2c0d64
+SHA256sum: 83407cf21d2c8b3323b415220efbf9736b785a83822d1fa7243f375a952b03c9
+Size: 14710
+Filename: enigma2-plugin-extensions-teletext-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-teletext (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-teletext
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 1f8c1f690ea40d0a738c5cc5434240b6
+SHA256sum: bac867886deb8a85f309be65aba6b0b6ded88285e042022a7195ca0e2239fb68
+Size: 53264
+Filename: enigma2-plugin-extensions-teletext_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-teletext
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tetris-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 7655c06f07a145ea56ab83c779b92e28
+SHA256sum: 77ba2e24f11a9cc6be04296e419c60ff6c64680ed7b3d0c607cb6a8253b32270
+Size: 5148
+Filename: enigma2-plugin-extensions-tetris-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-tetris (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tetris
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 11a57809ebc9c9aac36cad89885fcc4e
+SHA256sum: bf45a85b955c692b4a9aef3af675ba5958088ce143ba256778ced6d4f3ecb4cd
+Size: 136588
+Filename: enigma2-plugin-extensions-tetris_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-tetris
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tmdb-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 82985c599986f60e7c969a905e0a5f76
+SHA256sum: 26f33848647e86117fc35c0b598e9356839e6d3d55f3bc1f904b6fdfd7f62a01
+Size: 8278
+Filename: enigma2-plugin-extensions-tmdb-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tmdb (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tmdb-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: c3cb8bf812a694be904ca8e1bd096f9a
+SHA256sum: 0447244e5b4c034318c9dfa26f948175996688f14a8673d8adb565a280c8187a
+Size: 14896
+Filename: enigma2-plugin-extensions-tmdb-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tmdb (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tmdb
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 92318312c81c342a7fa87edc1056f6a1
+SHA256sum: e79cb469b8bda63464e836d9c5b3b25122220e88b517ebd28bb39cbf35604fc4
+Size: 211038
+Filename: enigma2-plugin-extensions-tmdb_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tmdb
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -2483,6 +4555,54 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-tunerserver-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: fdcdc2fe0a06b6029f404f7ea63f305a
+SHA256sum: cc26b4fa1117a10e2b6aa357b6e2a39a7a6b74b8c502b2f86f8bf9dc57be1a5f
+Size: 4730
+Filename: enigma2-plugin-extensions-tunerserver-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tunerserver (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tunerserver-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 2b7cd2a30a246ab7ffc615f945fb0427
+SHA256sum: 653709a691479baf0f83b5cfcb1ffc1b9f55647baad1edeae08d7db0050ee8fb
+Size: 4106
+Filename: enigma2-plugin-extensions-tunerserver-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tunerserver (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tunerserver
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 5909dac3af241c212eb217a51a03187a
+SHA256sum: ac2f60fe08a1a3358273e545e96fce5241feb341021151834b182593bf67567c
+Size: 11880
+Filename: enigma2-plugin-extensions-tunerserver_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tunerserver
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-tvcharts
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: python3-twisted-web
@@ -2496,6 +4616,38 @@ Filename: enigma2-plugin-extensions-tvcharts_y-git5829+60bffea0+60bffea9af-r0_dm
 Source: enigma2-plugins.bb
 Description: extensions-tvcharts
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tvspielfilm-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 31e4047478012bcf00ee99529dacdbb1
+SHA256sum: 99abc197784a645c59747f1b69bec0659f40621f156491db1e5e641c7cd77801
+Size: 39964
+Filename: enigma2-plugin-extensions-tvspielfilm-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tvspielfilm (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-tvspielfilm
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 8fac2a0bb29201e17688884b786ad975
+SHA256sum: f1732d85859ca6fcd4490e0ca0f938d9e62f421266a375b0e35bc197a7078b1b
+Size: 178582
+Filename: enigma2-plugin-extensions-tvspielfilm_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: extensions-tvspielfilm
+OE: enigma2-alliance-plugins
 License: Proprietary
 Priority: optional
 
@@ -2530,6 +4682,38 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-vierg-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8b6ebab4847264f8aaccdfe11c1b04b7
+SHA256sum: c246f3adab504b92e501d1e99666674468df23ecad87aaccce4b6f74eda6f7fa
+Size: 3752
+Filename: enigma2-plugin-extensions-vierg-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-vierg (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-vierg
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 57820a25bac18d907e6ce29ad94bcb14
+SHA256sum: 038b6d12c75ac20e27bb98cb32890fb8e52575b78e38c5cdf01a189dc35fb362
+Size: 38654
+Filename: enigma2-plugin-extensions-vierg_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-vierg
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-virtualzap
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: enigma2-plugins
@@ -2558,6 +4742,70 @@ Filename: enigma2-plugin-extensions-vlcplayer_y-git5829+60bffea0+60bffea9af-r0_d
 Source: enigma2-plugins.bb
 Description: extensions-vlcplayer
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webadmin-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: a98d5e0d1d8cf286556eb4c55266d2f9
+SHA256sum: cda957582b7a45551a48b6ff1eee41ff6bdd54e0766a6a5305bda8faa4002c4e
+Size: 6828
+Filename: enigma2-plugin-extensions-webadmin-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-webadmin (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webadmin
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 45fc311061de2fca2b8760d06cab4669
+SHA256sum: 37223965e52dd13016fba2023cee86421c7d00ee951b22997f494d62f8306803
+Size: 225720
+Filename: enigma2-plugin-extensions-webadmin_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-webadmin
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webbouqueteditor-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 02baaca5ca58d2bc08cf0be32f027caf
+SHA256sum: 3ee5fd41ca0228435d5f0e42214d092dc9b571ec7fef0cabf1769dbf802c9869
+Size: 9722
+Filename: enigma2-plugin-extensions-webbouqueteditor-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-webbouqueteditor (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-webbouqueteditor
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 1a1a2c0d5a303681ad948ebeca500742
+SHA256sum: 64014ea6fe86af2c8c81444d8eab4f023066972481624dbccad77baef0429cc5
+Size: 57362
+Filename: enigma2-plugin-extensions-webbouqueteditor_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-webbouqueteditor
+OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
@@ -2592,6 +4840,54 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-extensions-zaphistorybrowser-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 0ace8168c6264aeb405a15079f81e47c
+SHA256sum: eb8d00506f2490fb531f88a8c26853617e601997800d8ba4ca0125499fa4d44f
+Size: 5660
+Filename: enigma2-plugin-extensions-zaphistorybrowser-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-zaphistorybrowser (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zaphistorybrowser-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: be3a25892fb2a1a0c64bdce387e14e11
+SHA256sum: 57ba43f6b1744b1dc0f5f45e9026ddea0622962610c5b46743c0b55aa10628b0
+Size: 4090
+Filename: enigma2-plugin-extensions-zaphistorybrowser-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-zaphistorybrowser (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-extensions-zaphistorybrowser
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 9657a193e9ddd2b4aefa4083792248f9
+SHA256sum: 1ad225a5926f730b078b0cc1b794b25e0c01c6478c1f958d07794f91a591d741
+Size: 15482
+Filename: enigma2-plugin-extensions-zaphistorybrowser_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: extensions-zaphistorybrowser
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-zapstatistic
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: base
@@ -2620,6 +4916,264 @@ Filename: enigma2-plugin-extensions-zdfmediathek_y-git5829+60bffea0+60bffea9af-r
 Source: enigma2-plugins.bb
 Description: extensions-zdfmediathek
 OE: enigma2-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-channelselectionshorttitle
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: b65e260cb10e3af8a85e010bdc975fad
+SHA256sum: c7d897b6da471de4470de3946001675b5d0dc03f94478d34f1e18f01cb8d4278
+Size: 952
+Filename: enigma2-plugin-skincomponents-channelselectionshorttitle_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: skincomponents-channelselectionshorttitle
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-eventlist
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Replaces: enigma2-plugin-components-eventlist
+Conflicts: enigma2-plugin-components-eventlist
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: c339600005f5a01628695d41a4740de9
+SHA256sum: 163a0eae56fbde7608e12fa78db461122be0710ba1b4d5885d0d5ab46b8a3d8d
+Size: 1434
+Filename: enigma2-plugin-skincomponents-eventlist_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: skincomponents-eventlist
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-eventposition
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8aeb1ba6d691305f81590e24a91a28f5
+SHA256sum: 603c1454bdf4a1d9d3031a510996cdba7be1e8530c8c7bc52bbcfe6818bb7913
+Size: 2466
+Filename: enigma2-plugin-skincomponents-eventposition_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: skincomponents-eventposition
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-skincomponents-reftopiconname
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 4ddeaf0213ff6182a13915a72ff41143
+SHA256sum: a804f2bed9fe17f8632376fb2004f6e40fae49552963b7ed476f42d88d6e0e32
+Size: 2090
+Filename: enigma2-plugin-skincomponents-reftopiconname_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: skincomponents-reftopiconname
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-3gmodemmanager-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: d1b4a9e98f4062a5a6a00d5c4cdcc91f
+SHA256sum: 308b1d94447cd7c37ebd6c3a71cebdafd70c2c5a41e934f1aacd11d07d72b160
+Size: 8058
+Filename: enigma2-plugin-systemplugins-3gmodemmanager-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-3gmodemmanager (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-3gmodemmanager-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 4df987b3db93eb43e7f381607cb42c45
+SHA256sum: 65aa23b26fde10a47b5804cba595d19967d2a2adbf58e24bee8ead4ac29b5495
+Size: 11170
+Filename: enigma2-plugin-systemplugins-3gmodemmanager-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-3gmodemmanager (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-3gmodemmanager
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 1f0777ac6204eedf1c96b628960b141c
+SHA256sum: 1c10e17ae59cb225901243185276b6a6ed5ef881745c6b4d8269ba450f249b79
+Size: 40592
+Filename: enigma2-plugin-systemplugins-3gmodemmanager_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-3gmodemmanager
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-abmcustommiximporter-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 07b647acd294fb64a24bcca2bac974fd
+SHA256sum: f6d0dc85edc9d053ec6e74109401b82a5d1088ecd1a22f4b152c9c6822056ae5
+Size: 5454
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-abmcustommiximporter (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-abmcustommiximporter-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 45d026fdc170c02321aa4722f58deb0e
+SHA256sum: f863e987a1c115fb28fbcaf17dc3484b4c03f4b754657393fa84ffe39581e2f2
+Size: 5304
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-abmcustommiximporter (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-abmcustommiximporter
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: edf8df8a088c4984393966f39898fd81
+SHA256sum: 7b41a6a987c91858c054180a6b91f82f7ac6934488b750e1a9ab4be4712e165b
+Size: 17864
+Filename: enigma2-plugin-systemplugins-abmcustommiximporter_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-abmcustommiximporter
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-aboutboxbranding-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 0e7463ff846bbbe0f3e311ed321b8d19
+SHA256sum: 024158dc33073b6d7820b7d7988bdb2ccacfe2e071f7c957aa1cc88a49a7f88c
+Size: 2746
+Filename: enigma2-plugin-systemplugins-aboutboxbranding-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-aboutboxbranding (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-aboutboxbranding-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 297e8ee2366a86c3182f99c5776dfffd
+SHA256sum: 447a146200ae5e0f0fb7da9d337f7391f0b08aa6cc58226e10518c610f5c298a
+Size: 2004
+Filename: enigma2-plugin-systemplugins-aboutboxbranding-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-aboutboxbranding (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-aboutboxbranding
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: d8a4b2c8c3d13276028bbe69c6ece0a1
+SHA256sum: 6fdb41e0ebf3536cf15c2baccf1d4cb84a165dd4091482f7a26e2980df8df6c1
+Size: 6524
+Filename: enigma2-plugin-systemplugins-aboutboxbranding_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-aboutboxbranding
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-advhdmi-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 5c82ffaa5daffd39b9581e4aa336aaef
+SHA256sum: 2ca71ae9bdf49bc700d454a75cdea6b45d15c9ff74389d60b327f1016463b8b4
+Size: 8064
+Filename: enigma2-plugin-systemplugins-advhdmi-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-advhdmi (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-advhdmi-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 6186a72b1fb83aee89e00f56da357884
+SHA256sum: 137ec32295a84f50dec49f4e954cce1c5aed56a9a8476a9308adef5ac32c1b48
+Size: 8076
+Filename: enigma2-plugin-systemplugins-advhdmi-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-advhdmi (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-advhdmi
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 2cfe77e09bafbbb0d216c2a974a73311
+SHA256sum: 3e5b1b0b3e42a4284eef9506290d18e3c3904406a0fea4f88ff6722ead37f642
+Size: 27756
+Filename: enigma2-plugin-systemplugins-advhdmi_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-advhdmi
+OE: enigma2-plugins-alliance
 License: Proprietary
 Priority: optional
 
@@ -2671,6 +5225,52 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-autoshutdown-dbg
+Version: 0.6+git41+16525340+1652534fc4-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 43046c4808ee0153ae90a1016079b537
+SHA256sum: 231487b174ce4f75e9647297221e7564ccaf5525b60e1610bea216ec40222ded
+Size: 628
+Filename: enigma2-plugin-systemplugins-autoshutdown-dbg_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0 - Debugging files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown-dev
+Version: 0.6+git41+16525340+1652534fc4-r0
+Recommends: enigma2-plugin-systemplugins-autoshutdown (= 0.6+git41+16525340+1652534fc4-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c85b708ad2fa7b9e8c063ed2310b4164
+SHA256sum: 782c100bc634bda5bfabe8fe55781428818d6320544c6586be02677552877ba5
+Size: 660
+Filename: enigma2-plugin-systemplugins-autoshutdown-dev_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0 - Development files
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-autoshutdown
+Version: 0.6+git41+16525340+1652534fc4-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a88c65022e2bb5703d16d23a50c8c1b5
+SHA256sum: 4cd2977de0434eaf3e0dc68c232ab9f869c958908b4fbcaca7e2b2ff6d17961b
+Size: 36248
+Filename: enigma2-plugin-systemplugins-autoshutdown_0.6+git41+16525340+1652534fc4-r0_dm920.ipk
+Source: enigma2-plugin-systemplugins-autoshutdown.bb
+Description: enigma2-plugin-systemplugins-autoshutdown version 0.6+git-r0
+OE: enigma2-plugin-systemplugins-autoshutdown
+License: GPL-2.0-only
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-blindscan
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: enigma2-plugins
@@ -2719,6 +5319,54 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-channelsimporter-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 007dc7d9f0bb658f4e4b991249fcd400
+SHA256sum: b3108f87ead61fee4557a37655ac47045a98e72a4ab29428d1b0fdd828b2fbf1
+Size: 13188
+Filename: enigma2-plugin-systemplugins-channelsimporter-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-channelsimporter (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-channelsimporter-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 3f40658dbb61ce4b3894c7e6d8a991ca
+SHA256sum: 9c27acaa1ae0a091b19582393e7b01f3875e4d1b80f99bfbb67fb751af616d79
+Size: 8416
+Filename: enigma2-plugin-systemplugins-channelsimporter-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-channelsimporter (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-channelsimporter
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: ff6a803e93c10b84490241afe996c1d5
+SHA256sum: 9b2d7d8915df63b6e5822438477b78268b3db3f856047af69e43132049d1f794
+Size: 35726
+Filename: enigma2-plugin-systemplugins-channelsimporter_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-channelsimporter
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-ciplus
 Version: 1.4.4-r0
 Section: base
@@ -2763,6 +5411,74 @@ Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-crossepg-dbg
+Version: 0.9.1+gitr562+63d495c0+63d495c3a8-r4
+Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: caf5c6936475aa4e8591330b5407a8cf
+SHA256sum: fc3803d42a6ff1330f253b02449ac70a353fab9fa24c46718b8f25b10c3b59db
+Size: 730
+Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Description: enigma2-plugin-systemplugins-crossepg version 0.9.1+gitr-r4 - Debugging files
+OE: enigma2-plugin-systemplugins-crossepg
+HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+License: LGPL-2.1-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-crossepg-dev
+Version: 0.9.1+gitr562+63d495c0+63d495c3a8-r4
+Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.1+gitr562+63d495c0+63d495c3a8-r4), glibc-dev, libcurl-dev, libxml2-dev, python3-compression-dev, python3-core-dev, python3-dev, xz-dev, zlib-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 87fa755726ae7add01a928335fa02b28
+SHA256sum: e23f8ac816484fe991743742d762478a3d3bd1c6c0649671ceefe5f8dea0a9cd
+Size: 792
+Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Description: enigma2-plugin-systemplugins-crossepg version 0.9.1+gitr-r4 - Development files
+OE: enigma2-plugin-systemplugins-crossepg
+HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+License: LGPL-2.1-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-crossepg-src
+Version: 0.9.1+gitr562+63d495c0+63d495c3a8-r4
+Depends: enigma2-plugin-systemplugins-crossepg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8f65b72f69fd60af8e141727228e250b
+SHA256sum: d9e651e3b305f3ab02921ac9ea6a2b28a7c86048faae81abbc0129d2cacb0b29
+Size: 28340
+Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Description: enigma2-plugin-systemplugins-crossepg version 0.9.1+gitr-r4 - Source files
+OE: enigma2-plugin-systemplugins-crossepg
+HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+License: LGPL-2.1-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-crossepg
+Version: 0.9.1+gitr562+63d495c0+63d495c3a8-r4
+Depends: enigma2, libc6 (>= 2.42+git0+d2097651cc), libcurl4 (>= 8.15.0), libxml2 (>= 2.14.5), libz1 (>= 1.3.1), python3-compression, python3-core, xz
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6f070334873a542f0f24888deb79d216
+SHA256sum: 179e87bbd4e1c2759f0e5090575eda7745fb7899231fd2abd941b9805b347d61
+Size: 403172
+Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
+Source: enigma2-plugin-systemplugins-crossepg.bb
+Description: systemplugins-crossepg
+OE: enigma2-plugin-systemplugins-crossepg
+HomePage: https://github.com/oe-alliance/e2openplugin-CrossEPG
+License: LGPL-2.1-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
@@ -2887,6 +5603,38 @@ Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fempa-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 52bef0a67247d302275e5cf1aa896f8d
+SHA256sum: 1bd906c69a29f28feace1d02957f39c1313a0b62fca169b1cb6aa636520bd4f4
+Size: 3102
+Filename: enigma2-plugin-systemplugins-fempa-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-fempa (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-fempa
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 284e96f9921bd2d6a1ca6448043479db
+SHA256sum: 0caf2cbab503760989c5facc7c68e29921902637089d9eadaf8a31d55a461ff1
+Size: 3138
+Filename: enigma2-plugin-systemplugins-fempa_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-fempa
+OE: enigma2-alliance-plugins
+License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fsblupdater-src
@@ -3124,6 +5872,38 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-pipservicerelation-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 327172a0ab96c1d6173f5f47e4c5ff06
+SHA256sum: 1a0137b5dc446d27577ed50bf12758567b3ea0cf0971ebd06513fab8b91fc1a9
+Size: 4100
+Filename: enigma2-plugin-systemplugins-pipservicerelation-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-pipservicerelation (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-pipservicerelation
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 3ddb1e8b062b426e562e38f5e2a78071
+SHA256sum: e4ba512d9c689416bae630a58a45d0ce60120f5015b4698fb43224b196d94e22
+Size: 10892
+Filename: enigma2-plugin-systemplugins-pipservicerelation_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-pipservicerelation
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-positionersetup-src
 Version: 3.13+git22716+cd96a900+cd96a9037d-r0
 Depends: enigma2
@@ -3297,6 +6077,70 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-streamtv-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: a346b4ad9ff3c8c8df7328fa644cd427
+SHA256sum: 6f4a8db8e36f1e05872e82d6573826f80b83439ced0cb7982eef4d1bebbcbffd
+Size: 3760
+Filename: enigma2-plugin-systemplugins-streamtv-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-streamtv (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-streamtv
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 2f9b18dcd1a5be50f1cb10f9db7caf32
+SHA256sum: 1edc28ec09a4280100d5800045ded8918fc86e29dcf61666cd8a3fcf4966f093
+Size: 3888
+Filename: enigma2-plugin-systemplugins-streamtv_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-streamtv
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-toolkit-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: c25ca18c903008a5b7616c6ad8f2db77
+SHA256sum: 452c5423b708b76265be9a07c3384000460963c58e55392d21c3e592210e0ec6
+Size: 2496
+Filename: enigma2-plugin-systemplugins-toolkit-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-toolkit (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-toolkit
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: d436c874349bdee1eab7f52be388eb8a
+SHA256sum: 1e216bbce8593a9eee91858dbb5f04038339ad51b8eb48a55f88521dfbbab41b
+Size: 5602
+Filename: enigma2-plugin-systemplugins-toolkit_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-toolkit
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-systemplugins-transcodingsetup
 Version: y-git5829+60bffea0+60bffea9af-r0
 Depends: enigma2-plugins
@@ -3358,6 +6202,54 @@ Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
 License: GPL-2.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videocolorspace-po
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 8bf50df518f15fbf2a87235211c915eb
+SHA256sum: 07acd8771d42d1a1cfa22c49c129a6617b65bd041a7d2f91916340ce2de1df83
+Size: 3178
+Filename: enigma2-plugin-systemplugins-videocolorspace-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-videocolorspace (translations)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videocolorspace-src
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: abdc398c22ede0ee7c15a8ccc485d30a
+SHA256sum: b670a4c5afc6383ae387d0163342ee9a6f8b28e9ccd3903fd4989bdd75e18be8
+Size: 3090
+Filename: enigma2-plugin-systemplugins-videocolorspace-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-videocolorspace (source files)
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-videocolorspace
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: enigma2-plugins-alliance
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: e9d377aac726716938eb857a9c729cbb
+SHA256sum: 3b8f8cc1ce41b79176df7437897065b1f1b0a47bf3d88457aa2a149398d124c6
+Size: 8848
+Filename: enigma2-plugin-systemplugins-videocolorspace_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: systemplugins-videocolorspace
+OE: enigma2-plugins-alliance
+License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
@@ -3485,6 +6377,131 @@ OE: enigma2
 License: GPL-2.0-only
 Priority: optional
 
+Package: enigma2-plugin-systemplugins-xmlupdate-po
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 441e94c0d8093a7c9f06b017c5a4a10e
+SHA256sum: a9bb0dc7ebecd982bbfb4a1097c7fd7ff1e7fc524fe87010c7f5d64d5a00cd9a
+Size: 7006
+Filename: enigma2-plugin-systemplugins-xmlupdate-po_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-xmlupdate (translations)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-xmlupdate-src
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: b2ba2235198d3411bb8a1b078cf009a0
+SHA256sum: ac88a9403e096c1bedb06d21d6c7f10cda7ca9cbc63488bc94b127680a353e94
+Size: 2982
+Filename: enigma2-plugin-systemplugins-xmlupdate-src_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-xmlupdate (source files)
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-xmlupdate
+Version: git3874+620ee530+620ee53576-r0
+Depends: enigma2-alliance-plugins
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 1510f4dc4f558229cc5475606c1989e3
+SHA256sum: b6193b3ee24d7957a8cf8eacd296d9bdf30f62b60fd7dd4d4863a887f86d21a8
+Size: 21158
+Filename: enigma2-plugin-systemplugins-xmlupdate_git3874+620ee530+620ee53576-r0_dm920.ipk
+Source: enigma2-alliance-plugins.bb
+Description: systemplugins-xmlupdate
+OE: enigma2-alliance-plugins
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-alliance-dbg
+Version: gitr7795+24409d10+24409d144a-r8
+Section: devel
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 670b27cf6ee5c7d0f2397756c7bad97f
+SHA256sum: eefcb0af2fece356fdc8113331a8611b3d1664d9cf46c70905de4aed834e85c1
+Size: 570
+Filename: enigma2-plugins-alliance-dbg_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: Additional plugins for Enigma2 - Debugging files
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-alliance-dev
+Version: gitr7795+24409d10+24409d144a-r8
+Recommends: enigma2-dev, enigma2-plugins-alliance (= gitr7795+24409d10+24409d144a-r8), libav-dev, libcddb-dev, libshowiframe-dev, libtirpc-dev, python3-ctypes-dev, python3-daap-dev, python3-dev, python3-gdata-python3-dev, python3-httplib2-dev, python3-mutagen-dev, python3-pyopenssl-dev, python3-twisted-dev, python3-youtube-dl-dev, python3-yt-dlp-dev, streamripper-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 121b32ec8970a6d2d90a010b66a6b495
+SHA256sum: 879bfbd1f4762620022a3fc81a43a3a642478c6b22072da52abba7ab0b7ff93a
+Size: 720
+Filename: enigma2-plugins-alliance-dev_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: Additional plugins for Enigma2 - Development files
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-alliance-meta
+Version: gitr7795+24409d10+24409d144a-r8
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 63f16f3959b904f44c27ae2c535ce998
+SHA256sum: e4053f1581f472eafa1ce70f355ea4aebfe5ec98fdff9dbeb555311c55914974
+Size: 9326
+Filename: enigma2-plugins-alliance-meta_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-alliance-src
+Version: gitr7795+24409d10+24409d144a-r8
+Section: devel
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: b51acae0667d459ff2b30483004f8620
+SHA256sum: 74e40e8c42d6ed7d397e5982d723f773564ea12bbc0518815351084982068394
+Size: 3502
+Filename: enigma2-plugins-alliance-src_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: Additional plugins for Enigma2 - Source files
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
+Package: enigma2-plugins-alliance
+Version: gitr7795+24409d10+24409d144a-r8
+Depends: python3-ctypes
+Section: base
+Architecture: dm920
+Maintainer: OE-Alliance team
+MD5Sum: 4234ab61e15a69b4e60b0251b79743a1
+SHA256sum: 1b1893590f5b52f37e9bcc362ad81890def73b47455a05a2eea8e7ad75b1dfa3
+Size: 2488
+Filename: enigma2-plugins-alliance_gitr7795+24409d10+24409d144a-r8_dm920.ipk
+Source: enigma2-plugins-alliance.bb
+Description: Additional plugins for Enigma2
+OE: enigma2-plugins-alliance
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugins-dbg
 Version: y-git5829+60bffea0+60bffea9af-r0
 Section: devel
@@ -3579,16 +6596,16 @@ Priority: optional
 
 Package: enigma2
 Version: 3.13+git22716+cd96a900+cd96a9037d-r0
-Depends: alsa-conf, bzip2, enigma-info, enigma2-dhcp-wait, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.5), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+d2097651cc), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.4), libgomp1 (>= 15.2.0), libgstpbutils-1.0-0 (>= 1.26.5), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.7), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.5), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-telnetlib3, python3-threading, python3-treq, python3-trio, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, rsync, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink
+Depends: alsa-conf, bzip2, enigma-info, enigma2-dhcp-wait, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.5), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+d2097651cc), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.4), libgomp1 (>= 15.2.0), libgstpbutils-1.0-0 (>= 1.26.5), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.7), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.5), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-telnetlib3, python3-threading, python3-treq, python3-trio, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, rsync, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
 Recommends: enigma2-plugin-skins-pli-hd, enigma2-plugin-systemplugins-fsblupdater, glibc-gconv-utf-16, gstreamer1.0-plugins-bad-autoconvert, gstreamer1.0-plugins-bad-dash, gstreamer1.0-plugins-bad-faad, gstreamer1.0-plugins-bad-hls, gstreamer1.0-plugins-bad-mpegpsdemux, gstreamer1.0-plugins-bad-mpegtsdemux, gstreamer1.0-plugins-bad-opusparse, gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-bad-smoothstreaming, gstreamer1.0-plugins-bad-subenc, gstreamer1.0-plugins-bad-videoparsersbad, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audiorate, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-ivorbisdec, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-base-opus, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-rawparse, gstreamer1.0-plugins-base-subparse, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-amrnb, gstreamer1.0-plugins-good-amrwbdec, gstreamer1.0-plugins-good-apetag, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-good-flv, gstreamer1.0-plugins-good-icydemux, gstreamer1.0-plugins-good-id3demux, gstreamer1.0-plugins-good-isomp4, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-good-rtp, gstreamer1.0-plugins-good-rtpmanager, gstreamer1.0-plugins-good-rtsp, gstreamer1.0-plugins-good-soup, gstreamer1.0-plugins-good-udp, gstreamer1.0-plugins-good-wavpack, gstreamer1.0-plugins-good-wavparse, gstreamer1.0-plugins-ugly-amrnb, gstreamer1.0-plugins-ugly-amrwbdec, gstreamer1.0-plugins-ugly-asf, gstreamer1.0-plugins-ugly-cdio, gstreamer1.0-plugins-ugly-dvdsub, libdvdcss, python3-sendfile
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2a2f325fec2e725b97371c917c6e69ac
-SHA256sum: 490aed87b81d759a7fa57f479160d4999af318fe55a269f5af1b44f0a1d390f4
-Size: 5614030
+MD5Sum: 180a06cc49edfc10cf293afc496adf29
+SHA256sum: ced614567dddfc81ab27b64351a8eae7c03f3088942846ace1257ce8f94f3859
+Size: 5614044
 Filename: enigma2_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
@@ -4267,6 +7284,96 @@ Source: rtl8192eu.bb
 Description: 8192eu kernel module
 OE: rtl8192eu
 HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8192fu-3.14-1.17-dm920
+Version: 1.0-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-8192fu
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5afb8f8e452fd1f578cc1e2c17c4691f
+SHA256sum: eaa9e1f055ed2bf2eeb07045291dd653ed6697e744c948fffef4dd6e57fef3cf
+Size: 909336
+Filename: kernel-module-8192fu-3.14-1.17-dm920_1.0-r0_dm920.ipk
+Source: rtl8192fu.bb
+Description: 8192fu kernel module
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8723au-3.14-1.17-dm920
+Version: 4.1.6-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-8723au
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 35df147fa5b3b766412d34589c6e14d0
+SHA256sum: 9a9339d5ee6f0466baec86172eb7f01124051885bc4fdc645691faac8c1e6874
+Size: 438622
+Filename: kernel-module-8723au-3.14-1.17-dm920_4.1.6-r0_dm920.ipk
+Source: rt8723a_4.1.6.bb
+Description: 8723au kernel module
+OE: rt8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8814au-3.14-1.17-dm920
+Version: 4.3.21-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-8814au
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: add59c8139991c68c4942b8b32c02a9c
+SHA256sum: 62f2fb3bbec5d446c9f5c533e2dc6a61a5f340404988d745da5fde7d58aef438
+Size: 570430
+Filename: kernel-module-8814au-3.14-1.17-dm920_4.3.21-r0_dm920.ipk
+Source: rt8814au_4.3.21.bb
+Description: 8814au kernel module
+OE: rt8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-8821cu-3.14-1.17-dm920
+Version: 5.8.1-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-8821cu
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: edda1092661137274ad6d895f58275e1
+SHA256sum: 407882e6ab74306e5d5956ee9fb175819127e4501cc2adb91b18c56d94356210
+Size: 1072814
+Filename: kernel-module-8821cu-3.14-1.17-dm920_5.8.1-r0_dm920.ipk
+Source: rt8821cu_5.8.1.bb
+Description: 8821cu kernel module
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-88x2bu-3.14-1.17-dm920
+Version: 1.0.0.9-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-88x2bu
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d41aa80f1c4bf7680fc370b4fbf323ae
+SHA256sum: 62067d91d10b198423b5acca80af943db1263643181435ef4bd7697bbbb291b4
+Size: 821082
+Filename: kernel-module-88x2bu-3.14-1.17-dm920_1.0.0.9-r0_dm920.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: 88x2bu kernel module
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
@@ -5287,6 +8394,23 @@ Filename: kernel-module-blowfish-generic-3.14-1.17-dm920_3.14-.27_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: blowfish-generic kernel module
 OE: linux-dreambox
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-boxmodel-3.14-1.17-dm920
+Version: 1.0-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-boxmodel
+Section: kernel/modules
+Architecture: dm920
+Maintainer: Dr. Ideal
+MD5Sum: ec840658fb2b778dabb25ef804436e57
+SHA256sum: a943cfecc6029d0dc4979fb71a2c59a1c9737e66f5efa90cf5d5869cf76144f4
+Size: 2330
+Filename: kernel-module-boxmodel-3.14-1.17-dm920_1.0-r0_dm920.ipk
+Source: boxmodel.bb
+Description: boxmodel kernel module
+OE: boxmodel
 License: GPL-2.0-only
 Priority: optional
 
@@ -12685,6 +15809,24 @@ OE: linux-dreambox
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-mt7650u-sta-3.14-1.17-dm920
+Version: 3.0.0.2-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-mt7650u-sta
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 97ae85333622788583d8e4d90aa31b68
+SHA256sum: 5f06e836b2d6d4c56042070cf6c94930e2c3cddcbab6ebcc9c1094de598953e8
+Size: 472458
+Filename: kernel-module-mt7650u-sta-3.14-1.17-dm920_3.0.0.2-r0_dm920.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7650u-sta kernel module
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-mt9v011-3.14-1.17-dm920
 Version: 3.14-.27
 Depends: kernel-3.14-1.17-dm920
@@ -15354,6 +18496,24 @@ OE: linux-dreambox
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-r8723bs-3.14-1.17-dm920
+Version: 4.4.1-3.14-r3
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-r8723bs
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9cd226180efa31418b81b777c7681476
+SHA256sum: 0f411699e411d5141f368867320de4640632ac52ce7caf0a02c65f450e85a547
+Size: 578544
+Filename: kernel-module-r8723bs-3.14-1.17-dm920_4.4.1-3.14-r3_dm920.ipk
+Source: rt8723bs_4.4.1.bb
+Description: r8723bs kernel module
+OE: rt8723bs
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-radio-keene-3.14-1.17-dm920
 Version: 3.14-.27
 Depends: kernel-3.14-1.17-dm920
@@ -17462,6 +20622,59 @@ OE: linux-dreambox
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-rt3573sta-3.14-1.17-dm920
+Version: 2.5.0.0-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-rt3573sta
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: caa198c416073c8870c03de8d3ea5f47
+SHA256sum: e329130171d52f02805baf919f80705159a8abd98ad7e6bab0210db2c6b57ca7
+Size: 380678
+Filename: kernel-module-rt3573sta-3.14-1.17-dm920_2.5.0.0-r0_dm920.ipk
+Source: rt3573_2.5.0.0.bb
+Description: rt3573sta kernel module
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5370sta-3.14-1.17-dm920
+Version: 2.5.0.4-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-rt5370sta
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ebb89dffe3a043bf9a7caa86d68d1e23
+SHA256sum: 774bf0458aff308be611edba5abed70443da8622eb220dd1e558c209ec9fd78b
+Size: 417200
+Filename: kernel-module-rt5370sta-3.14-1.17-dm920_2.5.0.4-r0_dm920.ipk
+Source: rt3070_2.5.0.4.bb
+Description: rt5370sta kernel module
+OE: rt3070
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rt5572sta-3.14-1.17-dm920
+Version: 2.6.1.3-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-rt5572sta
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 09324aa3127e2d71ffa376caf4d144d5
+SHA256sum: a1b80bb1d4dad279d11cd5c2b0e253960d345bff743c081eb1f9446ceee8f136
+Size: 451802
+Filename: kernel-module-rt5572sta-3.14-1.17-dm920_2.6.1.3-r0_dm920.ipk
+Source: rt5572_2.6.1.3.bb
+Description: rt5572sta kernel module
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-rt73usb-3.14-1.17-dm920
 Version: 3.14-.27
 Depends: kernel-3.14-1.17-dm920, kernel-module-crc-itu-t-3.14-1.17-dm920, kernel-module-rt2x00lib-3.14-1.17-dm920, kernel-module-rt2x00usb-3.14-1.17-dm920
@@ -17628,6 +20841,24 @@ Filename: kernel-module-rtl8187-3.14-1.17-dm920_3.14-.27_dm920.ipk
 Source: linux-dreambox_3.14.bb
 Description: rtl8187 kernel module
 OE: linux-dreambox
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-rtl8188fu-3.14-1.17-dm920
+Version: git-r0
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-rtl8188fu
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ce01b7f43de2fc6def2422ab4010a232
+SHA256sum: 483247cfdc18258494153382912c31869f426418e905193a95d0678b2cad856a
+Size: 600870
+Filename: kernel-module-rtl8188fu-3.14-1.17-dm920_git-r0_dm920.ipk
+Source: rt8188fu_git.bb
+Description: rtl8188fu kernel module
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
 License: GPL-2.0-only
 Priority: optional
 
@@ -20521,6 +23752,43 @@ OE: linux-dreambox
 License: GPL-2.0-only
 Priority: optional
 
+Package: kernel-module-wireguard-3.14-1.17-dm920
+Version: 1.0.20200520-r1
+Depends: kernel-3.14-1.17-dm920
+Provides: kernel-module-wireguard
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8064ecab3a03ff442a201038fc9b972e
+SHA256sum: f0689a6af5f64fdccaa3577996f6b6ddb04cd14824005deaed03437ada51ad2d
+Size: 74200
+Filename: kernel-module-wireguard-3.14-1.17-dm920_1.0.20200520-r1_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: wireguard kernel module
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: kernel-module-wireguard
+Version: 1.0.20200520-r1
+Depends: kernel-module-wireguard-3.14-1.17-dm920
+Provides: wireguard-module
+Recommends: kernel-module-xt-hashlimit
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: cff03579ecb67fe4391e5da336cfe28d
+SHA256sum: 3d3d532b1419535d6ef6244addff9a6899ce0d1417e1b46f7998e30f7ca739af
+Size: 806
+Filename: kernel-module-wireguard_1.0.20200520-r1_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
 Package: kernel-module-wishbone-serial-3.14-1.17-dm920
 Version: 3.14-.27
 Depends: kernel-3.14-1.17-dm920, kernel-module-usbserial-3.14-1.17-dm920
@@ -22309,6 +25577,105 @@ OE: tuxtxt-enigma2
 License: LGPL-2.1-only
 Priority: optional
 
+Package: lmsensors-config-cgi
+Version: 1.0-r0
+Depends: lmsensors-config-sensord, rrdtool
+Recommends: lighttpd, lighttpd-module-cgi
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 688af2026e2299a2b00f5a1fd4b67bbd
+SHA256sum: 7fc6a2bdc0b964289901c006ef3766c04e0a9d6b34260af7cddfa1e9b99edf70
+Size: 848
+Filename: lmsensors-config-cgi_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
+Package: lmsensors-config-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b2e4bab2255ce42f78c9e5f976d38f10
+SHA256sum: 56648db3fc7ab8c5d756d3217d7f57f782bb61b5a42e31ed3a6a6c93cde4748b
+Size: 622
+Filename: lmsensors-config-dbg_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files - Debugging files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
+Package: lmsensors-config-dev
+Version: 1.0-r0
+Recommends: lmsensors-config (= 1.0-r0), lmsensors-config-sensord-dev, rrdtool-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4efff225d815c58ff738fe9163226253
+SHA256sum: 740cc9a5c6441a836ba8fba2ae0a6c5fd3cf0b35ab52f457a5b6801eefc9a8aa
+Size: 668
+Filename: lmsensors-config-dev_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files - Development files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
+Package: lmsensors-config-fancontrol
+Version: 1.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 31b27f751fd3a28ad6885e5022e4014a
+SHA256sum: 11e6f45e6a9e6c89558a33935edc5aa7a638ceac14d8288958aec1ebd4af3ef4
+Size: 714
+Filename: lmsensors-config-fancontrol_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
+Package: lmsensors-config-libsensors
+Version: 1.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 08b7c32fa1da4dead250ac55ddeae200
+SHA256sum: 4be69501e57a9fc718a2032b4c607457698d2bb6eba0a12c32a92d81026717eb
+Size: 728
+Filename: lmsensors-config-libsensors_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
+Package: lmsensors-config-sensord
+Version: 1.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a2cebdd85206c41d4d4fb69e0b0a4488
+SHA256sum: a556db59845df6ff29fe7509dec1d9560c34442a29368af4243a91892559c978
+Size: 1322
+Filename: lmsensors-config-sensord_1.0-r0_dm920.ipk
+Source: lmsensors-config_1.0.bb
+Description: lm_sensors configuration files
+OE: lmsensors-config
+HomePage: http://www.lm-sensors.org/
+License: MIT
+Priority: optional
+
 Package: make-mod-scripts-dbg
 Version: 1.0-r0
 Section: devel
@@ -22338,6 +25705,56 @@ Source: make-mod-scripts_1.0.bb
 Description: Build tools needed by external modules - Development files
 OE: make-mod-scripts
 HomePage: https://www.yoctoproject.org/
+License: GPL-2.0-only
+Priority: optional
+
+Package: mt7610u-dbg
+Version: 3.0.0.2-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 70fb23bc20b16176564dcc3d24db59ee
+SHA256sum: f6f830b969b98f5f6f5ec8e22f06c01d93a47f21067f0d335b2aa34552fc402a
+Size: 707670
+Filename: mt7610u-dbg_3.0.0.2-r0_dm920.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0 - Debugging files
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: mt7610u-dev
+Version: 3.0.0.2-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-mt7650u-sta-3.14-1.17-dm920-dev, mt7610u (= 3.0.0.2-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a6fb13b0e8487e3a9caf87b69ab80758
+SHA256sum: a8ee52d4426a9f8441b92b182e67adadc190865cb6fcf93441bde12b33cdab7e
+Size: 700
+Filename: mt7610u-dev_3.0.0.2-r0_dm920.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0 - Development files
+OE: mt7610u
+HomePage: www.mediatek.com
+License: GPL-2.0-only
+Priority: optional
+
+Package: mt7610u
+Version: 3.0.0.2-r0
+Depends: kernel-module-mt7650u-sta-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2c2b982b3efd38f622e63721e1849ec7
+SHA256sum: 073736851980cfaf9d7124c9c2ca2c4e597d01ef5dfb661a8ca1139923469e33
+Size: 2140
+Filename: mt7610u_3.0.0.2-r0_dm920.ipk
+Source: mt7610u_3.0.0.2.bb
+Description: mt7610u version 3.0.0.2-r0
+OE: mt7610u
+HomePage: www.mediatek.com
 License: GPL-2.0-only
 Priority: optional
 
@@ -22450,6 +25867,54 @@ OE: oe-alliance-branding
 License: GPL-2.0-only
 Priority: optional
 
+Package: openmultiboot-dbg
+Version: 1.0+git124+fd923630+fd92363885-r0
+Recommends: freetype-dbg, glibc-dbg, json-c-dbg
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 98912c58020aae8cd23cf8390b8ebd74
+SHA256sum: 12d0108016ff5c85ecd4c1c3cfa4f0c59f9b7d48d393c1165818bd54f7a2ddd8
+Size: 38948
+Filename: openmultiboot-dbg_1.0+git124+fd923630+fd92363885-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Debugging files
+OE: openmultiboot
+License: GPL-2.0-only
+Priority: optional
+
+Package: openmultiboot-dev
+Version: 1.0+git124+fd923630+fd92363885-r0
+Recommends: freetype-dev, glibc-dev, json-c-dev, openmultiboot (= 1.0+git124+fd923630+fd92363885-r0)
+Section: devel
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 2ef0e4cd3b31a9d43669b25cca3d8b46
+SHA256sum: f5456496547b6b80172ba3de93ac87342a0713b6ae34dbf1b7ed19a20d1fcd1e
+Size: 626
+Filename: openmultiboot-dev_1.0+git124+fd923630+fd92363885-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2 - Development files
+OE: openmultiboot
+License: GPL-2.0-only
+Priority: optional
+
+Package: openmultiboot
+Version: 1.0+git124+fd923630+fd92363885-r0
+Depends: libc6 (>= 2.42+git0+d2097651cc), libfreetype6 (>= 2.13.3), libjson-c5 (>= 0.18)
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance
+MD5Sum: 4062a98e8ae90a9beb8f1621c19a6645
+SHA256sum: d48eace5c1550754d9786ed7aad50b34f083568ea14d2b2e5007131769b23806
+Size: 44980
+Filename: openmultiboot_1.0+git124+fd923630+fd92363885-r0_dm920.ipk
+Source: openmultiboot.bb
+Description: Multi boot loader for enigma2
+OE: openmultiboot
+License: GPL-2.0-only
+Priority: optional
+
 Package: openpli-bootlogo-dbg
 Version: 4.1-r0
 Section: devel
@@ -22488,9 +25953,9 @@ Recommends: update-rc.d
 Section: base
 Architecture: dm920
 Maintainer: PLi team
-MD5Sum: 35e1f831b89fa29914007768d0310855
-SHA256sum: 60a8962e6c1b1dcc69f54168744dd50af9bfba605493a3e008df789bb62a21c8
-Size: 604916
+MD5Sum: 619d29f4260203a4de3e500566889cb1
+SHA256sum: 310c3d526e216e464c5bfe6c762860ac79b6171cf77ddb51d2f4a25c28b66e33
+Size: 534912
 Filename: openpli-bootlogo_4.1-r0_dm920.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 4.1-r0
@@ -22809,9 +26274,9 @@ Conflicts: opkg-config-base
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 45834c2cdbe0ec7b9c0409d22c440e49
-SHA256sum: 88f7002853ee21c87f52d67991e7784febe877b2d3232c33f6a2bd0f1bd6f7db
-Size: 832
+MD5Sum: a40b67c600d64d64080ef13952a2cb3a
+SHA256sum: cf59c53bbce317cd3a7a708edc2652e2c9f3be307a3ff595c9a6d304ad003203
+Size: 804
 Filename: opkg-arch-config_1.0-r0_dm920.ipk
 Source: opkg-arch-config_1.0.bb
 Description: Architecture-dependent configuration for opkg
@@ -23635,6 +27100,52 @@ OE: packagegroup-base
 License: MIT
 Priority: optional
 
+Package: pointercal-dbg
+Version: 0.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 180cb1471d2a8da5f174e746ef36c3b8
+SHA256sum: 128d5dba9c5a5af02d0848b327086e8cb89734d71d82c50c2b1e7f5354853def
+Size: 576
+Filename: pointercal-dbg_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Debugging files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal-dev
+Version: 0.0-r0
+Recommends: pointercal (= 0.0-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c16bef59827c0bded37b03a800ff41b0
+SHA256sum: 5b76d2c68658ea8c0e285a4227926921a94e9cbc4a5905b8e43c6d520651fb31
+Size: 612
+Filename: pointercal-dev_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data - Development files
+OE: pointercal
+License: MIT
+Priority: optional
+
+Package: pointercal
+Version: 0.0-r0
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 649628eedb65f581845bc68c199134bd
+SHA256sum: 8323453888dc658ceb944b7af63cca099732e6367f98bf42ad8fa0582fc1f4dd
+Size: 512
+Filename: pointercal_0.0-r0_dm920.ipk
+Source: pointercal_0.0.bb
+Description: Touchscreen calibration data
+OE: pointercal
+License: MIT
+Priority: optional
+
 Package: recovery-autoflashd
 Version: 1.2+git162+81ff8d40+81ff8d40bb-r0
 Depends: libc6 (>= 2.42+git0+d2097651cc), libudev1 (>= 3.2.14)
@@ -23721,6 +27232,453 @@ HomePage: http://dreamboxupdate.com/
 License: CLOSED
 Priority: optional
 
+Package: rt3070-dbg
+Version: 2.5.0.4-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 8bd196b2a480c633e0c65e606ff1de9f
+SHA256sum: e3fa196be7a1ba074bc98174578adce9ee2f84d871b7bbb278dfc63197321022
+Size: 613420
+Filename: rt3070-dbg_2.5.0.4-r0_dm920.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Debugging files
+OE: rt3070
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt3070-dev
+Version: 2.5.0.4-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-rt5370sta-3.14-1.17-dm920-dev, rt3070 (= 2.5.0.4-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 811dee124a87d4e9524c3fc16c047229
+SHA256sum: ab824c75b168610c1706cb92e5a73355b707e32a616ccaa3aba9e9006f294de5
+Size: 684
+Filename: rt3070-dev_2.5.0.4-r0_dm920.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks - Development files
+OE: rt3070
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt3070
+Version: 2.5.0.4-r0
+Depends: kernel-module-rt5370sta-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: c5ece606bcd67d50d31e5132a6c8fda5
+SHA256sum: 6612cfa0e73be1eae344ecf0ead3a066073bcd063efae6626ddbf179c37ffd37
+Size: 1386
+Filename: rt3070_2.5.0.4-r0_dm920.ipk
+Source: rt3070_2.5.0.4.bb
+Description: Driver for Ralink RT8070/3070/3370/5370/5372 USB 802.11abgn WiFi sticks
+OE: rt3070
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt3573-dbg
+Version: 2.5.0.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 425c3ff522e586c9d6415ffc77213c80
+SHA256sum: bdec5d1f76bb73cfa1453dae1d2d42734ebf0f203aaeab3ff8b12eebf4bd6c13
+Size: 630346
+Filename: rt3573-dbg_2.5.0.0-r0_dm920.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Debugging files
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt3573-dev
+Version: 2.5.0.0-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-rt3573sta-3.14-1.17-dm920-dev, rt3573 (= 2.5.0.0-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d23699f9919d359ff3c5698952b5ccec
+SHA256sum: 8bafe2ad2a532cbcda5eb5f23577b8dcfbe1cde632fe5b74b08943556c01e9d7
+Size: 670
+Filename: rt3573-dev_2.5.0.0-r0_dm920.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0 - Development files
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt3573
+Version: 2.5.0.0-r0
+Depends: kernel-module-rt3573sta-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0d77638dd631bf114bee4a0ef50f6b1a
+SHA256sum: e80dadf7edc0b84f730b14a9a9062a262a34591225029327d51510c108689a59
+Size: 1602
+Filename: rt3573_2.5.0.0-r0_dm920.ipk
+Source: rt3573_2.5.0.0.bb
+Description: Ralink 3573 v2.5.0.0
+OE: rt3573
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt5572-dbg
+Version: 2.6.1.3-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 874ce31a9ed56672c1cef73c7c742ad9
+SHA256sum: 9d895ea6e7c5997529977277ee0b851c37416624880c14ee11896b925ffeebe4
+Size: 741166
+Filename: rt5572-dbg_2.6.1.3-r0_dm920.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Debugging files
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt5572-dev
+Version: 2.6.1.3-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-rt5572sta-3.14-1.17-dm920-dev, rt5572 (= 2.6.1.3-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bbaf70a956d275fd003e4ecd3f1a4fb8
+SHA256sum: da4eb26095e80cdd60d8a9963565502a66e5222ba82b63f341e17dac1b901cfc
+Size: 694
+Filename: rt5572-dev_2.6.1.3-r0_dm920.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3 - Development files
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt5572
+Version: 2.6.1.3-r0
+Depends: kernel-module-rt5572sta-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7d0a89b4d374b47b77d03a7dfef3a2b8
+SHA256sum: d48b5cac63410b338dd3835b71865071bba84b9e3aba36774214692e1024cfc6
+Size: 1646
+Filename: rt5572_2.6.1.3-r0_dm920.ipk
+Source: rt5572_2.6.1.3.bb
+Description: Ralink 2870/3070/8070/3370/3572/5370/5372/5572 v2.6.1.3
+OE: rt5572
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8188fu-dbg
+Version: git-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 37699eb99de1b9b408d1afc2182cef83
+SHA256sum: 9376f50e13eaea68ae548df97aa32a435e61d0845e589ff4e452b840414dc0b0
+Size: 236954
+Filename: rt8188fu-dbg_git-r0_dm920.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu - Debugging files
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8188fu-dev
+Version: git-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-rtl8188fu-3.14-1.17-dm920-dev, rt8188fu (= git-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 868bd6e7f23fb6d13adeeff232f727ec
+SHA256sum: 6c63421c27b9e50392886f5cf83e66f82802d56dc3c2a3a1f1230e7094ddd9cc
+Size: 666
+Filename: rt8188fu-dev_git-r0_dm920.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu - Development files
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8188fu
+Version: git-r0
+Depends: kernel-module-rtl8188fu-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f2ce6c8b6d286bfb1c2d9feee6b55760
+SHA256sum: 987080cd55f664bead07939f9516381a664b788e5ac9d37f8c087769ec55d687
+Size: 564
+Filename: rt8188fu_git-r0_dm920.ipk
+Source: rt8188fu_git.bb
+Description: Realtek rtl8188fu
+OE: rt8188fu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723a-dbg
+Version: 4.1.6-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 895ec9fdfac744c4d915e5eb5bada0a8
+SHA256sum: ee99633803b5d77464bae3906f36de1b94ec6c355a7aecaeb698139603ad321c
+Size: 737836
+Filename: rt8723a-dbg_4.1.6-r0_dm920.ipk
+Source: rt8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Debugging files
+OE: rt8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723a-dev
+Version: 4.1.6-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-8723au-3.14-1.17-dm920-dev, rt8723a (= 4.1.6-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: e3ae24c7696661b847dc4aeae32c6230
+SHA256sum: efabab1ea1933342e46f3bdcd74fc566499d8cea0250b41868e544feb8147aa0
+Size: 668
+Filename: rt8723a-dev_4.1.6-r0_dm920.ipk
+Source: rt8723a_4.1.6.bb
+Description: Realtek 8723A v1.0 - Development files
+OE: rt8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723a
+Version: 4.1.6-r0
+Depends: kernel-module-8723au-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 16929fab07c25ca819854b0fd68f2d8c
+SHA256sum: ce0640bc248dde3585f1ab0f7cfd46719f7c132c67a54889d50fad266eaf8585
+Size: 570
+Filename: rt8723a_4.1.6-r0_dm920.ipk
+Source: rt8723a_4.1.6.bb
+Description: Realtek 8723A v1.0
+OE: rt8723a
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723bs-dbg
+Version: 4.4.1-3.14-r3
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 1a4d6c38f3c63df898a31d7fb5fd9b6f
+SHA256sum: 606b6c96a7d40566ab9de24a7f83cc5ce30eaf4e6cec544d0a81872c68c20ad3
+Size: 184406
+Filename: rt8723bs-dbg_4.4.1-3.14-r3_dm920.ipk
+Source: rt8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices - Debugging files
+OE: rt8723bs
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723bs-dev
+Version: 4.4.1-3.14-r3
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-r8723bs-3.14-1.17-dm920-dev, rt8723bs (= 4.4.1-3.14-r3)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7dc5f6d355c5915796c1ab017defade6
+SHA256sum: 70affab1b7ecf432fae4dc32fd2439796cbba5d43772511033ed188f54387e14
+Size: 694
+Filename: rt8723bs-dev_4.4.1-3.14-r3_dm920.ipk
+Source: rt8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices - Development files
+OE: rt8723bs
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8723bs
+Version: 4.4.1-3.14-r3
+Depends: kernel-module-r8723bs-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ed36f5432a08365bfd49705f2949e60d
+SHA256sum: 3b9737a9ac65b6535d96f34ee50c795ea5db6f58750d37985bc89b6b6e66935e
+Size: 596
+Filename: rt8723bs_4.4.1-3.14-r3_dm920.ipk
+Source: rt8723bs_4.4.1.bb
+Description: Driver for Realtek 8723BS wireless/bluetooth devices
+OE: rt8723bs
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8814au-dbg
+Version: 4.3.21-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a571b342b3c7e1a4c4bb64bf48c23f4
+SHA256sum: d738501b679d0ccdebcd11773c5b57d3fb49b19ac17556c6be0aaea9188dd0e4
+Size: 164090
+Filename: rt8814au-dbg_4.3.21-r0_dm920.ipk
+Source: rt8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Debugging files
+OE: rt8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8814au-dev
+Version: 4.3.21-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-8814au-3.14-1.17-dm920-dev, rt8814au (= 4.3.21-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 50b25064254caab7fb33d6e1789a1219
+SHA256sum: 96b8656b6bc9338460dec21b8ce162e68baa726363b0b8d990edbbd811516fcc
+Size: 670
+Filename: rt8814au-dev_4.3.21-r0_dm920.ipk
+Source: rt8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21 - Development files
+OE: rt8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8814au
+Version: 4.3.21-r0
+Depends: kernel-module-8814au-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 0b0ef75b7678aa4251b58eb3d40ab169
+SHA256sum: d028a98dc66b50877de60ec120bc8155ac6532dea6958a1e7461adaa88e70de5
+Size: 576
+Filename: rt8814au_4.3.21-r0_dm920.ipk
+Source: rt8814au_4.3.21.bb
+Description: Ralink 8814AU v4.3.21
+OE: rt8814au
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8821cu-dbg
+Version: 5.8.1-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7b5031270fe3159186b50535726a0cb8
+SHA256sum: b061429f337e0cd33064e660a06dcfa051d514f03fbe526cb5a7f08e9b311f3d
+Size: 395310
+Filename: rt8821cu-dbg_5.8.1-r0_dm920.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Ralink 8821CU/8811CU v5.8.1 - Debugging files
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8821cu-dev
+Version: 5.8.1-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-8821cu-3.14-1.17-dm920-dev, rt8821cu (= 5.8.1-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b02bd48907c6212c2b21fe2e3202f859
+SHA256sum: 2fcdd42873f1cd6a0b9defbe7dc61a85c041b5e69f8f7230ce095a12a3aad81d
+Size: 674
+Filename: rt8821cu-dev_5.8.1-r0_dm920.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Ralink 8821CU/8811CU v5.8.1 - Development files
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8821cu
+Version: 5.8.1-r0
+Depends: kernel-module-8821cu-3.14-1.17-dm920
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7ead85dc6104d40b764c609f65b29cbb
+SHA256sum: ab8b7ab2daf698c34f314ff047d71a8428b4675f2d67b0a26ebdc8e6189bb29a
+Size: 578
+Filename: rt8821cu_5.8.1-r0_dm920.ipk
+Source: rt8821cu_5.8.1.bb
+Description: Ralink 8821CU/8811CU v5.8.1
+OE: rt8821cu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8822bu-dbg
+Version: 1.0.0.9-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 959552a0991a0e88a423650436cbe6e4
+SHA256sum: 7bb3e4756488f06c827721a76df152d11754b3084b4b1925f2340c49f9c786fc
+Size: 273526
+Filename: rt8822bu-dbg_1.0.0.9-r0_dm920.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9 - Debugging files
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8822bu-dev
+Version: 1.0.0.9-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-88x2bu-3.14-1.17-dm920-dev, rt8822bu (= 1.0.0.9-r0), usb-modeswitch-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 2a81f9276a29ca220daddb0a4eec2807
+SHA256sum: f3cfdfe713709501c1b8c94bd0d760dfae7705a9c67d3b7f1861203feb8865e7
+Size: 688
+Filename: rt8822bu-dev_1.0.0.9-r0_dm920.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9 - Development files
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
+Package: rt8822bu
+Version: 1.0.0.9-r0
+Depends: kernel-module-88x2bu-3.14-1.17-dm920, usb-modeswitch
+Section: kernel/modules
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 00fd16bbaf514eda1cda7abb8c1babf8
+SHA256sum: b39bc8dd757c88e5c80f14d4461f33c37a7399dad9ef61040760700c6125c6b8
+Size: 594
+Filename: rt8822bu_1.0.0.9-r0_dm920.ipk
+Source: rt8822bu_1.0.0.9.bb
+Description: Ralink 88x2BU v1.0.0.9
+OE: rt8822bu
+HomePage: http://www.realtek.com.tw
+License: GPL-2.0-only
+Priority: optional
+
 Package: rtl8192eu-dbg
 Version: 1.0-r0
 Section: devel
@@ -23771,6 +27729,105 @@ HomePage: http://www.realtek.com/
 License: GPL-2.0-only
 Priority: optional
 
+Package: rtl8192fu-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 51d8c571dd6f5883a640be37dd5479f0
+SHA256sum: fcb146e02b38ae1f84018355e6b12ed395dc7ebadb651d168acd3248d66ac071
+Size: 353792
+Filename: rtl8192fu-dbg_1.0-r0_dm920.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu - Debugging files
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: rtl8192fu-dev
+Version: 1.0-r0
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-8192fu-3.14-1.17-dm920-dev, rtl8192fu (= 1.0-r0)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: f97083267bdec1fee3eb011a6a105806
+SHA256sum: 5330e4add58d4953678bfef5e254c9e49515ddb15d790319536e5c5f4d720bcc
+Size: 680
+Filename: rtl8192fu-dev_1.0-r0_dm920.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu - Development files
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: rtl8192fu
+Version: 1.0-r0
+Depends: kernel-module-8192fu-3.14-1.17-dm920
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 6242a6132e1aa0c7bb3b8b7a8906cce5
+SHA256sum: 45842c63edb48fa7b57fc6991ba5ce0e3b527a90b5ab3a46158053ebe14f1f2e
+Size: 582
+Filename: rtl8192fu_1.0-r0_dm920.ipk
+Source: rtl8192fu.bb
+Description: Driver for Realtek USB wireless device 8192fu
+OE: rtl8192fu
+HomePage: http://www.realtek.com/
+License: GPL-2.0-only
+Priority: optional
+
+Package: satipclient-dbg
+Version: 1.0+git97+1c2ef4c0+1c2ef4c136-r0
+Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 7082c727f14763d4db177543092765af
+SHA256sum: 74b48d52576f6c741add04f8d99138d17aa8866c076e959ef25d8a36e3aed3d8
+Size: 286300
+Filename: satipclient-dbg_1.0+git97+1c2ef4c0+1c2ef4c136-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Debugging files
+OE: satipclient
+License: GPL-2.0-only
+Priority: optional
+
+Package: satipclient-dev
+Version: 1.0+git97+1c2ef4c0+1c2ef4c136-r0
+Recommends: glibc-dev, initscripts-dev, libgcc-dev, libstdc++-dev, satipclient (= 1.0+git97+1c2ef4c0+1c2ef4c136-r0), update-rc.d-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 42e63b45af7c5a0896e10495ceea1725
+SHA256sum: 37f2ce8e1e4fa3f640109eb5095bf976509a236f167a065628f6462f3ca966be
+Size: 666
+Filename: satipclient-dev_1.0+git97+1c2ef4c0+1c2ef4c136-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner - Development files
+OE: satipclient
+License: GPL-2.0-only
+Priority: optional
+
+Package: satipclient
+Version: 1.0+git97+1c2ef4c0+1c2ef4c136-r0
+Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Recommends: update-rc.d
+Section: base
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 29030af2446fb4ef593cba7d4cc66bc1
+SHA256sum: f3378a547261324b60f1b5b52d3de0abf659cae1ef82cf085c23433c26579478
+Size: 30064
+Filename: satipclient_1.0+git97+1c2ef4c0+1c2ef4c136-r0_dm920.ipk
+Source: satipclient.bb
+Description: satip client using vtuner
+OE: satipclient
+License: GPL-2.0-only
+Priority: optional
+
 Package: shadow-securetty-dbg
 Version: 4.6-r0
 Section: devel
@@ -23815,5 +27872,123 @@ Source: shadow-securetty_4.6.bb
 Description: Provider of the machine specific securetty file
 OE: shadow-securetty
 License: MIT
+Priority: optional
+
+Package: wireguard-module-dbg
+Version: 1.0.20200520-r1
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf28677d7bf7fc85eece0638fbb98c73
+SHA256sum: f09fc67c7ccc84e449063e60aea23f5927dbd9e6075008c9b42bd8c58d967fc0
+Size: 344498
+Filename: wireguard-module-dbg_1.0.20200520-r1_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Debugging files
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-module-dev
+Version: 1.0.20200520-r1
+Recommends: kernel-3.14-1.17-dm920-dev, kernel-module-wireguard (= 1.0.20200520-r1), kernel-module-wireguard-3.14-1.17-dm920-dev, libmnl-dev
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: db8aa921454a32bd2439e94d67447540
+SHA256sum: 7b92d634a004d92d0679c04c399f08a5915d4d4f82dbd56f5fe9eb7ad0bc919e
+Size: 878
+Filename: wireguard-module-dev_1.0.20200520-r1_dm920.ipk
+Source: wireguard-module_1.0.20200520.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Development files
+OE: wireguard-module
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-tools-bash-completion
+Version: 1.0.20250521-r2
+Depends: bash-completion
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 9e58f7d0f7c1e4cf842698e1ad22968f
+SHA256sum: 0541b024ffe3baf188518232a0ff50b41b1b4d45e9f5c3240d6f190ed131ad89
+Size: 2404
+Filename: wireguard-tools-bash-completion_1.0.20250521-r2_dm920.ipk
+Source: wireguard-tools_1.0.20250521.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-tools
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-tools-dbg
+Version: 1.0.20250521-r2
+Recommends: glibc-dbg
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a5068a273e1e53b3908b1f9244c271bf
+SHA256sum: e5d81235f303abb52aa15bb6c2eeeca06c41ddc0342fe43f76eded16d4be83fc
+Size: 105708
+Filename: wireguard-tools-dbg_1.0.20250521-r2_dm920.ipk
+Source: wireguard-tools_1.0.20250521.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Debugging files
+OE: wireguard-tools
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-tools-dev
+Version: 1.0.20250521-r2
+Recommends: bash-completion-dev, bash-dev, glibc-dev, libmnl-dev, wireguard-tools (= 1.0.20250521-r2)
+Section: devel
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 875069f9263958e59a47fcac95523c30
+SHA256sum: c33a44733b48a94821410fd27dafce4776a0549fe05269fe3ec071d0b53249eb
+Size: 870
+Filename: wireguard-tools-dev_1.0.20250521-r2_dm920.ipk
+Source: wireguard-tools_1.0.20250521.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Development files
+OE: wireguard-tools
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-tools-doc
+Version: 1.0.20250521-r2
+Section: doc
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: b5ce31628d6eef1eadc16e3acf30e161
+SHA256sum: b3f9304743933b862255d325ebe3e199187d12b9f80c5b515dc2bcbf1bf05931
+Size: 8504
+Filename: wireguard-tools-doc_1.0.20250521-r2_dm920.ipk
+Source: wireguard-tools_1.0.20250521.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN - Documentation files
+OE: wireguard-tools
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
+Priority: optional
+
+Package: wireguard-tools
+Version: 1.0.20250521-r2
+Depends: bash, libc6 (>= 2.42+git0+d2097651cc)
+Recommends: kernel-module-wireguard, openresolv, wireguard-module
+Section: networking
+Architecture: dm920
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4bf72278e2f74b7c143c715151149126
+SHA256sum: 8e6155ca871bf00f349e4349cbafbcd6167ee26943d83c2c1b4efd7ddb9ce88f
+Size: 34526
+Filename: wireguard-tools_1.0.20250521-r2_dm920.ipk
+Source: wireguard-tools_1.0.20250521.bb
+Description: WireGuard is an extremely simple yet fast and modern VPN
+OE: wireguard-tools
+HomePage: https://www.wireguard.io/
+License: GPL-2.0-only
 Priority: optional
 
