@@ -448,15 +448,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-dbg
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fd5e25f1ee307ba5b0836a8aa63ff1f0
-SHA256sum: f2be97cfb517ebe6967f4ffc7c4f4012574291b1e11b2871364b6708f8ecb1d7
-Size: 33744
-Filename: enigma2-dbg_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: dc85e027b64f9e2ce3c5b9ef73ba6960
+SHA256sum: 79111bd21376dda80ecd95ff7d451a61a50af163d2f5b60f11e1a9b4b32e873b
+Size: 33746
+Filename: enigma2-dbg_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Debugging files
 OE: enigma2
@@ -464,16 +464,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-dev
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2, libsigc++-3-dev
-Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, bzip2-dev, cdrkit-dev, curl-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-info-dev, enigma2 (= 3.13+git22716+cd96a900+cd96a9037d-r0), enigma2-dhcp-wait-dev, enigma2-fonts-dev, enigma2-locale-meta-dev, enigma2-plugin-drivers-exfat-dev, enigma2-plugin-drivers-ntfs-3g-dev, enigma2-remote-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libcurl-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-3-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libxcrypt-dev, libxml2-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-cryptography-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-future-dev, python3-image-dev, python3-imaging-dev, python3-json-dev, python3-logging-dev, python3-mime-dev, python3-mmap-dev, python3-multiprocessing-dev, python3-mutagen-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-numbers-dev, python3-pexpect-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pycurl-dev, python3-pyusb-dev, python3-requests-dev, python3-service-identity-dev, python3-shell-dev, python3-six-dev, python3-standard-telnetlib-dev, python3-telnetlib3-dev, python3-threading-dev, python3-treq-dev, python3-trio-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-urllib3-dev, python3-wifi-dev, python3-xml-dev, python3-zopeinterface-dev, replex-dev, rsync-dev, tuxtxt-enigma2-dev, virtual-blindscan-dvbc-dev, virtual-gstreamer1.0-dvbmediasink-dev, wireless-tools-dev, wpa-supplicant-dev
+Recommends: aio-grab-dev, alsa-conf-dev, avahi-dev, bzip2-dev, cdrkit-dev, curl-dev, dvd+rw-tools-dev, dvdauthor-dev, enigma-info-dev, enigma2 (= 3.13+git22722+48763e10+48763e1991-r0), enigma2-dhcp-wait-dev, enigma2-fonts-dev, enigma2-locale-meta-dev, enigma2-plugin-drivers-exfat-dev, enigma2-plugin-drivers-ntfs-3g-dev, enigma2-remote-dev, enigma2-timezones-dev, ethtool-dev, font-valis-enigma-dev, freetype-dev, fribidi-dev, giflib-dev, glib-2.0-dev, glibc-dev, glibc-gconv-cp1250-dev, glibc-gconv-iso8859-15-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, jpeg-dev, libavahi-client-dev, libavahi-common-dev, libcrypto-dev, libcurl-dev, libdreamdvd-dev, libdvbsi++-dev, libgcc-dev, libgomp-dev, libgstpbutils-1.0-dev, libjpeg-turbo-dev, libmad-dev, libpng-dev, libpython3-dev, libsigc++-3-dev, libssl-dev, libstdc++-dev, libtuxtxt-dev, libudfread-dev, libxcrypt-dev, libxml2-dev, mjpegtools-dev, oe-alliance-branding-dev, openssl-dev, python3-asyncio-dev, python3-codecs-dev, python3-core-dev, python3-crypt-dev, python3-cryptography-dev, python3-dev, python3-email-dev, python3-fcntl-dev, python3-future-dev, python3-image-dev, python3-imaging-dev, python3-json-dev, python3-logging-dev, python3-mime-dev, python3-mmap-dev, python3-multiprocessing-dev, python3-mutagen-dev, python3-netclient-dev, python3-netifaces-dev, python3-netserver-dev, python3-numbers-dev, python3-pexpect-dev, python3-pickle-dev, python3-pillow-dev, python3-process-dev, python3-puremagic-dev, python3-pycurl-dev, python3-pyusb-dev, python3-requests-dev, python3-service-identity-dev, python3-shell-dev, python3-six-dev, python3-standard-telnetlib-dev, python3-telnetlib3-dev, python3-threading-dev, python3-treq-dev, python3-trio-dev, python3-twisted-core-dev, python3-twisted-dev, python3-twisted-web-dev, python3-urllib3-dev, python3-wifi-dev, python3-xml-dev, python3-zopeinterface-dev, replex-dev, rsync-dev, tuxtxt-enigma2-dev, virtual-blindscan-dvbc-dev, virtual-gstreamer1.0-dvbmediasink-dev, wireless-tools-dev, wpa-supplicant-dev
 Section: devel
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e855624b7ce69621bd9f30c140ffebdf
-SHA256sum: bea24730230370d1bf2f76aa5f752de6ef4f31ae28fe39223c1f8d5a60371807
-Size: 185136
-Filename: enigma2-dev_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 694db2a913920a1eca9b973f1e8e2c21
+SHA256sum: 55847268069fdef7cf6b1fd2185f8d52be56d037a5df5926858ab578b5c2144a
+Size: 185138
+Filename: enigma2-dev_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files
 OE: enigma2
@@ -526,15 +526,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ar
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5f445ce0d28b52663601f671e52236e2
-SHA256sum: af69a50d4b95e817fbcb38e1a195ab535cb5bff915eea6d350a7b6f5405551d2
+MD5Sum: 43ceb2ac73682ffff4debb93e45d1135
+SHA256sum: 6ca270eed569f50d2239d9047da2a5835cddd5b2e25755b4d53b6626ee4017d2
 Size: 160494
-Filename: enigma2-locale-ar_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-ar_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: ar
 OE: enigma2
@@ -542,15 +542,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-bg
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bb2f0549d0e55ed29d245767cc705eca
-SHA256sum: f25f175a2c738f7e4ca7db9b6c0098256a136a458bce1125d1177a0cd1f13394
+MD5Sum: bcf0fbdaf1806df96126c4f0235c9f14
+SHA256sum: a359e65b16906f6daa1dab1cee661a4dec57b2d12292d43a91076ac9bc40c70c
 Size: 138644
-Filename: enigma2-locale-bg_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-bg_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: bg
 OE: enigma2
@@ -558,15 +558,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ca
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3bd617625f6729a3ff8e64801f8722f7
-SHA256sum: 52c0359aceb91c7230ccec85f2cb3b93872e7c6218547d8555cb00d37d1a1e8d
+MD5Sum: 1d80da9940caa9911b4c51ddd2327316
+SHA256sum: 84e1d04b6b88bda0440f948b86c3c79932948e6ff827cddb463c28431c74c5d1
 Size: 122710
-Filename: enigma2-locale-ca_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-ca_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: ca
 OE: enigma2
@@ -574,15 +574,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-cs
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f15c7381d7bfc14ca9f7e92af9d242d2
-SHA256sum: b9644161850c6153511d634cfa511f9189abc2d2fd5989f4f6a91ee8a4a50663
+MD5Sum: 169d285bee8f7ef62be25f41028eb7c6
+SHA256sum: 09e11f2dbc5ae9f63d8f57c1856ae41bc92c791669bad53da67920b0ac3247f1
 Size: 130702
-Filename: enigma2-locale-cs_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-cs_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: cs
 OE: enigma2
@@ -590,15 +590,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-da
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 13d07cdff046ae5252d246214b1dca64
-SHA256sum: ba3f881ec0e85f8b2c5e4e50dab246cfbd5a2b07e99990fd071d7ea84e75dd70
+MD5Sum: 5fb7ce4ef09ea1d9511c2b5dd2f6656b
+SHA256sum: ad8940d2b3ddcbb59a291226463ba25f8de9d514ca5a54b65cb893ee78bb56c1
 Size: 76710
-Filename: enigma2-locale-da_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-da_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: da
 OE: enigma2
@@ -606,15 +606,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-de
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: a8fd657ed9cd48df562ed24d9f5f7ae1
-SHA256sum: da630e9794ad8fcb0842cb32e54809fc5e2680a200f1404e1473b9e3fa82ada6
+MD5Sum: 41aedc30e5891553063d5d71d57096db
+SHA256sum: 0244ec7b3923aa8eeb86c385eaec4c7d2d2b15dedc22ef52d39effa350f03a6a
 Size: 121304
-Filename: enigma2-locale-de_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-de_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: de
 OE: enigma2
@@ -622,15 +622,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-el
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d825af2a6eaec402b94d2c3cc77f854e
-SHA256sum: e9f6e3d44d3a10ebab579a65f3d8d397138a313ac74be14ce6ab068cc7ea6466
+MD5Sum: 630a39e6d9f91083a94fa5c61a323ea5
+SHA256sum: 85b841b46cf4679f807f6c0a494903ef9ea5a916ec7bbf533898aa3024e9018a
 Size: 135780
-Filename: enigma2-locale-el_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-el_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: el
 OE: enigma2
@@ -638,15 +638,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-en
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6cf90b7a1c8aa843610a63a377c8e9af
-SHA256sum: 19d169e05424e334c05d5fddb411ca98177f652cde282fafcbf97c03c5fd979e
+MD5Sum: 9b22b25a0c76bd4bdb968ab622085150
+SHA256sum: ad313b5a7489cdbed2e5f96644c242e5289865cd674e340c7f3bc9cd4a2dc026
 Size: 2966
-Filename: enigma2-locale-en_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-en_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: en
 OE: enigma2
@@ -654,15 +654,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-es
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3d2e8e99f869cf23a2e1afb117d93ea9
-SHA256sum: 72af86e95915edc5066bd44c03d54842a69101b41de5bd2d351132450513bc61
+MD5Sum: 5fa863b5cb95b91db7462cc3c8cfdc1e
+SHA256sum: c30b5b198dc7939a66f22c1cc9287804bd31791c580c8930635dab9b74e1984f
 Size: 119178
-Filename: enigma2-locale-es_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-es_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: es
 OE: enigma2
@@ -670,15 +670,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-et
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6a1e01194705de71dc47d40948b0b9a3
-SHA256sum: c63b0e917b3a835a00b7008ad185103efd4d6226cf89863b53304ea3bbf34a00
+MD5Sum: abce4f24b562a7fcd3a1fcf4562056f0
+SHA256sum: 050975db29e725ec427a4ba56ee6be2f640e92f2390cd43a488faeb76432e35c
 Size: 96900
-Filename: enigma2-locale-et_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-et_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: et
 OE: enigma2
@@ -686,15 +686,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fa
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 25cdd1247e9ba2c42a9959574c31e836
-SHA256sum: c060096d012d528f8ed1d5ddc09f3a0959a8850d59513f0ada2bd88175eb115d
+MD5Sum: a45edbee8482fe95fb9ef9137fe94e1a
+SHA256sum: 725d34dcfab714f39925fb756469dc49f54cb2c1eb4b08498aec17cc5219cdbd
 Size: 31824
-Filename: enigma2-locale-fa_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-fa_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: fa
 OE: enigma2
@@ -702,15 +702,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fi
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e2244ca8465553005b9613c7f9622d39
-SHA256sum: a73e33ce19d29f9640db0dca860089ce5bf95c17cdac75fc9199e4999e23048a
+MD5Sum: cc5d8d8dc3a37ef8a8a047750cf056f2
+SHA256sum: ca0bc224603c626806032aeca486dd31555ab4a869c534789be978a0540ff215
 Size: 92596
-Filename: enigma2-locale-fi_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-fi_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: fi
 OE: enigma2
@@ -718,15 +718,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fr
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ef0d9e7fb33db3bee42d128d87e0464d
-SHA256sum: 1a5f05aac3a2639ea81d27e66e7026a49ec4fde1789067d78d3c5909a7a6d01b
+MD5Sum: 641f69004b900e8724842b4efb22032c
+SHA256sum: abbc813dc80b56d9505bc59acf3b459fe17ab77e588540da54afc263f2cc7408
 Size: 132818
-Filename: enigma2-locale-fr_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-fr_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: fr
 OE: enigma2
@@ -734,15 +734,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-fy
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 22422e6b57f8ba221eb14a14fc892168
-SHA256sum: 1232177ad620992da04dd199de69e158b534741e11c10bc251850d443f0fb4bc
+MD5Sum: 3c91a12cec35223c75dd0139fdf0b1ae
+SHA256sum: 8f3c965a83c00dc29e2f70cfd268b66b6abe846af0c043d9fd45a59bfce341f9
 Size: 21234
-Filename: enigma2-locale-fy_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-fy_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: fy
 OE: enigma2
@@ -750,15 +750,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-gl
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 38d510be9d2d994e1efd1a046cd2bf38
-SHA256sum: 9a883581821edf2588d6d62a752110db73687e428701663ad65c0065227af383
+MD5Sum: c8042e0cff8cdc21134850ea0ab3bddf
+SHA256sum: 253a338be4e328ab115f27c396cbb9c2f749694b92e1831bc95b2b93ecdba183
 Size: 114174
-Filename: enigma2-locale-gl_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-gl_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: gl
 OE: enigma2
@@ -766,15 +766,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-he
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 40f651f025e281e78c7c9cddfef45020
-SHA256sum: 606eefa8f1437ca2cb2215b4c6a2d81edf14898b47c0de71d7e61184418037a0
+MD5Sum: 067082e62faaed92da1cfa12d25a15b4
+SHA256sum: 8f47abf9e5278d7666ef98289ec4721474dd06fa519cca518bc827f6001262cb
 Size: 22882
-Filename: enigma2-locale-he_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-he_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: he
 OE: enigma2
@@ -782,15 +782,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hr
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7c109e3d76809af64ebbaa126e06f781
-SHA256sum: 27aaa7425a9176deca9aa3b4b32b05f6c368f80129f7775b4d4bf3bfa281d18f
+MD5Sum: 7e9914cffbb0bb0b3926c5998a45058f
+SHA256sum: bb4ce4eec15a6b2fed3ce6c76e72dbd5da40d1e0988582e2be5d8c5fa1793135
 Size: 118102
-Filename: enigma2-locale-hr_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-hr_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: hr
 OE: enigma2
@@ -798,15 +798,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-hu
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 59f515c6ed61f964dcad9c3b4216cb7d
-SHA256sum: 57f5a628a0ac696e41c5ca11c53c58bf3b7e699e1988031459a622ddc0b662d0
+MD5Sum: 1358605ed6ce7db2d148ce3015573818
+SHA256sum: 230e786cca43f2c087b9f21a9c6a9f5ba7ee0c259b5649de44fe38a1e61f5566
 Size: 117378
-Filename: enigma2-locale-hu_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-hu_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: hu
 OE: enigma2
@@ -814,15 +814,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-id
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3c647404c3eb0b2762af5a7d08cc8849
-SHA256sum: 591fefb20a72fce7ed7d81bdb746b0d2d705bf781462cdaf2db7103b91833d05
+MD5Sum: db549d48982800e9101ce0cf7ae84ff3
+SHA256sum: 1f71c0e5ba1eb3458444c9e20a0a566c1da25889a2116e06162a5bcd838ebfe6
 Size: 97622
-Filename: enigma2-locale-id_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-id_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: id
 OE: enigma2
@@ -830,15 +830,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-is
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 46e4384846af571d4fd1d336ee1b015b
-SHA256sum: 00ce5f6c386deee92e87ebe3eb23edd20d71cb31542fbe6deff3831d5af0426a
+MD5Sum: 263b1474e0eee6461b3b95964ca66938
+SHA256sum: 8a9eeb4ebfea87782347ef1d9271068306927ad94357bf72bb447fb490b5175a
 Size: 30048
-Filename: enigma2-locale-is_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-is_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: is
 OE: enigma2
@@ -846,15 +846,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-it
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 43efdd59b133b49463650e81fa979134
-SHA256sum: 462040e2ba4c0ccbaa34c355bac6be89a2e97c45a90ffe139fc219730b651fc6
+MD5Sum: ac7c36ae65974a686a258af2734b42ba
+SHA256sum: 3944e07b2920278be44d7e6b2a5d2c9677fe45da17a3ee0de116f753a3cd2c28
 Size: 113012
-Filename: enigma2-locale-it_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-it_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: it
 OE: enigma2
@@ -862,15 +862,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ku
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7f8d86d51016ca11d25cf5dd7ac9252a
-SHA256sum: c80decd5a1de86f793dd22bf47c2302a2f651e6e2017e113c21ef6618942c4f5
+MD5Sum: 198c8cf71bb2cfcbb320fc4f11641abf
+SHA256sum: 86d7326b1c7c9d3623dce8a167b58fa5bf66b7c04f83a5ad5dda6d6b5842f958
 Size: 41654
-Filename: enigma2-locale-ku_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-ku_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: ku
 OE: enigma2
@@ -878,15 +878,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lt
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4cf140769b502906b9d956855e373214
-SHA256sum: f1148f10a83c3f6302734cd5af32011ea23f2784ab79325b019642ccd0395b5b
+MD5Sum: b21e1512c3a7207aafe0ed87ca875a46
+SHA256sum: 932f16f32a72b70dffbdf4f9652c91c8e73c72e60f3d622caa09ecb6221a12ef
 Size: 121916
-Filename: enigma2-locale-lt_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-lt_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: lt
 OE: enigma2
@@ -894,15 +894,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-lv
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 62a349478ccd634ce938e5575e7deed7
-SHA256sum: 8537628931185f46827d56892fda6dff696f621a9228af315032ee88bd144c71
+MD5Sum: 8d2adc6f6f2f8593f1e817d939ed574c
+SHA256sum: 111b1562e36136ec379a85690557d8bff101d7fa2a419687cb14612692a83e38
 Size: 127910
-Filename: enigma2-locale-lv_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-lv_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: lv
 OE: enigma2
@@ -957,15 +957,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-mk
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 1ffec5d7ce4d361f830d23fcaa445b82
-SHA256sum: f78250eadc67f0a2d692c22bd5fcebbd868ae87658bc7e11b7991ebd0483a644
+MD5Sum: 03b78c162769a52798d6fd007bfdc8c5
+SHA256sum: c5d15f0655817141b180a00591c29df5772259502efb0254c0bf67b5380e42b9
 Size: 126870
-Filename: enigma2-locale-mk_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-mk_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: mk
 OE: enigma2
@@ -973,15 +973,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nb
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 171536f378b127571e1d24bc50a8fd87
-SHA256sum: 9ff9f7cd5a6ac713f4c42b6da0115054dc9ab6b55cdde52d88c457366f64fa34
+MD5Sum: 08509286ed2895a4a6b9bb220096fac8
+SHA256sum: 8addaaf78aaf057f37b824863b20be66cb21beff9b2ffac7fddef8aa77f002f0
 Size: 115234
-Filename: enigma2-locale-nb_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-nb_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: nb
 OE: enigma2
@@ -989,15 +989,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nl
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d0021fa0483f4aaad0efdbd17d8f1096
-SHA256sum: 7804a5ee18399a8fb0ca84a8c170165ebaaf8e462b7e857a7eadd16c7663314f
+MD5Sum: f34f3e950f55bca832684d71bf8ab105
+SHA256sum: edc5b0f5478b09a3a6739d920d3e73aee9866e7b6f5d2cd79c2d4ea0e737d424
 Size: 135248
-Filename: enigma2-locale-nl_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-nl_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: nl
 OE: enigma2
@@ -1005,15 +1005,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-nn
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 58af0f6076498038da98229cc4569854
-SHA256sum: f2e136fed266ee92bd94e93ea227e642f7f46465b69453bdb2d7285a1be9b6ee
+MD5Sum: 29f7e067ddc7d544e9860e2c0186b8f6
+SHA256sum: 3bf2217941d82813daaeff86bfe848d7484ed802e3666eac58388641487771aa
 Size: 59166
-Filename: enigma2-locale-nn_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-nn_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: nn
 OE: enigma2
@@ -1021,15 +1021,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pl
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b6b7a02bcf5a5b570c80277e5956114f
-SHA256sum: 69a76780ab9ce9d860a7d92d566f542e9b0af457389af63f57bb9093d92f952d
+MD5Sum: 54f39cb549b3ef0ef7792623e83b4f3d
+SHA256sum: cea96550915e5825501bdf438282fa18548830a2d8ca92f3bc38a281b242f45d
 Size: 116032
-Filename: enigma2-locale-pl_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-pl_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: pl
 OE: enigma2
@@ -1037,15 +1037,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt-br
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 55f6ef091f74d090f025f31d8655796b
-SHA256sum: 3215493a1274180187307aa9046694d37fa09cab1fad789eed98178d6c3f7c85
+MD5Sum: b768fcc5bb656bcdbbf35355837cd4ed
+SHA256sum: ba8d4b06874d029e57c8971087e9ef634630a8676ad911e2be05c04c7b16f5d1
 Size: 58972
-Filename: enigma2-locale-pt-br_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-pt-br_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: pt-br
 OE: enigma2
@@ -1053,15 +1053,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-pt
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 94db78657bc06259497ff84a0adefe7a
-SHA256sum: 86209317061383ad14fa8540a01927519bb685dc53b71cdb6bcd78c8a1add845
+MD5Sum: c1fc7e8aed5d1420f6feda7105e9e619
+SHA256sum: 8cae944d2a53a008ced21d1de021768f64df8524b20fd7e1bfba743c6924d7b1
 Size: 54950
-Filename: enigma2-locale-pt_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-pt_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: pt
 OE: enigma2
@@ -1069,15 +1069,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ro
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 39fc2d8b81ccedc3f2bc9ddbbf5118ad
-SHA256sum: f291542bb99dda71ff6e0c7a6a57d2c39179b9f27bc987f52ee92c3b335b6c66
+MD5Sum: fdf54afaa1812b11cf7f6e488ec1ebda
+SHA256sum: 5531af44c7e8b543489cfec60bc0241f53ab016093e271ae75e8d2ca519a833d
 Size: 23046
-Filename: enigma2-locale-ro_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-ro_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: ro
 OE: enigma2
@@ -1085,15 +1085,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-ru
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e694c1c12b5b701e0a7766b08d3432a2
-SHA256sum: aefecc3ac2c856eb7896084bcd4534f84dc4e2349a4427948eb15dfc3fd320b9
+MD5Sum: 97332a4e020c38b2ddcb5c3397fabd76
+SHA256sum: d71d9181b65d65d763ef2cea8aece6a155f411771963dd14ff0f0f5a1a6d2b77
 Size: 141694
-Filename: enigma2-locale-ru_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-ru_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: ru
 OE: enigma2
@@ -1101,15 +1101,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sk
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: bb11fdc6d367539a28d90cf22d4a7324
-SHA256sum: 8745db1ea05ea31217d1e3ced44f11c1e2bc291a6828e2922a08b25425a97b4a
+MD5Sum: cc1ad462362582d1a1b7c1954a4ba684
+SHA256sum: 1d8cefbe7b343a5e5dc4df4578217061bacd18638f8c2412833bbac67dd18b4f
 Size: 132540
-Filename: enigma2-locale-sk_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-sk_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: sk
 OE: enigma2
@@ -1117,15 +1117,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sl
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8897d441ceb569c776d7ccfffa12d776
-SHA256sum: 860839a23d56f831b9f19e9ecc1ade599bdf780ead81951705e942582db01784
+MD5Sum: bcc730c7cc0c3339a3235e3d41c616e7
+SHA256sum: da6459b2feb5f4369fba89e0c248a4736fad5d16b55237b9466cc99577e2306b
 Size: 67384
-Filename: enigma2-locale-sl_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-sl_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: sl
 OE: enigma2
@@ -1133,15 +1133,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sr
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e53b4ff107bbd48671ffbc2463c29929
-SHA256sum: fe19120340b1d6f3b5cbdfca9cb22dbdccdb4ae2760e379b0ac9ac5383297b6c
+MD5Sum: 954d76997771ae4f3b2ec015079809c3
+SHA256sum: 339e23455402b2656d358253f0f470112de403fcfecdd7e6c5177468576bf45e
 Size: 30146
-Filename: enigma2-locale-sr_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-sr_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: sr
 OE: enigma2
@@ -1149,15 +1149,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-sv
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 209aaeaaf55a8a8df6fa6d70857b1fb1
-SHA256sum: 886c97268d2dfd87c20d62f4658fe71759a6297d9c00939e587eec0f8d53e4ce
+MD5Sum: 338c6b12cd3724c410163b9a1c8b9f98
+SHA256sum: 2d76df7e9e97eba15a7720e30933879096b8d2fff6ad936dd921fbbb8f1fd500
 Size: 78434
-Filename: enigma2-locale-sv_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-sv_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: sv
 OE: enigma2
@@ -1165,15 +1165,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-th
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5ddf20804db35c7c433db71d74f6b403
-SHA256sum: 7b68a59b7de9182f62792386e61b764eec6fc0f35085c33baa90f0c1b324e607
+MD5Sum: fb668584ef4b557979f67e223a510e0a
+SHA256sum: 261d48d473d530b2ded2c7111e243947c92f5e19f8a1dd38b5e8381515f61ed6
 Size: 29340
-Filename: enigma2-locale-th_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-th_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: th
 OE: enigma2
@@ -1181,15 +1181,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-tr
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 72173afac60001f502702d12b029ca37
-SHA256sum: 0fadeaf5af1c9295c899b983368aecd57e67b081a119bb6ecf7d623a56291039
+MD5Sum: 6b22e8424907c9a18d7afd42d6efd650
+SHA256sum: 382df1d26d328515fc8db7e603107151e72515f651d181a305cbe4f3575e23a6
 Size: 75346
-Filename: enigma2-locale-tr_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-tr_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: tr
 OE: enigma2
@@ -1197,15 +1197,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-uk
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: accad3b57d45035b5d6bdb965eff29c6
-SHA256sum: e4c054fd070ed6b6f8e5c9664aa81f8f978682a4578798bda599d4f8203a82d3
+MD5Sum: bee16821e266b11ff9f14bb98e43b1f2
+SHA256sum: 9d75fec5c02cd8c63036792053c6894997925004aec19c1ede8bfa2aa58efed9
 Size: 140564
-Filename: enigma2-locale-uk_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-uk_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: uk
 OE: enigma2
@@ -1213,15 +1213,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-vi
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ad89346cb048d9f026af5997d708234c
-SHA256sum: 52d1622a4baa34302e3098602a9151efdbce53ff06855f2a9437574535d1df46
+MD5Sum: 248dc9aa2065287e8788bc924eb977af
+SHA256sum: 28bd6f1a454751f5d77e37abeb04c682583547b8509d2accadd683fa34aa9133
 Size: 115464
-Filename: enigma2-locale-vi_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-vi_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: vi
 OE: enigma2
@@ -1229,15 +1229,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-cn
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: de63f9dcb0d5e813071239677b6565a6
-SHA256sum: 58c2d87f42d9b300924c4d661ec0d2ad212c8e997437823798250a9293f3b68f
-Size: 124562
-Filename: enigma2-locale-zh-cn_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 4d9688a5e647901824173cd58956afae
+SHA256sum: 6d4bb20ce1c97bfa1ffe1148a1b9678d44cc4d7554631908d4f281d65e47e7ba
+Size: 124564
+Filename: enigma2-locale-zh-cn_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: zh-cn
 OE: enigma2
@@ -1245,15 +1245,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-locale-zh-hk
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f7c9a7ede1f994a624a84ab6925aceda
-SHA256sum: eee11e1bdd84cb2409369468e314e8695f7ad3f99e474b7165eab583a1c457d2
+MD5Sum: 35273fcaa54ff35d4576252308ff6d4e
+SHA256sum: 76cf1114ffad9bb69f58d88c5cd83824acdb21df9db0557931ec76b8e2e51163
 Size: 28114
-Filename: enigma2-locale-zh-hk_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-locale-zh-hk_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: zh-hk
 OE: enigma2
@@ -1261,14 +1261,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-meta
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fa830fe5832667beb8c09fa320ef99ac
-SHA256sum: 69331ac92a6ffe3e02cb1fba8bd4e0ee03048a94f7bc512a2954c28eeaaf309f
-Size: 4164
-Filename: enigma2-meta_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 838068e7389675d05909e1bc236904e4
+SHA256sum: 632d90b4a8cf64e208c9356520e271bfe8735c6c612e8cf48eea688772e87c99
+Size: 4166
+Filename: enigma2-meta_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
@@ -1489,9 +1489,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 6cb0770787e54c092327fc7b281466e3
-SHA256sum: 44943504acbc1ecf49c1ab438ff75305bdd96e2181bdf0e3ecbd12b2a84aefb9
-Size: 71460
+MD5Sum: f28b531c917bd7446430c96ebb9e42b4
+SHA256sum: c17fac313e1384bcec5388364c969f2d5aac134e1936f8f76e2ec3d10b25e3af
+Size: 71462
 Filename: enigma2-plugin-extensions-advancedmovieselection-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-advancedmovieselection (translations)
@@ -1521,9 +1521,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 3fedf75595bbd769869b09f9dc19e1c7
-SHA256sum: fcb5fb6cfe621c52bf22b1aa2167568b11fc6317a96aba96405b7f8cbb403af0
-Size: 591602
+MD5Sum: 0981c2b2e53bde7e51ed0ff70e2be10b
+SHA256sum: 7a4dcd9435d1367283352e81105175f3bdb67ca5e97a122e7a2e19e3fa1a0839
+Size: 591604
 Filename: enigma2-plugin-extensions-advancedmovieselection_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-advancedmovieselection
@@ -1583,8 +1583,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: d71d1f9499b8f136cc83541140a4d515
-SHA256sum: 5f09fd7a5fe96b0dd8860f4f8e558c35d2fe3a47e98423a71a15024b76396c28
+MD5Sum: c60ff244777af29040d5f4905c559507
+SHA256sum: d88118621cec4a8534d7a14b2935617854e0e9531105ca01ebd4df137db96efd
 Size: 4240
 Filename: enigma2-plugin-extensions-audiorestart-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1615,8 +1615,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: d9d638337c7bff4641639ac33fb1f083
-SHA256sum: a08334bd399dc82aeacff2c24675254ff951c51f4ea07ee3cccdb657c329cb99
+MD5Sum: 547c030232024b347670d768b140e1a4
+SHA256sum: 574b8b732e799120d4c2cfae5b5f77f3bcc678a93eb8588c023555f725d2f2a7
 Size: 17256
 Filename: enigma2-plugin-extensions-audiorestart_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1727,9 +1727,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 9679f62898472604cd990c5aae187d7e
-SHA256sum: ed954310081d6273c36113ef3736a2ac8682b7e7268add9b8024367ffc3b720f
-Size: 10174
+MD5Sum: b5d77ac29b57bd8216dfafe41286de68
+SHA256sum: 9c520258a10f8dab4445adf0c045c4778d5c34eb05f638bbdeea89e183b1a2f0
+Size: 10188
 Filename: enigma2-plugin-extensions-birthdayreminder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-birthdayreminder (translations)
@@ -1759,8 +1759,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 0030399b8331fc1ffb1d18920bb4e564
-SHA256sum: c88ad3b79c9b0c18d289ff4c3175d6aa2f7f4f818eedd3863062567bb468b3c0
+MD5Sum: 598c3a621141c704a56c560e9099bb37
+SHA256sum: 61ecde6d47d9af9bcb433ec716364ea77c102c0c7002c44d98b86626d2e694c7
 Size: 40096
 Filename: enigma2-plugin-extensions-birthdayreminder_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1775,9 +1775,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 68f3f5c6458bf1ad9ed21d37049e0e8c
-SHA256sum: e5f54997fa2667740b07a7846542b18ec7db44cf02edd68b38f57bab23adb22e
-Size: 10430
+MD5Sum: 9e8045cfd5d88e4692138a90da1f41d3
+SHA256sum: b2bef6499e35196a8e01fb81105d22deedcc787aa84b6928b4eb07ad3704b332
+Size: 10534
 Filename: enigma2-plugin-extensions-bmediacenter-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-bmediacenter (translations)
@@ -1807,9 +1807,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 946e8582866610b191dde1df5f43a8ac
-SHA256sum: 17cef2a9898da6ad0b251f4d1cf7884681236f635ae36d1c180889403058efcd
-Size: 5525364
+MD5Sum: 423c9b45ac43c0dc48e9d3f13e044349
+SHA256sum: a1c55ba142649e35d5e9f3d3e3ab1d2f2df79acc53dada4a655888250f8fe3ae
+Size: 5525346
 Filename: enigma2-plugin-extensions-bmediacenter_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-bmediacenter
@@ -1935,8 +1935,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 6328ee4a5037902cc0b015c23bdeb76c
-SHA256sum: 54ab9664332d915ff566daa65905d787c350f099be898d03e027ff09460c7f7b
+MD5Sum: 6cd7886f41d36acd643484ac2c64eb42
+SHA256sum: 6dad8721a9485d53c673f20ed5f2215cb4a44c4cc1fc100bbc3700fc62150020
 Size: 7066
 Filename: enigma2-plugin-extensions-curlytx-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1967,9 +1967,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 89261a4cbab038668f45969c7e404b02
-SHA256sum: 9b2021b70902b00f8f8de7fc2ddd2b04895c66614d27833944bb00fa84d3aae3
-Size: 21952
+MD5Sum: 942320b9c8d38ca3b1dd81658374e32c
+SHA256sum: d6d294c19c12cefa9dba98a9527d4943ddd4759ffeaac4794f05e3e41777b3ca
+Size: 21954
 Filename: enigma2-plugin-extensions-curlytx_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-curlytx
@@ -1978,15 +1978,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f136f037cbdc3566d72bf4e0f4d7412d
-SHA256sum: 1112a35a949f9abf3cc8e94ebe4b8d473c95aaaf85720e06f724b1101ee6605c
+MD5Sum: 2ec707e8d0c085571d16de02a5b9d484
+SHA256sum: 33b86898cf5124d97fd5210a8de3bd42372cf3e2ee4cac2ea18ed823e70b76f1
 Size: 5864
-Filename: enigma2-plugin-extensions-cutlisteditor-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor (source files)
 OE: enigma2
@@ -1994,15 +1994,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-cutlisteditor
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: aio-grab
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0af51e5600e9c4b9b0386e3aa245838e
-SHA256sum: fad396259319a9a10778c12a4c89651a6d97c75d5d7c93bd51fce5f982677d47
+MD5Sum: 47beb0c71d41b8fa98bf1b7193e4a68d
+SHA256sum: 5380289280fe86598c8375482406765276a40bf156b46aad9284baa751ec8e22
 Size: 13134
-Filename: enigma2-plugin-extensions-cutlisteditor_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-cutlisteditor_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-cutlisteditor
 OE: enigma2
@@ -2122,15 +2122,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 82bcf061a6e08d85887ff7737e9b7e16
-SHA256sum: 5be6b10c5985743730a4b49b49b099a67aae9b55af075c246ca61ccbb6328646
+MD5Sum: c4a478592a331717b11fe5c3eeb5fd4f
+SHA256sum: ac1d9e73228e3159067752272afc0f04128c677a5cac58863839f7ab9f44f6fa
 Size: 25846
-Filename: enigma2-plugin-extensions-dvdburn-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-dvdburn-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn (source files)
 OE: enigma2
@@ -2138,15 +2138,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdburn
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: cdrkit, dvd+rw-tools, dvdauthor, mjpegtools, replex
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ff5b14d48aab377eea5c9d5154fc7a96
-SHA256sum: 8b28a912ccda4ef2910d1ad3f0b25eac82c78fcaa9743909da3b7262c7534671
+MD5Sum: f36c371b23233e30428822e224eab790
+SHA256sum: e78348f624b819ce5ee6fe01cc0edd5c3ee88f7756dbb88a7979b190fb059250
 Size: 846540
-Filename: enigma2-plugin-extensions-dvdburn_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-dvdburn_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-dvdburn
 OE: enigma2
@@ -2154,15 +2154,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8249e48c5a173da79e663fbd2127522d
-SHA256sum: 1ce2501e5f106697159bfee93dc013a6661b294dd086a28c3cfe14673a69ceb8
+MD5Sum: 58edcb90ceba5c0343bc9c755e901474
+SHA256sum: 95596a279ea2db238739507307381c5c0bd04fcda7d04ccc401a7ad08e6df844
 Size: 1948
-Filename: enigma2-plugin-extensions-dvdplayer-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-dvdplayer-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer (source files)
 OE: enigma2
@@ -2170,14 +2170,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-dvdplayer
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: aea08d0d4a5df290c6e7ce471747a56c
-SHA256sum: 20d9b1187adfdaee4baa7c5c068f54d351b4699115a35d6c4d88e05b34373dd5
+MD5Sum: 6b3233165403bdbcb1186d10e22c04d9
+SHA256sum: 56b83293be0edeb29dfa43760b039e4deb879e51671c8ce26474a59f9b2c05a5
 Size: 3770
-Filename: enigma2-plugin-extensions-dvdplayer_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-dvdplayer_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-dvdplayer
 OE: enigma2
@@ -2330,9 +2330,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 0b7ea70de7a0ec8a71523e3bde6fa93f
-SHA256sum: 0c3520b9989c9c7efca6e70ca2a5890cadba9b1440d6aed556323abf6d9ff00f
-Size: 4896
+MD5Sum: 604ff431d17e1c908a10b947471e79ff
+SHA256sum: 3f07e1527997dc5a85f41d1ae30814158ae191d09676bfeacfee0b3dc15d0339
+Size: 4898
 Filename: enigma2-plugin-extensions-eparted-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-eparted (translations)
@@ -2362,8 +2362,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ae603bbbd762e25374ed148edbeae952
-SHA256sum: e601e787ca979498818c868321e3a811907be7aad8a2757586f1bacf4c41ccfe
+MD5Sum: 0f9d94bdb3f4794f2c8c9167978bec48
+SHA256sum: 7bd0e14ee33f0408353391777307a43ecd5125d36ab3c198668026391fc99790
 Size: 26562
 Filename: enigma2-plugin-extensions-eparted_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2378,9 +2378,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ad8d529435e47451b2d6f5961ae65ea9
-SHA256sum: 4dfb50c321d48614d0cb1ee9aa61ac1a969881e11a7a0a6faec0a087a1059f7e
-Size: 6432
+MD5Sum: 7285026040b01d54f0f1e4fe70b41d30
+SHA256sum: fc3c13d98fc79dee95fcccda23a2587f0dc799213bbd77ea5346a23dbc922974
+Size: 6434
 Filename: enigma2-plugin-extensions-epgexport-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-epgexport (translations)
@@ -2410,8 +2410,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: bb1d112d975694996d948465154c8daa
-SHA256sum: 863ca864cd7074c46639e55b14c044102038eac049c4ba40b13e8d933c27335f
+MD5Sum: 5f2fa9b99301e7f01b753b6daa0063a2
+SHA256sum: 91d4c4573d92208e76351c624f56e7b1ca17814ca00c61d6b6eb91635be1fe3d
 Size: 42806
 Filename: enigma2-plugin-extensions-epgexport_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2505,9 +2505,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: bc0d1f2f1943d8fd83593a2067741d00
-SHA256sum: e2699b94413ef3518a145b5638c77b458dd03e86205c0e4a69730f25af53d8e4
-Size: 3348
+MD5Sum: 4488f3ea190778287215a7781fecd189
+SHA256sum: aad48298589b9e3bfc666cfc438b16bd0af894a600dd4d2f96e53af7f762e73a
+Size: 3350
 Filename: enigma2-plugin-extensions-eurotictv-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-eurotictv (translations)
@@ -2537,8 +2537,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 236afc48f71a3e5bbe00519b4bbe9624
-SHA256sum: b9a568f0f09938fd8514c7473aea965847d47de41a8b644b5e50a47a424028a8
+MD5Sum: c0903d5860547bed7650ee6c5db438dc
+SHA256sum: cd17048e02450daba7bebc69f9c51698c5549319c97ed18b139e61e82adbce6c
 Size: 57384
 Filename: enigma2-plugin-extensions-eurotictv_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2611,15 +2611,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7dceb8be90b48bc2ff3c314e6a15e9b8
-SHA256sum: 758b2f9a65a3651471faf7b2671bd850a9ebc309d75e3453ec425f042a4e0e78
-Size: 30624
-Filename: enigma2-plugin-extensions-filecommander-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: e41badfc5ff66e26cd87bc37bf7366ad
+SHA256sum: d8b534921ace9d8fd9707f7e8e802c9f9ceb6d89aa11e4dccf3443f9f7930470
+Size: 30642
+Filename: enigma2-plugin-extensions-filecommander-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-filecommander (source files)
 OE: enigma2
@@ -2627,15 +2627,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-filecommander
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: python3-puremagic
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8b88fdb653bbc62f7a8f0e25e4cd0a35
-SHA256sum: 8dc539d17b99b6c5703ff76bb85455b90c15bacd5a1cd0ae3963005acdc55c92
-Size: 90512
-Filename: enigma2-plugin-extensions-filecommander_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: a22ea69b8620c6d88aef26d45e03ea9d
+SHA256sum: 1839aa514ef0eadc0c50f4e8d58a181ab001d56a83f2a0108690e204fcb13e45
+Size: 90500
+Filename: enigma2-plugin-extensions-filecommander_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-filecommander
 OE: enigma2
@@ -2706,15 +2706,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 13182324d9b203f82dd11a9deb3010b6
-SHA256sum: 5eb6725818c7835ecf7aeb1522d05b8a24a9a49f47bbdfaa86f5fabf2061e291
+MD5Sum: 7df11c0fbeef2434228520cce54887fd
+SHA256sum: 856d9691ef29cbc6ccfe3f91170d7543a3740b1b8f59056c381315a553798d9f
 Size: 17228
-Filename: enigma2-plugin-extensions-graphmultiepg-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-graphmultiepg-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg (source files)
 OE: enigma2
@@ -2722,14 +2722,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-graphmultiepg
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 69caa1c4aed878a83e1e200ba5cc3d0f
-SHA256sum: a74746a13082b3472a20deb170745ef2f043e29624e1a82bd9bed4b849cf34c8
-Size: 46114
-Filename: enigma2-plugin-extensions-graphmultiepg_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 9e77aa0b1d9681f96bc639533b4295af
+SHA256sum: 8e5fa9bbe8cb85832d6bd9230990a1688ffacf54a96c2e534fd42c0a5e041297
+Size: 46116
+Filename: enigma2-plugin-extensions-graphmultiepg_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-graphmultiepg
 OE: enigma2
@@ -2790,9 +2790,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 1f3406e5a91c96601b2b3830676e9bc3
-SHA256sum: a1a8ba3d5cce09ec3b487012c8dfea7552256510f9371c55b5050d92766171e0
-Size: 9236
+MD5Sum: 49cd6b7d7f07b02cf7a3e322f31005f8
+SHA256sum: 8eb34f07cdf62b49cc1f4b98a359b4011d8aec81da191b2be0d391d235b3c82c
+Size: 9228
 Filename: enigma2-plugin-extensions-infobartunerstate-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-infobartunerstate (translations)
@@ -2822,8 +2822,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 2c11ffdb982985c19bbe8a6756e01101
-SHA256sum: 0fc364b203cb4693fedfc9fc05a7beb32278d753968297f4b08dce2226931305
+MD5Sum: b7b7cfde5076a1f8a8fda3ef57e25d1a
+SHA256sum: b468cb02a2098bcffe6f0ee51210dd254f9d4f486873882da2712108d1226597
 Size: 63980
 Filename: enigma2-plugin-extensions-infobartunerstate_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2927,15 +2927,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8154a9dcecbbb21d7a3cddcbb7914690
-SHA256sum: 83f5bfb081fb796378eb1e0e511dfe2086cd3dd7dcdd1d42abc43b75e8a56e0e
+MD5Sum: 707988257a245310ef17e2c6d2e92da6
+SHA256sum: d60d486d833fb7a9d4fd69035ced4c9f90025e3736ae54e7a1d798f941aefe02
 Size: 12470
-Filename: enigma2-plugin-extensions-mediaplayer-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-mediaplayer-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer (source files)
 OE: enigma2
@@ -2943,14 +2943,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediaplayer
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 32cae43d9afbb9eb6836fc8f2422c30b
-SHA256sum: 6b1a54b7520e1a2185eb4331c4ba82d691c348e3f56af092193f096ed2f039ff
+MD5Sum: 2a708f60b4a59cb88069a3492700114e
+SHA256sum: 26aeb5e74080012eae40682230ecbf5755d7acd51193117c48aa4a8d1fa2b867
 Size: 38326
-Filename: enigma2-plugin-extensions-mediaplayer_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-mediaplayer_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-mediaplayer
 OE: enigma2
@@ -2958,15 +2958,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: deba25c2cb1d41bfecc55d7ba901971b
-SHA256sum: e4fbb1604d684f34041e365634a5091096eb51cb2c6a34a96a9a07994398c76b
+MD5Sum: 9e9bf5a7d520bc70ce4b1d33d2916ecb
+SHA256sum: 438277de4c57ca19d9ce0d42133f73282378623fbfe5c5e2e409fe7d3e86b144
 Size: 2022
-Filename: enigma2-plugin-extensions-mediascanner-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-mediascanner-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner (source files)
 OE: enigma2
@@ -2974,14 +2974,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-mediascanner
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5835b2162311d63215c88373a72478b5
-SHA256sum: ab76efc32070cb5acb9c4740d9cb48259264c141e211e9bbaded0599b91303f4
+MD5Sum: 5c57db3f60fb5ee6247725e0ed3a0186
+SHA256sum: 41d0e8f750a61cde89fd6eaede59933fa54451fb0d5b55969ab95558196156be
 Size: 6938
-Filename: enigma2-plugin-extensions-mediascanner_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-mediascanner_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-mediascanner
 OE: enigma2
@@ -3523,15 +3523,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9128c75e2ea1f8985a1b721ea33bcc08
-SHA256sum: fa825d7ae2f6dee54dc9e89239054118f6017aed2c8d0568d1239671725dfbc5
+MD5Sum: 2dfce03b64a5a46e4f97b99d1772f96c
+SHA256sum: 512aab8f2a70cbd7e6e0ca53cb808682c0c8dce2263cf77990208a2de8d3dd0c
 Size: 7050
-Filename: enigma2-plugin-extensions-pictureplayer-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-pictureplayer-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer (source files)
 OE: enigma2
@@ -3539,14 +3539,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-pictureplayer
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 84c22d3ff78194e9641997662f22d5ce
-SHA256sum: f49a08c23125f4aa660bc192603539424e064af41ea7dd4fc85f9804f442d3b3
-Size: 22564
-Filename: enigma2-plugin-extensions-pictureplayer_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 2c6af1c70c9ad3cd10537348aad88c23
+SHA256sum: f53cf5bab41e6c29da18e4bea5fb10ef363371a2d6b3df957a73a30557e39f15
+Size: 22566
+Filename: enigma2-plugin-extensions-pictureplayer_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-pictureplayer
 OE: enigma2
@@ -3559,8 +3559,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: e5e9506adacf1575991e6090c59e9b38
-SHA256sum: ae4b225ac4a635c90a0732c5526fe92a494c356f694cbe335a28d63efd2d2217
+MD5Sum: a3cb6e01bc3140141d1c06879acf8051
+SHA256sum: f2972986b32f5fc1d120cf25f6bbf28a139948f011652d70a2045345d134395c
 Size: 4990
 Filename: enigma2-plugin-extensions-podcast-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3591,8 +3591,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 9e61e3572ea98ee4996cef876ffa77be
-SHA256sum: 43663cb042d7a23d96f5efb4c42192341ebb067d9b0945384f9c8c8218d0fb96
+MD5Sum: 677be2fb68d41ac1789619be74c1fb99
+SHA256sum: 48aa778881359cffe3c6d83fafc3e36e003dd1fc46446e9764333f35f3946be6
 Size: 23832
 Filename: enigma2-plugin-extensions-podcast_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3639,9 +3639,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: f2d52098012b9b6afe3486377e2330d7
-SHA256sum: 634fc778e3b81f279999551de63d11b56a6f71edd3f3a9420f9b0980cc08caad
-Size: 7048
+MD5Sum: ee33d22ebd047a3391c7f2e82f6d182f
+SHA256sum: a6ef1ba937dcd13736506cfda62278f71e562056012691d8c64489325a5fad65
+Size: 7050
 Filename: enigma2-plugin-extensions-pushservice-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-pushservice (translations)
@@ -3671,8 +3671,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 922cf8a35189769b8a825ff6da105bea
-SHA256sum: 672c5154ea808822a85c7d600a76d99bdb24b6b4785e7af17d2b284b35b86350
+MD5Sum: f6e5377bc4727ebd8e01dc798c3175dd
+SHA256sum: 8b813fddc9f179516d33ce3dfca857926dfe194a6d666761e93d74f2917dd35d
 Size: 72944
 Filename: enigma2-plugin-extensions-pushservice_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3687,8 +3687,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 0f8520ff1ddaa9ec79b6462f7be63876
-SHA256sum: 7bd1bb6b156ec5259676d90e90537db3217a7a0f2ef0339e2142386b681a188d
+MD5Sum: 20c7230b90249ca04f084f9c3383f289
+SHA256sum: bb23c2a52b34c7984445cf5f706cdd35d6b32d06201da1737b2c2e9deeb79178
 Size: 7112
 Filename: enigma2-plugin-extensions-quickbutton-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3719,8 +3719,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: d8ebcd4f9330ad7a85182f4f02d9d5eb
-SHA256sum: 96652605c03c1a1d2c411df2c66c0b1e7cda35486341215b37972b3d79ff3d0a
+MD5Sum: b247f9411804269a3707719d602d0b38
+SHA256sum: 116c010d3da3681a76b2ebb9f253bda2e7b795f85abc70a2d6367f4e13018497
 Size: 19258
 Filename: enigma2-plugin-extensions-quickbutton_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3830,8 +3830,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 5e9aa15e924e50c4a2a2dc4512cb22a6
-SHA256sum: f124d4dc3fcf699a9c2d006cfc0383beb74413a8aef0b27100bfbc41ef85dffb
+MD5Sum: 27a4685f08cfb739e373147eed6b6b63
+SHA256sum: f24a301233d5ff29ed18a9880f4e015435eaee010d5ee1fdb0fb6ad617983b0e
 Size: 11706
 Filename: enigma2-plugin-extensions-rsdownloader-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3862,9 +3862,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: dcdb69891b8a785a7033543e9d60dc44
-SHA256sum: 9110bd34d3ff3ebfc379b3ba9636ff5e088e2e354a4968024cad7226e025a7d5
-Size: 57148
+MD5Sum: e1aa7976db101dd89e1a911465e496de
+SHA256sum: 1c69a41c36084ae457dbd10444bfadbe4fcd4a5067af5ea49517da888b5f994a
+Size: 57150
 Filename: enigma2-plugin-extensions-rsdownloader_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-rsdownloader
@@ -3972,8 +3972,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: eff6a76641a32d8ff90c93aa27d2895c
-SHA256sum: 0b89ece806a7ff5e196a893eccd5e574996d3876f793ecf96f72172dfca5eba8
+MD5Sum: 56b582d96097b78fc12672c1ff828fc4
+SHA256sum: ee8790b893ad38e9a86f40d33ff2de26fd6645bec5cd7752584bb52f2cb0d10d
 Size: 5610
 Filename: enigma2-plugin-extensions-series2folder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4020,8 +4020,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ba3d05a6ef99bdc560aa57bbfa773350
-SHA256sum: a3bc52d669a1bc14050172a721629ef682ae9d9ead7ce7938f6a26f4e0bf7c0d
+MD5Sum: a23ed10618bfaaeb7a39dd31ec678272
+SHA256sum: c67ba296f6a63fc9188ee91876c81d95d90011e2038cd0ba61343087350edb3b
 Size: 12002
 Filename: enigma2-plugin-extensions-seriesplugin-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4052,8 +4052,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 5d4e2a5aee2946829e820e3a1f60cba7
-SHA256sum: 1b61699e65e956677b48882bfec848a1408cca3e451a5cc6131eab94b5985da9
+MD5Sum: ed6235a3b4f6d2730c673622d24779f2
+SHA256sum: accd13f53cc8e8f375379b12d4d6b4af2a65aee568bbc3fde781afca5139a741
 Size: 147554
 Filename: enigma2-plugin-extensions-seriesplugin_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4157,15 +4157,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-dbg
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Recommends: freetype-dbg, fribidi-dbg, giflib-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavahi-client-dbg, libavahi-common-dbg, libcrypto-dbg, libcurl-dbg, libdreamdvd-dbg, libdvbsi++-dbg, libgcc-dbg, libgomp-dbg, libgstpbutils-1.0-dbg, libjpeg-turbo-dbg, libpng-dbg, libpython3-dbg, libsigc++-3-dbg, libssl-dbg, libstdc++-dbg, libtuxtxt-dbg, libudfread-dbg, libxcrypt-dbg, libxml2-dbg, tuxtxt-enigma2-dbg
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: abf72c40cd2cd1589a945d67348e074d
-SHA256sum: 1ccf364e55b1e22002042579560871425eb05f4eee53a1572015e56399728db2
-Size: 17542242
-Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 5da1b97877892416cef0ca54f85259a7
+SHA256sum: 07f6ee3d353009ecbb79c9dfa9e6e8cc1998309c3b853e75c91af504b0be8dfa
+Size: 17542246
+Filename: enigma2-plugin-extensions-socketmmi-dbg_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (debug)
 OE: enigma2
@@ -4173,15 +4173,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0572a97cbda6b3daecd6c22bbd6eb153
-SHA256sum: 414707e7da6104e4b82b84e415ced6ce28dc494960a22dcb379a5c0576fb1086
+MD5Sum: 29c37347042a08eb0ce3b76f68b66bcb
+SHA256sum: 3f105607b9f58840ec2f9887a113e685b14adcf8f612dc0e86a5e62c55fba2f9
 Size: 1522
-Filename: enigma2-plugin-extensions-socketmmi-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-socketmmi-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (source files)
 OE: enigma2
@@ -4189,14 +4189,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi-staticdev
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: f3f848937b4b43aa9db001f903f9d8a8
-SHA256sum: 781c45364bef7b6aaf9621ecb3c977fa744f8c14e8be1a50e8d5db5291034aaf
+MD5Sum: c4b1c107f21fc05bfdd8ddb964213ca4
+SHA256sum: 5191991c8ed66c306b998e6b240c28de42eb435769f5e4b7d710ae476ed927b5
 Size: 134174
-Filename: enigma2-plugin-extensions-socketmmi-staticdev_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-socketmmi-staticdev_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi (static development)
 OE: enigma2
@@ -4204,15 +4204,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-socketmmi
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: libc6 (>= 2.42+git0+d2097651cc), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.5)
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ccf61584df5c8fc999d7d7e7789ac898
-SHA256sum: cffb712b4b3d470e5df0b0d8b91611e5ad67a93135f5a30988ffb5031c9737c9
+MD5Sum: 755cbe4008e832beb6c9ee393690bfbf
+SHA256sum: 74749382c3ea605d4ecdbc1cae98a1545f50c7b1c2b6765d49d6ffd8c27f4be9
 Size: 13606
-Filename: enigma2-plugin-extensions-socketmmi_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-extensions-socketmmi_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: extensions-socketmmi
 OE: enigma2
@@ -4400,8 +4400,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 76742a218cda5b55a0d5431b909c0579
-SHA256sum: fb247590b24f2cd816960da587c4e760b486adec00e5183928ba0e98f5ba3e2c
+MD5Sum: 47a443b2e8fd54502c7eab3464c98fee
+SHA256sum: 23a691181ded392b3a246eb5ae00af39535a90b3523921f5a4178b5308816b7a
 Size: 10278
 Filename: enigma2-plugin-extensions-teletext-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4432,9 +4432,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 1f8c1f690ea40d0a738c5cc5434240b6
-SHA256sum: bac867886deb8a85f309be65aba6b0b6ded88285e042022a7195ca0e2239fb68
-Size: 53264
+MD5Sum: 7c9ebab0cb7d99d3b2ee44d88897b236
+SHA256sum: d6a38041e74327e782db9f2cc08ec68248bfc42fa6939171a24bb8a8be84cc4f
+Size: 53260
 Filename: enigma2-plugin-extensions-teletext_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-teletext
@@ -4846,8 +4846,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 0ace8168c6264aeb405a15079f81e47c
-SHA256sum: eb8d00506f2490fb531f88a8c26853617e601997800d8ba4ca0125499fa4d44f
+MD5Sum: 2a87da3ee3b2d8cdff377b77d15182c2
+SHA256sum: 114c91f86878dfbc14d5533bc7c443ec6cad5a96582081ce528155d50e32a37b
 Size: 5660
 Filename: enigma2-plugin-extensions-zaphistorybrowser-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4878,9 +4878,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 9657a193e9ddd2b4aefa4083792248f9
-SHA256sum: 1ad225a5926f730b078b0cc1b794b25e0c01c6478c1f958d07794f91a591d741
-Size: 15482
+MD5Sum: 814b31b1f2dabcddb3bb21576e33efba
+SHA256sum: 449d019f0f7344989a7337e2f69cae832eb6ef27fd1cc53ea959df0a48f6965f
+Size: 15484
 Filename: enigma2-plugin-extensions-zaphistorybrowser_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-zaphistorybrowser
@@ -5135,8 +5135,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 5c82ffaa5daffd39b9581e4aa336aaef
-SHA256sum: 2ca71ae9bdf49bc700d454a75cdea6b45d15c9ff74389d60b327f1016463b8b4
+MD5Sum: 10dff65e11a2695f51ba8b8450d43c0d
+SHA256sum: 75635f61dd40551d2cbe63fa295887f88f8fb6f16a9b9fff232157cc5050cf7b
 Size: 8064
 Filename: enigma2-plugin-systemplugins-advhdmi-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -5167,8 +5167,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 2cfe77e09bafbbb0d216c2a974a73311
-SHA256sum: 3e5b1b0b3e42a4284eef9506290d18e3c3904406a0fea4f88ff6722ead37f642
+MD5Sum: 6f8329e720edd5687c9a5e3a7badb899
+SHA256sum: ca0146aef466c712be1e9afb98e416ac472ecf4a310ca46fe218b741e8de6d6a
 Size: 27756
 Filename: enigma2-plugin-systemplugins-advhdmi_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -5289,15 +5289,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 20f928e3e495fcd46fcaa4a475afea4e
-SHA256sum: d80d30841c7ca228630f45a21b566337c7067bcd79fb8f46c4eeab17ec2f4eda
+MD5Sum: 093b606387ef2ed9efa25d5bd621e007
+SHA256sum: 34ae0a7a06569f23bdaa8bf5f655fc4607bf0047b1036111584b724831ebc40e
 Size: 3874
-Filename: enigma2-plugin-systemplugins-cablescan-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-cablescan-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan (source files)
 OE: enigma2
@@ -5305,14 +5305,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-cablescan
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e5dda2b2d3539907f503634ee21a6269
-SHA256sum: 5b6fd73d96fde9f26f2122fce6da8236f7304ee3f60e812612e3bde15bbee17e
+MD5Sum: 23194041bbb9a959bab84ca3ee6504ec
+SHA256sum: 53c69c18c9bcf8ffcdef4350c361c9ccc65cb9affe233ac0806d642778d3c5a2
 Size: 9672
-Filename: enigma2-plugin-systemplugins-cablescan_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-cablescan_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-cablescan
 OE: enigma2
@@ -5383,15 +5383,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3f5cb29bbd7e81d48ae7e93313755de6
-SHA256sum: 10961e9a284eec1d62c076804077064e04c74ae57a34c7157572552bd00b5f3a
+MD5Sum: 54493fe62679ea69ffb8979bd3a4d3a2
+SHA256sum: bb2bc068fd66a1aad4fea7efed20b2b5cb69c77b798e1d99be2bfa0b0fcc3ca9
 Size: 6996
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment (source files)
 OE: enigma2
@@ -5399,14 +5399,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-commoninterfaceassignment
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b097879e3fb82e323ddcaea2c0c876ba
-SHA256sum: 94a5fab0e25b2cb9850296bbe1754ad9d892a55fc2dcf87d935a168de57f93bf
+MD5Sum: 3de2969e2167fcab8c07aa15fb4d9dca
+SHA256sum: 53abd87e54b0532778b623e6b0b98830463ca8d5a4de109b0c41c5b310c9b8b2
 Size: 17736
-Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-commoninterfaceassignment_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-commoninterfaceassignment
 OE: enigma2
@@ -5419,8 +5419,8 @@ Recommends: glibc-dbg, libcurl-dbg, libxml2-dbg, zlib-dbg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: caf5c6936475aa4e8591330b5407a8cf
-SHA256sum: fc3803d42a6ff1330f253b02449ac70a353fab9fa24c46718b8f25b10c3b59db
+MD5Sum: 364bfe802392a044bfdddc3351565fa0
+SHA256sum: fbf1a7dc2084715dbff871246d3469a25beac4425b329b34f3e30944d40cd9d3
 Size: 730
 Filename: enigma2-plugin-systemplugins-crossepg-dbg_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -5436,8 +5436,8 @@ Recommends: curl-dev, enigma2-dev, enigma2-plugin-systemplugins-crossepg (= 0.9.
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 87fa755726ae7add01a928335fa02b28
-SHA256sum: e23f8ac816484fe991743742d762478a3d3bd1c6c0649671ceefe5f8dea0a9cd
+MD5Sum: 499069c01bf12f7db1cd841e8bacf276
+SHA256sum: 52f66bf11ca1accfc85a771c4f4185c0d3e04fc00e69a752fe60c707d72c5fa9
 Size: 792
 Filename: enigma2-plugin-systemplugins-crossepg-dev_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
@@ -5453,9 +5453,9 @@ Depends: enigma2-plugin-systemplugins-crossepg
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8f65b72f69fd60af8e141727228e250b
-SHA256sum: d9e651e3b305f3ab02921ac9ea6a2b28a7c86048faae81abbc0129d2cacb0b29
-Size: 28340
+MD5Sum: 6524a2bc8d1e7185d4945b1dea215a27
+SHA256sum: 2acf000a82484fa00abaf4c8310024631136b65d123778e7005fe0d595bf8a18
+Size: 28342
 Filename: enigma2-plugin-systemplugins-crossepg-src_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: enigma2-plugin-systemplugins-crossepg version 0.9.1+gitr-r4 - Source files
@@ -5470,9 +5470,9 @@ Depends: enigma2, libc6 (>= 2.42+git0+d2097651cc), libcurl4 (>= 8.15.0), libxml2
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f070334873a542f0f24888deb79d216
-SHA256sum: 179e87bbd4e1c2759f0e5090575eda7745fb7899231fd2abd941b9805b347d61
-Size: 403172
+MD5Sum: 401f49966370b74481f1d1de79f38c68
+SHA256sum: 38f3617fff8a57aca182e0635e623df927705af0f71181b54202ae8e2311d1ea
+Size: 403232
 Filename: enigma2-plugin-systemplugins-crossepg_0.9.1+gitr562+63d495c0+63d495c3a8-r4_dm920.ipk
 Source: enigma2-plugin-systemplugins-crossepg.bb
 Description: systemplugins-crossepg
@@ -5482,15 +5482,15 @@ License: LGPL-2.1-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: aadf7c2fa6248c6021c704da4d7efd2c
-SHA256sum: e3e5d5a25145ce1020bf0790aa95261d359f2a4d5284f84f22f33e442a344015
+MD5Sum: 499eeee103de74901a899b77a376dfd0
+SHA256sum: 0c3344fe640791a5bd0babc53a268143805dbd68f1eac488d0cf9c29dd436cc4
 Size: 2646
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner (source files)
 OE: enigma2
@@ -5498,14 +5498,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-defaultservicesscanner
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 01d2cfa2285221682f68391b866a5b48
-SHA256sum: bb9c33d3d36440c5baa5089da31d48891c41e36fa89a964591976a8f90298263
-Size: 4800
-Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 287b1567dbdab6e79418bf0c2e45d56e
+SHA256sum: 7a7140f848caa8e9d5b74a03ae0f40cb3e6a96176318708c7591ed054daee517
+Size: 4802
+Filename: enigma2-plugin-systemplugins-defaultservicesscanner_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-defaultservicesscanner
 OE: enigma2
@@ -5513,15 +5513,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 294096fc87f97efe14bb7f06a2ef3213
-SHA256sum: a5c4a38dca0bb1bd368edd2af17afa81156e0be1187203890ffb1ed9538bf25b
+MD5Sum: 5478d1ce11bd6991609727de538296f0
+SHA256sum: f93f8ea71ed1df140a0f553ba743c78c460de2df35b3e4f2a891edec4f601b28
 Size: 6812
-Filename: enigma2-plugin-systemplugins-diseqctester-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester (source files)
 OE: enigma2
@@ -5529,14 +5529,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-diseqctester
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 95beab0f09afdcf4219cb48af1ba4fc8
-SHA256sum: aacd833b9e5e070fb9b65e9ef9ef43303764ba171e0225d30c579f7a33322b13
+MD5Sum: dffc97023d377f9c434ce07385e4ae07
+SHA256sum: e7a8cb8d5e01e8fd08bffe282baa680b02ad40eefb810f8aaa08204b9624f3a0
 Size: 16080
-Filename: enigma2-plugin-systemplugins-diseqctester_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-diseqctester_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-diseqctester
 OE: enigma2
@@ -5544,15 +5544,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastchannelchange-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8b83966ef5e0779ed1baa6ccadd4cce6
-SHA256sum: fb8b41565062f2c24a075f431a55a9dec5bdf2c15260fbcf9e9367eaa5e1d8bc
+MD5Sum: d1c3fb1b9f43ba8a488de8acedf6ea46
+SHA256sum: aa9b60a973f41d2dd34774b8350828da0f4de4787b0c490241808f310efc5f64
 Size: 5118
-Filename: enigma2-plugin-systemplugins-fastchannelchange-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-fastchannelchange-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange (source files)
 OE: enigma2
@@ -5560,14 +5560,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastchannelchange
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3a0fbb3abc3ca6999ee615e39c54d235
-SHA256sum: 69e1ad175e6fc5cb4107078561925fc53e81db355b440d86a6feb767909be32f
+MD5Sum: 38c5d407547fd84df0b105d85fffdf2f
+SHA256sum: 42f6daa11b55cf9a9eb20884e5efa36741dd87fffb1d196fd9d244fa78f01d15
 Size: 13000
-Filename: enigma2-plugin-systemplugins-fastchannelchange_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-fastchannelchange_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fastchannelchange
 OE: enigma2
@@ -5575,15 +5575,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d3d7b2913b96a4ff9e5c670d4c3d5ee4
-SHA256sum: e2419681bc4a44406eecbd8519cfdece18786357f7a30142b3ab89bd8d5cd7a2
+MD5Sum: c4c7d81a016c7edacdbea6ed537817e5
+SHA256sum: 2db860e8b9f7e4a13c11d7964a586cf20adbae3c32079a37d97e55879616efa8
 Size: 5242
-Filename: enigma2-plugin-systemplugins-fastscan-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-fastscan-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan (source files)
 OE: enigma2
@@ -5591,14 +5591,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fastscan
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 4f3f9a74d2aaee7339ef18203657b84f
-SHA256sum: 0dc68a9dd7fa689847d9c1a00fa13cc7130a68d2a0c32116fb5c00a84a9778ae
+MD5Sum: 66d9816bbbfbb140f3f5c466ac72e32b
+SHA256sum: 218e936377068a1578bea30b5f747066309e9ab2840cd0021b66b071e15e988e
 Size: 13546
-Filename: enigma2-plugin-systemplugins-fastscan_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-fastscan_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fastscan
 OE: enigma2
@@ -5638,15 +5638,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fsblupdater-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 723fed8c097b46ebf75bebde24238d6e
-SHA256sum: fca42f5f57b94056bca4145dd62c1d521b5c6a1001c4712faa662e2ddec1fce0
-Size: 2502
-Filename: enigma2-plugin-systemplugins-fsblupdater-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: b5b2b49dad9a0c06378c01ac95a699e5
+SHA256sum: 73a8e0b3752ee7bba58cfcc7794250c0dd7de0e1b8949f34be4ae9f133a91ff5
+Size: 2522
+Filename: enigma2-plugin-systemplugins-fsblupdater-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fsblupdater (source files)
 OE: enigma2
@@ -5654,14 +5654,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-fsblupdater
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ac87230188d679551c1b7205e5c8accb
-SHA256sum: 0b1797151aff9a54122a779f49165df15816311732ba05694df0bb4711c4d39a
-Size: 5062
-Filename: enigma2-plugin-systemplugins-fsblupdater_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 8aa864acac43842f7994b2604cd59881
+SHA256sum: db8d6e2a8efb1927625478129707a86caa4b1bac258c4506b6e894a7766052c4
+Size: 5066
+Filename: enigma2-plugin-systemplugins-fsblupdater_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-fsblupdater
 OE: enigma2
@@ -5669,15 +5669,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 544a38d5d3abb635341572ebf9117eef
-SHA256sum: af6713aaaafcbbd71b57b74336f6173232a2b9763920820864bd9dbf1643cf31
-Size: 4002
-Filename: enigma2-plugin-systemplugins-hdmicec-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 2e611f0401a7ac042d38099d7acda66c
+SHA256sum: d1632ce66c7eadad0cac2886ef0562ce075eda834c5c51e292b54ac97a455243
+Size: 4022
+Filename: enigma2-plugin-systemplugins-hdmicec-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec (source files)
 OE: enigma2
@@ -5685,14 +5685,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hdmicec
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 10a29de2ad65a85b90bb35d67ba06dd6
-SHA256sum: ce5610d98cc4e8600611c98edddf7a79bda4b927f03332c63da8a4c60e957b74
-Size: 8162
-Filename: enigma2-plugin-systemplugins-hdmicec_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 8d47cb24303b7df505afa5fcefd4d05b
+SHA256sum: e0d0eac775fd67ab1333ec8108326017af1d7dc41b14bd2b23757d0fa316cbd0
+Size: 8160
+Filename: enigma2-plugin-systemplugins-hdmicec_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-hdmicec
 OE: enigma2
@@ -5700,15 +5700,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7f0503a245730106f6628e279fcc2b86
-SHA256sum: 4dfb543f7efb32f232c6d6e419371a18bc6d80a369b0af516cce3181f49d7a62
+MD5Sum: 47c69b4f4680035a633d15e3d408199f
+SHA256sum: e144ec597bd272e5dea562eea0b24cca8ed3306d5e82ec580c55d96dd705ec46
 Size: 5266
-Filename: enigma2-plugin-systemplugins-hotplug-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-hotplug-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug (source files)
 OE: enigma2
@@ -5716,14 +5716,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-hotplug
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0d2b782cb68240ddd1be0cef68810613
-SHA256sum: 840d4a226708b5b4fd2b790a7c1a92267ee913460e5e0fa2317be444cc617675
+MD5Sum: 586f0551de52fffbfbbb958bdeb60585
+SHA256sum: 97608f5cc90e348f35ed8ef58526da83163a63193d6e13235dce54792f0e4722
 Size: 11654
-Filename: enigma2-plugin-systemplugins-hotplug_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-hotplug_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-hotplug
 OE: enigma2
@@ -5731,15 +5731,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7c7e7f961c482a3362ee10c9b142e43f
-SHA256sum: 493a033b2bd5b13f3121fe6c4f90aee193135f987d2eedc9fc4c610c4fce6939
-Size: 7074
-Filename: enigma2-plugin-systemplugins-lcnscanner-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 2bf420d0c4b7e9b5432abf398f869d99
+SHA256sum: ac4d8047973ee8c2f5984ad17c128d88df9026be5eb174487f728c91d7538147
+Size: 7094
+Filename: enigma2-plugin-systemplugins-lcnscanner-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner (source files)
 OE: enigma2
@@ -5747,16 +5747,16 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-lcnscanner
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Replaces: enigma2-plugin-systemplugins-terrestrialscan
 Conflicts: enigma2-plugin-systemplugins-terrestrialscan
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: b447373bf51dfe0f00f7dbf5407f1d66
-SHA256sum: d41047ea53ae75236922b65f136e258024189109b6a6abedf5f58c119622a3d5
-Size: 22364
-Filename: enigma2-plugin-systemplugins-lcnscanner_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 214cd646e4460025888b982a37df1fcb
+SHA256sum: 332037db471939bced407a5e278e2d7ce8e8f72dce25399ef6f38aae86199b53
+Size: 22354
+Filename: enigma2-plugin-systemplugins-lcnscanner_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-lcnscanner
 OE: enigma2
@@ -5780,15 +5780,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 5384fe3f231c8540db7e7de3cbbd07d2
-SHA256sum: 6992bf7de035c2cb558e6b312cea582a551f35ecef87d70653ef87c7512ba3d8
+MD5Sum: c28ed11cda0020d255efcbc4f570cf71
+SHA256sum: 895bc991b99773f5e7aa02de2dc2b5472699a0ffe90f5997fc2ba24279c71927
 Size: 5166
-Filename: enigma2-plugin-systemplugins-networkwizard-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-networkwizard-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard (source files)
 OE: enigma2
@@ -5796,14 +5796,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-networkwizard
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 74fddcbd514dabd30fe15f6061d2687e
-SHA256sum: e2b16b8d5f2ffe52df2586334c22accd5a3c950ec347cc96dcec8417d82c5d94
+MD5Sum: d2852e5667e5799b157a952e6724abc4
+SHA256sum: 078552089adfc3d58b53f12c94ec232aa845ba955248b71271320bdce1df90ce
 Size: 13174
-Filename: enigma2-plugin-systemplugins-networkwizard_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-networkwizard_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-networkwizard
 OE: enigma2
@@ -5811,15 +5811,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8fe0bd01ec63f24890f053ee36fffe81
-SHA256sum: e233f2b82cb381ce5afbaeba0ddccd3b86aebd2b4092ddcfa3c7d968e5d8e503
-Size: 2512
-Filename: enigma2-plugin-systemplugins-osd3dsetup-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: bcba8d675d22c1df7880017649aea258
+SHA256sum: 7bc5780294adae857d16f02c1c999fdd2590a459f669bdce34230cf4c8fa9f78
+Size: 2514
+Filename: enigma2-plugin-systemplugins-osd3dsetup-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup (source files)
 OE: enigma2
@@ -5827,14 +5827,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osd3dsetup
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2bd5b6435b73f56186f9788eb93a4573
-SHA256sum: 096abdc9e119b79ac8e50610f3104b55ba5ea2fe00e114e16eb959ee99837a8b
+MD5Sum: 1e6859c4c6fd2d4b77dc74d0fd8f79a1
+SHA256sum: 94a6ce672abf95cc0f7011a46babfeb04d5042dbf5f7c90ec3aaa1ba4b7245d8
 Size: 5626
-Filename: enigma2-plugin-systemplugins-osd3dsetup_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-osd3dsetup_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-osd3dsetup
 OE: enigma2
@@ -5842,15 +5842,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 8e76d21a75468bf7da21fc4663ad630e
-SHA256sum: 4efec661f5e07290fd2e69c0cdba1fe3f6c4e04f27966067be9741592cbb39c5
+MD5Sum: cce26b6e08378c2a2d8a63696d9411d3
+SHA256sum: 0f46a47546eaf3a5f5807beee21fa0de789afd7ffd5372db29d3a4b7bc3b3d80
 Size: 4524
-Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-osdpositionsetup-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup (source files)
 OE: enigma2
@@ -5858,14 +5858,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-osdpositionsetup
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: cc8d946f861d6f8d77375f5fab53d3fe
-SHA256sum: c0b7dc1c87350952a41534060e24b7c35727696298009fa8d23d75a16db9253c
+MD5Sum: 554e90b4ac7c5895880d3b44b400c8e1
+SHA256sum: 71714a4c827faadc71c2b8583381a919cd10267884898fcf7d274715b01ba724
 Size: 9858
-Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-osdpositionsetup_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-osdpositionsetup
 OE: enigma2
@@ -5905,15 +5905,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 748db283c395e454f29e9bbb25333f1c
-SHA256sum: a4a8187ad241013131b8f1417ca26241ed88c0fb923a4c9d80684c1b3c18a1b7
-Size: 14854
-Filename: enigma2-plugin-systemplugins-positionersetup-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: b9e373513ec96ecd54ccfbc214187a5d
+SHA256sum: 35b0f5f1cb033072e61d46f71aadda7461616365e4ab4e95d55d3452f51fcc8e
+Size: 14876
+Filename: enigma2-plugin-systemplugins-positionersetup-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup (source files)
 OE: enigma2
@@ -5921,14 +5921,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-positionersetup
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 594009a8ffd6ff3d10107f8285ee027e
-SHA256sum: f10e88b9b329a10affc1d438e26bd8355825f2cad9679ac305b931882d7512c4
-Size: 37690
-Filename: enigma2-plugin-systemplugins-positionersetup_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: b9535d27bbf9a18a6cfb24e009053fd0
+SHA256sum: e504d9f74e49bc52fb91d16bfa71b1f9e1343ed46226b354b73b682a4251dee3
+Size: 37694
+Filename: enigma2-plugin-systemplugins-positionersetup_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-positionersetup
 OE: enigma2
@@ -5952,15 +5952,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: ce0e6b2c580caae1f7a49502b6533749
-SHA256sum: 36c203dd0b420611bea7446bd796cfed773e691863f2b8ba0e0c56181afca125
-Size: 2098
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 8169ff182ace1ec838a29033a1f5a9c4
+SHA256sum: 18690185bb485ee818e6e1d0348d540dd7588c62889e2a7b2dd29237cd5db2d7
+Size: 2100
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol (source files)
 OE: enigma2
@@ -5968,14 +5968,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satelliteequipmentcontrol
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 562af9d1eeebe91df87004c71f9ef7fd
-SHA256sum: 92cf4905fddb4263bac2b2eb41d5f2cddc0b14b27454ad90db15b7eb668e183a
+MD5Sum: 2b8b6d0286803d17dccdff71ee0622a4
+SHA256sum: f7e6c31c69ea93eab0d1fb7182e0300a61487d7efbd89d990f628c2ade9788d9
 Size: 3984
-Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-satelliteequipmentcontrol_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-satelliteequipmentcontrol
 OE: enigma2
@@ -5983,15 +5983,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 3f9a8fc68bc89c9aa53a5f774872b4c8
-SHA256sum: 5a18beeaa0de4cc41e5c8fc17ae41dd228900a65754a653070dc88a17e3c5868
+MD5Sum: 75ab2a9683521a6d2fd7a0fd77202814
+SHA256sum: d5916378075f280f91e943f43dafeca8ec61012e1a292011a7875de40bfd2285
 Size: 6946
-Filename: enigma2-plugin-systemplugins-satfinder-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-satfinder-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder (source files)
 OE: enigma2
@@ -5999,14 +5999,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-satfinder
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 35216fd52d4a919cf026dbe2b2827a32
-SHA256sum: c77f7e1ce88b454537822a669323f1566dc51f083c7144e3d412c080c1f48dfe
+MD5Sum: c1b3602117afc44c152ecddde6b648d2
+SHA256sum: 6fac8bf48ea413892294fdd0024d81a226d10a26048c743443926da1e956cd65
 Size: 17006
-Filename: enigma2-plugin-systemplugins-satfinder_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-satfinder_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-satfinder
 OE: enigma2
@@ -6046,15 +6046,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 337f0c79ffe3a81a7af7bcfd47d94038
-SHA256sum: 9919f0a96d13b15645f3f507fff35222ec3ccfc47e1617a36738bf9049c50f90
-Size: 28292
-Filename: enigma2-plugin-systemplugins-softwaremanager-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 72df1c8f40e18cce92c998375c5284f6
+SHA256sum: 8f8bb6fcde902cc1ba243e97e9125b6d9e96a51507a0d304bce5b82873f2d52d
+Size: 28286
+Filename: enigma2-plugin-systemplugins-softwaremanager-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager (source files)
 OE: enigma2
@@ -6062,15 +6062,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-softwaremanager
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: python3-twisted
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 80dea4100ef40645e04bf3acd8d7017c
-SHA256sum: e0bf96dcc4c427ded1999b3fc18fae91853a792227b0617cc42136c16e6760fb
-Size: 88198
-Filename: enigma2-plugin-systemplugins-softwaremanager_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: c870d557dc577ffdedb1f6257cf3ee53
+SHA256sum: 733a564d3881b51b7df9bf21bebd46f7708b2289e543cd41267a462e2b0ec2cc
+Size: 88196
+Filename: enigma2-plugin-systemplugins-softwaremanager_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-softwaremanager
 OE: enigma2
@@ -6174,15 +6174,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 7e87f2057efa7e52173c2296b6c50b65
-SHA256sum: e5626526fb32aa76fcfa531257303863c767f84446d9c2b415be6163bb60f740
-Size: 2290
-Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 02432dfd5d4d8b7f9322134298b5c14b
+SHA256sum: d702cde4885210043993d9b269955110775ad6450bf44c1daf6335e7d1ae74db
+Size: 2292
+Filename: enigma2-plugin-systemplugins-videoclippingsetup-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup (source files)
 OE: enigma2
@@ -6190,14 +6190,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoclippingsetup
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: fc21d0dd2f8d4918af6793e79adaa9af
-SHA256sum: 4f3a6876b521f5e5f539969a076a2f3b47ecea01c62324f53c4fa9761d65ebf4
+MD5Sum: a6eb7daa928f572e5d37bd06b1b031f9
+SHA256sum: c011f89c157d4640fd70feaac5d162c596766876812ce9d56162d55af7efce64
 Size: 4858
-Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videoclippingsetup_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videoclippingsetup
 OE: enigma2
@@ -6210,9 +6210,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 8bf50df518f15fbf2a87235211c915eb
-SHA256sum: 07acd8771d42d1a1cfa22c49c129a6617b65bd041a7d2f91916340ce2de1df83
-Size: 3178
+MD5Sum: e87205c390f2f1c2a8187259d65f474b
+SHA256sum: 6ac8d9d331a180be78446cc52a61f2759170dbbefa7e141ad8800bffebd9b399
+Size: 3180
 Filename: enigma2-plugin-systemplugins-videocolorspace-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: systemplugins-videocolorspace (translations)
@@ -6242,8 +6242,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: e9d377aac726716938eb857a9c729cbb
-SHA256sum: 3b8f8cc1ce41b79176df7437897065b1f1b0a47bf3d88457aa2a149398d124c6
+MD5Sum: 11782ff7c7fbf9e6ed1a71fc7063a838
+SHA256sum: ea6acb8d49bcfa4b138115275763d4f231c70a9d5dbc415be2447692488e51ea
 Size: 8848
 Filename: enigma2-plugin-systemplugins-videocolorspace_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -6253,15 +6253,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 0299855d741a4c1411e712f933b12c13
-SHA256sum: af195421d2feaaa8764774256956051cfd2efb5087e1bfc3c378295a3b51ddbd
+MD5Sum: 8b676bbc60b03e9d9c8f35a21ce26ec1
+SHA256sum: c809423f110f9c76a829be5f9e56f947c89d34d847b906d62a83ea7dc9aacbe6
 Size: 5914
-Filename: enigma2-plugin-systemplugins-videoenhancement-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement (source files)
 OE: enigma2
@@ -6269,14 +6269,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videoenhancement
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 9a56f1d9ac7300fd695ffddf30b9c27d
-SHA256sum: 956b24823269d651c853d97453e68691b7aa0a7be1ad5ac09112e3540a5a3f18
+MD5Sum: 2e38073c16251928c006e7973170114c
+SHA256sum: 6402e9055f88f88afc5fb41dd783e0b311396d2701946c68c1d73cfe3043eb4e
 Size: 15124
-Filename: enigma2-plugin-systemplugins-videoenhancement_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videoenhancement_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videoenhancement
 OE: enigma2
@@ -6284,15 +6284,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 80fd4ebd15b5735b5e1a51bd146f32c3
-SHA256sum: 48eed83300065dff3dfd99d54117103624dcb48101f28ddb37ef0812622e674d
+MD5Sum: c08cc86faaabad252d9d9baa6b343d11
+SHA256sum: b70d1b04e98150dd3d57546956b60c6b3dd3da3e54dde4ad9ffbeb2adee8021c
 Size: 10232
-Filename: enigma2-plugin-systemplugins-videomode-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videomode-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode (source files)
 OE: enigma2
@@ -6300,14 +6300,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videomode
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e1a042a41e6fa33920715f8d3ddb0156
-SHA256sum: e472dfd2d856d66d7861551da8dd715c120b45f092fe043478b09951f0097220
-Size: 35296
-Filename: enigma2-plugin-systemplugins-videomode_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 1a164aae71cc762364f4b301831cb9f1
+SHA256sum: 43f007b83eb53356dec5e8116e2a3487216ccc9040ee6b16cd64ebfafef78d2c
+Size: 35298
+Filename: enigma2-plugin-systemplugins-videomode_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videomode
 OE: enigma2
@@ -6315,15 +6315,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6fad6dbb081e67dbe50e87c5e345f1cf
-SHA256sum: 38a43d774cf6334ccfded5795796e34f3c435503708645de855021dff34645c7
+MD5Sum: 4e2c78bb2b43b875999132caaf2a603f
+SHA256sum: 1323399397cc77835f8b8eeaaebe2f2a890b34fab94aff4606df7f2a8829b46b
 Size: 4912
-Filename: enigma2-plugin-systemplugins-videotune-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videotune-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune (source files)
 OE: enigma2
@@ -6331,14 +6331,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-videotune
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 02ea1516b158aee4089283fa2621f7f0
-SHA256sum: dbb4b7777cc78778a3ff7b24ec27d6247dc7324838d1e3e0529c7bb53b4b8c7d
+MD5Sum: 33a777d8a6512b662178a619ff626732
+SHA256sum: 4a4d2f2826419f07487080642702ceb9f5bac440ffa9743685092c5c04887e7c
 Size: 72020
-Filename: enigma2-plugin-systemplugins-videotune_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-plugin-systemplugins-videotune_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-videotune
 OE: enigma2
@@ -6346,15 +6346,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: enigma2
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 6667cf94ae45e94093e6dd70f2c6e92f
-SHA256sum: 0b2b04e95e0886a59a707c51121c8f2681d7d13cd7b224a99b3f48ebd1a067a5
-Size: 8958
-Filename: enigma2-plugin-systemplugins-wirelesslan-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: eaca70e77a53fc5a906e671414dc4117
+SHA256sum: 25dd87fcf848cabc8f075cc7c6221fe022f437d8b4a082d48a2c1ff631f20943
+Size: 8978
+Filename: enigma2-plugin-systemplugins-wirelesslan-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan (source files)
 OE: enigma2
@@ -6362,15 +6362,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-systemplugins-wirelesslan
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: python3-wifi, wireless-tools, wpa-supplicant
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: e5849c7642412eff4ca9abb30e392b94
-SHA256sum: d5182012aad6e8ad6511588098a0bfe00d0ce32272b9bfd5ae89110381c9041d
-Size: 22134
-Filename: enigma2-plugin-systemplugins-wirelesslan_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 2f259a3cb3efedea433b53b860c6f8bd
+SHA256sum: da8db314deca2306797b2a9157decb4b6426fc3a67713ec212a71afdba67417c
+Size: 22136
+Filename: enigma2-plugin-systemplugins-wirelesslan_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: systemplugins-wirelesslan
 OE: enigma2
@@ -6564,14 +6564,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-src
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Section: devel
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 728630ebea01a9ecc21f6aa6d89006c2
-SHA256sum: b515d0e2b7b2a3089192ce963c94193b09beb382b706c9715ecdd0e8b3cdd06c
-Size: 888830
-Filename: enigma2-src_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: 2efe733534cbbd54222c654a8baea116
+SHA256sum: 4e05eb994e215ee7e8d12a5ae202f0e9ac531b056b8b5f211ede7bf73553be25
+Size: 889324
+Filename: enigma2-src_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Source files
 OE: enigma2
@@ -6579,15 +6579,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-staticdev
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
-Depends: enigma2-dev (= 3.13+git22716+cd96a900+cd96a9037d-r0)
+Version: 3.13+git22722+48763e10+48763e1991-r0
+Depends: enigma2-dev (= 3.13+git22722+48763e10+48763e1991-r0)
 Section: devel
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: d5cb7903467e6513208376fae2700678
-SHA256sum: cd9fe173522e7219c117d61f12147a298177f37d5dbf840e9d3f0fd344fe5711
+MD5Sum: 4c66bd9815db75b2fd73b0f7a5ab146e
+SHA256sum: 52b06893fb4790fb042a1edd8420e4185c27de5bdb309691508021318f867c76
 Size: 7074
-Filename: enigma2-staticdev_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+Filename: enigma2-staticdev_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers - Development files (Static Libraries)
 OE: enigma2
@@ -6595,7 +6595,7 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2
-Version: 3.13+git22716+cd96a900+cd96a9037d-r0
+Version: 3.13+git22722+48763e10+48763e1991-r0
 Depends: alsa-conf, bzip2, enigma-info, enigma2-dhcp-wait, enigma2-fonts, enigma2-locale-meta, enigma2-plugin-drivers-exfat, enigma2-plugin-drivers-ntfs-3g, enigma2-remote, enigma2-timezones, ethtool, font-valis-enigma, glibc-gconv-cp1250, glibc-gconv-iso8859-15, gstreamer1.0 (>= 1.26.5), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.42+git0+d2097651cc), libcrypt2 (>= 4.4.38), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdreamdvd0 (>= 1.0+git217+02a0e7c0+02a0e7cb0c), libdvbsi++1 (>= 0.3.9+git130+f3c40ea0+f3c40ea6da), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libgif7 (>= 5.2.2), libglib-2.0-0 (>= 2.84.4), libgomp1 (>= 15.2.0), libgstpbutils-1.0-0 (>= 1.26.5), libjpeg62 (>= 3.1.1), libpng16-16 (>= 1.6.48), libpython3.13-1.0 (>= 3.13.7), libsigc-3.0-0 (>= 3.6.0), libssl3 (>= 3.5.2), libstdc++6 (>= 15.2.0), libtuxtxt0 (>= 2.0+git82+14027950+1402795d66), libtuxtxt32bpp0 (>= 2.0+git82+14027950+1402795d66), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libxml2 (>= 2.14.5), oe-alliance-branding, python3-asyncio, python3-codecs, python3-core, python3-crypt, python3-cryptography, python3-email, python3-fcntl, python3-future, python3-image, python3-imaging, python3-json, python3-logging, python3-mime, python3-mmap, python3-multiprocessing, python3-mutagen, python3-netclient, python3-netifaces, python3-netserver, python3-numbers, python3-pexpect, python3-pickle, python3-pillow, python3-process, python3-puremagic, python3-pycurl, python3-pyusb, python3-requests, python3-service-identity, python3-shell, python3-six, python3-standard-telnetlib, python3-telnetlib3, python3-threading, python3-treq, python3-trio, python3-twisted, python3-twisted-core, python3-twisted-web, python3-urllib3, python3-xml, python3-zopeinterface, rsync, virtual-blindscan-dvbc, virtual-gstreamer1.0-dvbmediasink
 Replaces: enigma2-plugin-pli-softcamsetup
 Conflicts: enigma2-plugin-pli-softcamsetup
@@ -6603,10 +6603,10 @@ Recommends: enigma2-plugin-skins-pli-hd, enigma2-plugin-systemplugins-fsblupdate
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 180a06cc49edfc10cf293afc496adf29
-SHA256sum: ced614567dddfc81ab27b64351a8eae7c03f3088942846ace1257ce8f94f3859
-Size: 5614044
-Filename: enigma2_3.13+git22716+cd96a900+cd96a9037d-r0_dm920.ipk
+MD5Sum: adf55b103ceb1dc0338740371988ad74
+SHA256sum: 1930766e63d36e6da6432f0e2f59334c2ce8a1e33dfa56586e1da8e628a7a1fe
+Size: 5615334
+Filename: enigma2_3.13+git22722+48763e10+48763e1991-r0_dm920.ipk
 Source: enigma2.bb
 Description: GUI frontend for Open Source Linux based receivers
 OE: enigma2
