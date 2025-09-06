@@ -379,24 +379,6 @@ Size: 502900
 MD5Sum: ec00c684c0325648d819cc1a563d8493
 SHA256sum: 402be0078f50a8473021a9065584b406e4da96dfe12b706dcfab96903ee25497
 
-Package: enigma2-plugin-extensions-oaweather-pli
-Version: 4.0
-Description: OAWeather Converter and Renderer to display Weather in Skin.
-Section: extra
-Priority: optional
-Maintainer: jbleyel, me
-License: GPL-3.0-only
-Architecture: all
-OE: enigma2-plugin-extensions
-Source: enigma2-plugin-extensions-oaweather-pli.bb
-Provides: enigma2-plugin-extensions-oaweather
-Replaces: enigma2-plugin-extensions-oaweather
-Conflicts: enigma2-plugin-extensions-oaweather
-Filename: enigma2-plugin-extensions-oaweather-pli_4.0_all.ipk
-Size: 1417160
-MD5Sum: 53249ca7c647dfd27ef8cd81c45ef971
-SHA256sum: 25e766dc5fc9a8b1e0069029d3b28628ee6f36e167ac6bbea8d5e6f28fa5fe60
-
 Package: enigma2-plugin-extensions-oscambutler
 Version: 2.0
 Description: Create basic configuration files for OScam
