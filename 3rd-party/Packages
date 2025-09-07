@@ -785,7 +785,7 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-madmax-impossible
-Version: 3.4-r1
+Version: 3.4
 Section: skins
 Architecture: all
 Maintainer: madhouse
