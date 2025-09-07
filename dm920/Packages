@@ -4538,23 +4538,6 @@ OE: enigma2-plugins
 License: Proprietary
 Priority: optional
 
-Package: enigma2-plugin-extensions-transmission
-Version: y-git5829+60bffea0+60bffea9af-r0
-Depends: transmission, transmission-client
-Recommends: transmission, transmission-client
-Section: base
-Architecture: dm920
-Maintainer: OpenPLi team <info@openpli.org>
-MD5Sum: 2e25f87d878cee82dc439dd460e3e607
-SHA256sum: 3c02fbfa6a96ef4a4de6013ed71ff68fdcf937282360a438d02967530d802162
-Size: 15874
-Filename: enigma2-plugin-extensions-transmission_y-git5829+60bffea0+60bffea9af-r0_dm920.ipk
-Source: enigma2-plugins.bb
-Description: extensions-transmission
-OE: enigma2-plugins
-License: Proprietary
-Priority: optional
-
 Package: enigma2-plugin-extensions-tunerserver-po
 Version: git3874+620ee530+620ee53576-r0
 Depends: enigma2-alliance-plugins
