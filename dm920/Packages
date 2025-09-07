@@ -311,9 +311,9 @@ Conflicts: enigma-kernel-module
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 7b1ae5aa813f1d2e9bda033cefef1416
-SHA256sum: 4188ef96b6a7afeca3294e73ab4c38446e3448355b0a763e6260b58862e3a1e4
-Size: 1354
+MD5Sum: 303fd0e69e892fba097a1aaaddc74f2e
+SHA256sum: 2c0fa6ad689a0e7a527ff85d3e5f1aa7950a85cab7f8c21f72edc28a067b6ae2
+Size: 1352
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -1489,8 +1489,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: afdb409dfc56a2a24982be8c9ddd47d3
-SHA256sum: 027c20dc4c1ac6c5fe119e68fa734a8eba829a9c09b3c481c5d902e811c01a3b
+MD5Sum: 5801f8c274da3c4c37af1eb1cac6ac55
+SHA256sum: 879be59296a5e82c6cc91a411ac56312c91acfb0f9b7391e8acd5a0b2b6676e0
 Size: 71462
 Filename: enigma2-plugin-extensions-advancedmovieselection-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1521,9 +1521,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 7b4551dafad78a9b062225d625beab89
-SHA256sum: b838db8f1fb84d212130167455d87d9a57479b99a486c1fd3c161ec08d7e3ee2
-Size: 591604
+MD5Sum: 25268a0a0250e29d99de96c4e6889d89
+SHA256sum: 5d1c442a246d34ef1b6acf81adc10f901d61a80f21dbeb97cb96273c985a36f9
+Size: 591930
 Filename: enigma2-plugin-extensions-advancedmovieselection_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-advancedmovieselection
@@ -1583,8 +1583,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ea145c89619b7374e9c721fb7e65164d
-SHA256sum: 4f3d6a55daabba95d7c2cf58db5d6a94328ed51ccfb5e9ff0949c9f3c9550c68
+MD5Sum: 9a230322a0eb4300d84cd6ad1349f117
+SHA256sum: a84488f61abbef76b915f70ac106506ea8e33cccc3fee0bcccd92f3fc35bca19
 Size: 4240
 Filename: enigma2-plugin-extensions-audiorestart-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1615,8 +1615,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: cbe5f28a7d45fe0401f8484141b8451a
-SHA256sum: 4c09f10ab5e44ba2b047b4dfc84f63a03d275239611db73c8d6913e25f0f53a5
+MD5Sum: 8bdbb80ed540176bbb97fd076841a324
+SHA256sum: b3c8e2ee117a04f8e9f01971d9daabe35bdaf2474b49f6b38d318717e7afff06
 Size: 17256
 Filename: enigma2-plugin-extensions-audiorestart_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1727,8 +1727,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 9843e5e53850c0f20f5025905a12df92
-SHA256sum: f397bc78f87c620d2ef734835267d1f5497bc9526bc89d7c949c465f912e82b0
+MD5Sum: 34f173228501daae3d425310251e5326
+SHA256sum: b9066000280eb5d700b6a6013cc2f5c98156743a04a5b76b92aac00a0da3bbea
 Size: 10188
 Filename: enigma2-plugin-extensions-birthdayreminder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1759,8 +1759,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 44e6fed73b14d4660f9c4a7085b64e8d
-SHA256sum: 13d8d80614f1a443c169a782c7cd3e28c24cbf38107554d4b4ace1237db8fc99
+MD5Sum: 26b247213c41f2ed05184d4f0a351097
+SHA256sum: 7ac7437394441f6a6cc4cb994da2963e484f130d809e6703d6d8b9499bcdbe50
 Size: 40096
 Filename: enigma2-plugin-extensions-birthdayreminder_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1775,8 +1775,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: b030da39ce15a4f0d8f6180abea481ef
-SHA256sum: d843f30871f4103fe3a79cd678077768efdbf70b059399f0d2860909302fd056
+MD5Sum: 5276464f8a6c1686724efb745f86627b
+SHA256sum: 4c4c361b8d875d37a39b791b69b27bc6777ac9a4ac2e5724561d5700f5f2605c
 Size: 10534
 Filename: enigma2-plugin-extensions-bmediacenter-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1807,8 +1807,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 4f955d7999726d4d30f4dd8542421f44
-SHA256sum: 09d9f491f483b8ccedcdfa46af9f5e2947c5c9329d58e1483bd06ecd9282801b
+MD5Sum: b3a1ae4ae4202b5206905d17e917b27e
+SHA256sum: caed202eb183141d6de6f31712aba1a1fdab809f5a75058ce76b154a30c3d9db
 Size: 5525346
 Filename: enigma2-plugin-extensions-bmediacenter_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -1935,9 +1935,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 955feb24f00d36f3b5659a566fc18d42
-SHA256sum: 121b1d2981dc8fcbfeadf2f9bef8d096dbcf192da8b36cd9571cc7853d6365ea
-Size: 7070
+MD5Sum: 85dc0cf872098ecad868c7672904f68a
+SHA256sum: 266782be9f60a32e7b517338c829a64a128e9c773fcd6c5cff6eb8901cbd3158
+Size: 7068
 Filename: enigma2-plugin-extensions-curlytx-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-curlytx (translations)
@@ -1967,9 +1967,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: d61ea97249198567cdb621c167511ae9
-SHA256sum: 1794e0133014bb3838407934c54080c4b3ddc9af4bd9b143ac4d7e8f673b45dc
-Size: 21956
+MD5Sum: 4fe238fa9693600a35a76b4125440e15
+SHA256sum: bdd1d044952118c0129a90760fcd6de1a17001242aeb7665fdee496f2193ba9a
+Size: 21958
 Filename: enigma2-plugin-extensions-curlytx_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-curlytx
@@ -2330,8 +2330,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 1dda6ab45dde3871ed2517d47d6cd02c
-SHA256sum: 7dd6773165c5c474bc9863c219726124793418a7b9aa0ec1e60c3442849092b8
+MD5Sum: 33d222ebc6eea66577fcde08adda838a
+SHA256sum: 8bf734b3cf866ea1bf00caf9e6bfd3e0a5af41c2c7c31d0bfdce71f8f364a935
 Size: 4896
 Filename: enigma2-plugin-extensions-eparted-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2362,8 +2362,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 7a3b60c8a42eb0963fc01f757bd11125
-SHA256sum: f18dfbbb3be6b5833d81382115d1d9d419a548c8e3ac592cfe732a6dc80093e1
+MD5Sum: 654f72e5a0df934b6f5730aa0aa15f78
+SHA256sum: a140bd0ed2788b9db966315b9eefc7c1de43ca5a2605854cd1a9534e5aa222d1
 Size: 26562
 Filename: enigma2-plugin-extensions-eparted_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2378,9 +2378,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 903d299cb5e54cc7ed42dcbd8d95b59e
-SHA256sum: 8fd4413d873746b3ae1399bbd5285b8098006b0fbf8f14cc44f3330f3b39b787
-Size: 6432
+MD5Sum: 51d047da2e04caea5122f9a720acf24d
+SHA256sum: 2e66776c7cd93aa4ba067eb455368c73c768a2f86946aea04c4d830d9eeb904e
+Size: 6434
 Filename: enigma2-plugin-extensions-epgexport-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-epgexport (translations)
@@ -2410,8 +2410,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: cf9577586bc7c328acd8cd99b0a965ad
-SHA256sum: a5d3866c2aeb524dadd42fca6f6daba4558b55595d909fa37cceec1f450159fa
+MD5Sum: 26d9a1316b8a78c3f4a0a6aecb6dd01d
+SHA256sum: 567208a4855dae0da277a7e9d907cbf228f2daf9f32b6fc51b78156ef449c5f1
 Size: 42808
 Filename: enigma2-plugin-extensions-epgexport_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2505,8 +2505,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 50d8e0d35fe80b0c30b18eddb08e844d
-SHA256sum: 71466179a6e05fbdfd2d5b2ce22be9e2c9ab61441c30c4d2993a63ae12b0e7f1
+MD5Sum: ef0f8e966ba126445401f46816e78a08
+SHA256sum: 73493f01a192b415835cfe070330abd5fb30b0e7b91f840db05536fc2efef759
 Size: 3348
 Filename: enigma2-plugin-extensions-eurotictv-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2537,8 +2537,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 3f1150c3f20df5267de5bfc47043ac6f
-SHA256sum: 2f699695fc9141bee175d8db5417ba26fd778f8183e2dc7ba0247c23e4336684
+MD5Sum: da798b0c314ce8a1f4c69dca1b1a8305
+SHA256sum: 4b79f7a23fb10f05b32dc40d4649959e355515d1c8a48dea819eff53a3ebd715
 Size: 57384
 Filename: enigma2-plugin-extensions-eurotictv_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -2790,9 +2790,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: bc02777b7b768e7153a50749bd5dfee2
-SHA256sum: 688d34614fcf432094d8b86121c02f9c539b2109da7535f16d144397fd9c5fae
-Size: 9228
+MD5Sum: 0ffc87c25d19718de55b6e69cb67e62b
+SHA256sum: 99c7462dfae833b0f1087b9a4cfc458ef0238a231105812d87c953e56d9f9b18
+Size: 9232
 Filename: enigma2-plugin-extensions-infobartunerstate-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-infobartunerstate (translations)
@@ -2822,8 +2822,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 274936e07b76f9f167ba4b8e91564f0f
-SHA256sum: b861942eaa5291b729f478b937a47c98ee9646ef3a8349f253f202e2fa4c917e
+MD5Sum: de9d9d38f445454ee4471c24463aaad9
+SHA256sum: 62c510891908dc870b861fa7f33644251523e9bdb50e68bba944a66b718bdc3f
 Size: 63980
 Filename: enigma2-plugin-extensions-infobartunerstate_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3559,9 +3559,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ce797af20b6af58c0eb0e45ad393be9e
-SHA256sum: e76787e3e39547a7f444e17720663ad6d5d4abab4f810525b4680a3ae251a556
-Size: 4984
+MD5Sum: 77edf6e8b9e91f65a811c84bbf2fc1db
+SHA256sum: bc4c58ae93aea74b807660c045f224c64450c355c4c6f6da135ee38a3331c706
+Size: 4988
 Filename: enigma2-plugin-extensions-podcast-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-podcast (translations)
@@ -3591,9 +3591,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 0785a22018603eff6becefeabf4271a1
-SHA256sum: 5d8444d645ae18f0448c3455f91d60f119c802360d87d0c9375ffad30fdacb8d
-Size: 23822
+MD5Sum: d237a18a44496e6d9cd67dc556f2a353
+SHA256sum: 99073669adc608685f1e8f2e92570e4572e68d06fddec61b32498edbca9c6eff
+Size: 23830
 Filename: enigma2-plugin-extensions-podcast_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-podcast
@@ -3639,8 +3639,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 2b4f1078739f826bf278c2f288d235a3
-SHA256sum: d57c7e22f40a7b2bd1dc20fbcc8fd620a0332a6c4e22d0a142af9492e833321f
+MD5Sum: 97a7caffdab0dad096bb7b0b46ce0b8c
+SHA256sum: ec0d98e525b23d22bd59b19791004dabef9391a2033e80ca06349238540b791a
 Size: 7050
 Filename: enigma2-plugin-extensions-pushservice-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3671,8 +3671,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 151cbfd1c0a98768b482714cad9b2acc
-SHA256sum: fc31e79d196eefff5522dbdc92b214650047ccb1e482344afee17d9eb832e05d
+MD5Sum: 9bdcd6af01baf7f18096d518acebec64
+SHA256sum: 33c23aafd593ae25988a0717d32049502138f71cba40e14e64a4042a8c2c725e
 Size: 72944
 Filename: enigma2-plugin-extensions-pushservice_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3687,8 +3687,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 355ac457633e3328dd879e9a47e37301
-SHA256sum: dcd41f70c9f60093b5e41c96b82746af7d5c8e62ca817f1faff4bf74781ce0c4
+MD5Sum: 85f289b3a77c29cc432eb53e223c5d3d
+SHA256sum: bf5a5a16b9c0e0b0e7e8e9b9b15c07ce0cb49f844a75593019c5751ab2ad34dd
 Size: 7112
 Filename: enigma2-plugin-extensions-quickbutton-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3719,8 +3719,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 92807c8a3e621bd2aa8fea49c3ae4579
-SHA256sum: 03f9b0c6ae977510ac3b21ca34c91ccb0306c57ed7956d0b64d483c87522cc2c
+MD5Sum: f831c95f00846886a4848451153fb178
+SHA256sum: 87d3dbc6a3a604f82a993ee6da008129ebffa44b617861a500b8ef2eb111d40f
 Size: 19258
 Filename: enigma2-plugin-extensions-quickbutton_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3830,8 +3830,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 9c566fdccbcdcdb4ae7dfc6ae4970526
-SHA256sum: 2982c236376341cdb845ae4cef07d44183f8be8bc0bf3b2b6d6cd8d49e3e1f13
+MD5Sum: 8e7549cc2419578af71dc4fe4e2702ed
+SHA256sum: 6bb0aba6ac5c5790cf7cd29400c7cc858403ed7d4d8a8dd4a2c9c1090c2bd96e
 Size: 11708
 Filename: enigma2-plugin-extensions-rsdownloader-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -3862,9 +3862,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 7232fed9ac61ea2e1d7cc98ea40ebdfa
-SHA256sum: f2d9e8b0d2839d6b4b4de52986b0b472605239fd09c8b19bbb2893d3c114e381
-Size: 57150
+MD5Sum: 061ded34ad4ed4e7aaa4f9b14c3e62e4
+SHA256sum: f0b431cb492cfabe8fa779c4c6ce6e623c82974f32a4ebc3e9440963674bb259
+Size: 57148
 Filename: enigma2-plugin-extensions-rsdownloader_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-rsdownloader
@@ -3972,8 +3972,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: dd295e952f983867d085314bb590f414
-SHA256sum: f6b1120f6b726b3110037719a8f7ba7cc1254bfd0c256627ca70bf7101a97fb8
+MD5Sum: b2a8bab0f708ae1b3fd5023412fec70b
+SHA256sum: a107daf92725eb50f360a045f19b3322d5aeea648cae22f93e8ff0901a098c69
 Size: 5610
 Filename: enigma2-plugin-extensions-series2folder-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4020,9 +4020,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: ecd7df68c1d21f616875759f176e0fb2
-SHA256sum: 9212b7d6b36e4a0d3f84bdcf9b3f6d0f6007b432e7b5b1418e9e86586b2192e2
-Size: 12004
+MD5Sum: f3ce43d9d911ffda4d033b797041b0f2
+SHA256sum: 71406d6c03890b2231689b1119a2693c7f97d0948b0590043838c7acab7831da
+Size: 12006
 Filename: enigma2-plugin-extensions-seriesplugin-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-seriesplugin (translations)
@@ -4052,9 +4052,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: e18d7f6105289c9bb4151779c6a23c4c
-SHA256sum: b0e11dea17ac0a8c1b01a3e0881fc07bfeab8e55905b79e405a7e78e3593dd48
-Size: 147556
+MD5Sum: 595b4a034ea21759e0159b8ce6364ee2
+SHA256sum: 1516b035c7f98223beab5dc449dbd47efa118612ab59394f47628df5b2489276
+Size: 147558
 Filename: enigma2-plugin-extensions-seriesplugin_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-seriesplugin
@@ -4400,9 +4400,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 89cb6072f0616ead9e044adc76afc4de
-SHA256sum: b6e123bbab0989019461f0cfb833610ae4bcee8ff8022a2f62d18c05f57c8fa1
-Size: 10278
+MD5Sum: fa81d62bb034c703191fb3f125851e96
+SHA256sum: 5e61191283c491844f169482b0815c239a6026610a7c8c5cdc70ce7a6eb40873
+Size: 10272
 Filename: enigma2-plugin-extensions-teletext-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-teletext (translations)
@@ -4432,8 +4432,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 52ec7289b141d877825b7ebf3450fba5
-SHA256sum: e727c7c3c39915e51459074f97031b09201497f6f723fc74c4c0dbd6cdeb7ddd
+MD5Sum: d7b4fb9dd6640655f93ab6b24b2f322d
+SHA256sum: c0eb9aca084e1462647f9ddea380c52a235decad61254da7ff42fef5cb9375e8
 Size: 53260
 Filename: enigma2-plugin-extensions-teletext_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -4846,9 +4846,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 18df7405346b510875e8b79d5385f803
-SHA256sum: 16d28a587c6cb1c6a5fb448f9e879d9314c3775642dde989428b279e155d5632
-Size: 5660
+MD5Sum: 4fa82aa4d4c4cf1c79f63ab4e64cf9aa
+SHA256sum: ce558d362360e22388522bcdfbbb4c037d20cd5048708999e0389f6d570d91fc
+Size: 5658
 Filename: enigma2-plugin-extensions-zaphistorybrowser-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: extensions-zaphistorybrowser (translations)
@@ -4878,8 +4878,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 8b7bc13b8100a18b18cd3951eab10670
-SHA256sum: a4e85263e4aa56d67d3492dee33b8c3773420b9c2ea1d1b4524c1fb23632a238
+MD5Sum: 48086e8ff23a16652745effa555ec2cb
+SHA256sum: bd82ebf40a6a102c66e0a7e10a444a159978ecb7e434f57c7bf76862842da3c6
 Size: 15482
 Filename: enigma2-plugin-extensions-zaphistorybrowser_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -5135,8 +5135,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: a19af3969a4f925dafeeb9b32f9d2a97
-SHA256sum: 242fca9507e471dfdcdd09a242c55935b1e013d1bf692857b1afaf76e6f92b94
+MD5Sum: c60bea6d5515a83e988c5c1f2a8c07f2
+SHA256sum: a3a909680788ed26d2f889d64aa29de24bacd4449b28c7b1495a474c16e7e361
 Size: 8064
 Filename: enigma2-plugin-systemplugins-advhdmi-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -5167,8 +5167,8 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: 8214da27c7d293955c2c69f1bad7d75c
-SHA256sum: 893ff7b01c3a216138d55eba5aa7df0594abb194f5abd7e603173d04a43c2198
+MD5Sum: 0e0b93f7e86de85825b3e0a734b431de
+SHA256sum: 6f0ff782cdef846e85eaa54c68b901b0102741e47b3dcde7895d8e2fe63d9b79
 Size: 27756
 Filename: enigma2-plugin-systemplugins-advhdmi_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
@@ -6210,9 +6210,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: f17603ee10a1927014ab933ff8f2446a
-SHA256sum: 58a65014e0efc8cfa19ecd18af95aec4eac77912625e790dee424d1d12cbaf57
-Size: 3180
+MD5Sum: 5f901faa7669fbd86c1f7c4fea544f73
+SHA256sum: ead77c25a0cdcf5335ccb708ab2038090d649438b2a3dee7652f0392507c4b26
+Size: 3178
 Filename: enigma2-plugin-systemplugins-videocolorspace-po_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: systemplugins-videocolorspace (translations)
@@ -6242,9 +6242,9 @@ Depends: enigma2-plugins-alliance
 Section: base
 Architecture: dm920
 Maintainer: OE-Alliance team
-MD5Sum: c767c33ca83bfe54ef6ef815d3bcc62f
-SHA256sum: a35c08cedcf5d2d98409c5f5d736a7c5ba1901a6c42592d2e5d8a8c3cb4a8bd4
-Size: 8848
+MD5Sum: 89b1b5e481275a3a273a53b56a114e88
+SHA256sum: 9b51bc8053d8dc75f6f5556df07b3fab041a65920eb37aaaf2baa227cefe5656
+Size: 8844
 Filename: enigma2-plugin-systemplugins-videocolorspace_gitr7795+24409d10+24409d144a-r8_dm920.ipk
 Source: enigma2-plugins-alliance.bb
 Description: systemplugins-videocolorspace
@@ -25810,8 +25810,8 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: d971981769421216f688688565fcc8b5
-SHA256sum: e0408e58211c05f46350d0a12b649b9d4139296722e2392960f49b1bf108fc6b
+MD5Sum: 88cfd8f800222976acae66310cd6d9fc
+SHA256sum: 07519529f9f63a1050de4b890189ba22483e9893ca815640e651a92faab02b76
 Size: 95428
 Filename: oe-alliance-branding-dbg_git1163+7f7da300+7f7da30f2e-r0_dm920.ipk
 Source: oe-alliance-branding.bb
@@ -25857,8 +25857,8 @@ Depends: libc6 (>= 2.42+git0+d2097651cc)
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 22600c0bee0c4137c729d643baf580c2
-SHA256sum: d96bd7bf8d76888e9deba311028d1c18871ff2a95b654a36509f2965506c3df7
+MD5Sum: c4f6b32f10997516843872a5478f409c
+SHA256sum: 8fb43fc54166dcfcd27a1a8d1ab3038967cbbca8ca3c6253c0b771c61cee317d
 Size: 266240
 Filename: oe-alliance-branding_git1163+7f7da300+7f7da30f2e-r0_dm920.ipk
 Source: oe-alliance-branding.bb
