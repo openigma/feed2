@@ -780,7 +780,7 @@ SHA256sum: d352f615a5d5152b0e861092806c6f2cfcf59b045279a77bb37c6764e612b8a6
 Size: 12700772
 Filename: enigma2-plugin-skins-creamline-fhd_2.0_all.ipk
 Description: Skins Fury-FHD
-Depends: enigma2-plugin-extensions-cacheflush, enigma2-plugin-extensions-bitrate, python3-pillow
+Depends: enigma2-plugin-extensions-bitrate, python3-pillow
 Source: enigma2-plugin-skins-fury-fhd.bb
 Homepage: 
 OE: enigma2-plugin-skins
