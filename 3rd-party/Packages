@@ -752,7 +752,7 @@ Source: enigma2-plugin-skins-aglare-fhd-pli.bb
 Depends: enigma2-plugin-extensions-bitrate, python3-pillow
 Homepage: 
 OE: enigma2-plugin-skins
-License: GPLv2+
+License: GPL-2.0-or-later
 
 Package: enigma2-plugin-skins-creamline-fhd
 Version: 2.0
@@ -769,6 +769,23 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-fury-fhd
+Version: 4.7
+Section: skins
+Priority: optional
+Architecture: all
+Maintainer: Islam Salama
+MD5Sum: 3a696f4698a1c66d8210ac796e45ffa9
+SHA256sum: d352f615a5d5152b0e861092806c6f2cfcf59b045279a77bb37c6764e612b8a6
+Size: 12700772
+Filename: enigma2-plugin-skins-creamline-fhd_2.0_all.ipk
+Description: Skins Fury-FHD
+Depends: enigma2-plugin-extensions-cacheflush, enigma2-plugin-extensions-bitrate, python3-pillow
+Source: enigma2-plugin-skins-fury-fhd.bb
+Homepage: 
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+
 Package: enigma2-plugin-skins-glamouraurafhd
 Version: 6.0.5
 Section: skins
@@ -784,33 +801,32 @@ OE: enigma2-plugin-skins-glamouraurafhd
 License: GPL-3.0-only
 Priority: optional
 
-Package: enigma2-plugin-skins-madmax-impossible
-Version: 3.4
+Package: enigma2-plugin-skins-luka-fhd
+Version: 1.2
 Section: skins
-Architecture: all
-Maintainer: madhouse
-Description: Skin MadMax-Impossible-FHD
-Recommends: enigma2-plugin-extensions-oaweather
-Source: enigma2-plugin-skins-madmax-impossible.bb
-Homepage: https://github.com/m4dhouse
-OE: enigma2-plugin-skins
-License: open
-Filename: enigma2-plugin-skins-madmax-impossible_3.4_all.ipk
-Size: 6320924
-MD5Sum: 4871fa620a274e2c2b25c661141522f2
-SHA256sum: f5904c6e4db4b8df6358932662be63ebbb1f600568b66d4cc4464618fe12dc1a
 Priority: optional
+Architecture: all
+Maintainer: mnasr
+Description: Skin Luka-FHD
+Source: enigma2-plugin-skins-luka-fhd.bb
+Depends: enigma2-plugin-extensions-bitrate , enigma2-plugin-extensions-oaweather
+OE: enigma2-plugin-skins
+Filename: enigma2-plugin-skins-luka-fhd_1.2_all.ipk
+Size: 10291102
+License: GPL-2.0-or-later
+MD5Sum: 8c4601f789988c2e271400c6ccaad64c
+SHA256sum: fa0d889442bb7e9d2b56d3f04bdf9a1cfc10b31fcaf33e083f0beb55d21c87e8
 
-Package: enigma2-plugin-skins-maxy-fhd-pli
-Version: 1.0
+Package: enigma2-plugin-skins-maxy-fhd
+Version: 1.3
 Section: skins
 Architecture: all
 Maintainer: mnasr
-MD5Sum: 7bcba6101190392a35e54465532c45b9
-SHA256sum: 35b73843f56d13e229e05466c573f18d776507fe15a7886cf0e8b7b5d9fb02b5
-Size: 5794160
-Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
-Source: enigma2-plugin-skins-maxy-fhd-pli.bb
+MD5Sum: 428228e41e5837e2d92e78ae55c15f89
+SHA256sum: 1b78cf3ae003bf4d60a8158fffb2d73bc1cc2d45b4329c1959047d5e5bd3d23b
+Size: 6061106
+Filename: maxyatv.ipk 
+Source: enigma2-plugin-skins-maxy-fhd.bb
 Description: Skin Maxy-FHD
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
