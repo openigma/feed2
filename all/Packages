@@ -1722,8 +1722,8 @@ Version: 1.10-20250902-git27+b6006da0+b6006daae3-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4212fd46f68cf4cd03796eb8a4a0e7a0
-SHA256sum: fd95b58742acf2ae14c75f0c4d803732a8f3733740528d264ad9f261e2d701e0
+MD5Sum: cf87bdea71c450f472cd5bbac6076ccc
+SHA256sum: 127620e6e2ddb31e74e70392f4841e423e871a8416893e2e75255450ac2acbdf
 Size: 626
 Filename: enigma2-plugin-extensions-estalker-dbg_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -1739,9 +1739,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.10-20250902-git27+b6006da0+b
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 909b985a8a0af4c779eb01fea990cd03
-SHA256sum: 48449f316cf54bff374dfa7fbe8100556188c01b3658630c28090302ef99dcf9
-Size: 726
+MD5Sum: 3d5efbe9ec83871b3218a28f31041db9
+SHA256sum: 53914de950fba6fa722f30dc098e1942f88a1d82fcc222250b368b1cfb0843af
+Size: 724
 Filename: enigma2-plugin-extensions-estalker-dev_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -1755,9 +1755,9 @@ Version: 1.10-20250902-git27+b6006da0+b6006daae3-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 67d5489fde95826c646cbdb4a1d1c297
-SHA256sum: 931e76f9fd0047d5bad2f48b72ad41c57e871323547b6470ab1894756fbba284
-Size: 82824
+MD5Sum: c2cee581276eef85a1fd95583cbd1508
+SHA256sum: ddc52c8fc02eb0c126e85347d6156e7c6532fac6afde94d409ae7dfb4dfff088
+Size: 82814
 Filename: enigma2-plugin-extensions-estalker-src_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -1772,9 +1772,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 8a8ab5ebea13e086aea6de0f8c7de169
-SHA256sum: e995c1cd287e6e475fbfe36d2d7368f12dc0972c94d09ef8dff755131761d3ae
-Size: 2421098
+MD5Sum: d99b9267d90df43bd8088bd2dfbf8bfb
+SHA256sum: 3946bb2f1ffe617c6869cc6ae03f1e4c1f1304ede65c6d143011be356dc3790b
+Size: 2421014
 Filename: enigma2-plugin-extensions-estalker_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -7005,14 +7005,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1151+a365b8c0+a365b8ca95-3
+Version: 2+git1150+4055b840+4055b84436-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 48145b6c8e8f28fa58e27e9cebfe6776
-SHA256sum: 525d66ed6a5d303114530d5ea562122ac3ed8fe232453a7af7db7c5a9e6e186f
+MD5Sum: 85148a576bc47ccfde33a55401aa8612
+SHA256sum: 1e7ea7e48d5fc2a79fe1596fdea06cead479b6f7cbccd3229c2db114f23fc06a
 Size: 566
-Filename: tuxbox-common-dbg_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1150+4055b840+4055b84436-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -7020,15 +7020,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1151+a365b8c0+a365b8ca95-3
-Recommends: tuxbox-common (>= 2+git1151+a365b8c0+a365b8ca95-3), tuxbox-common (<< 2+git1151+a365b8c0+a365b8ca95-3.0), xz-dev
+Version: 2+git1150+4055b840+4055b84436-3
+Recommends: tuxbox-common (>= 2+git1150+4055b840+4055b84436-3), tuxbox-common (<< 2+git1150+4055b840+4055b84436-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2624c24038fc7c276bbea60b979d10ca
-SHA256sum: f29a9fe0b78283347b37f8f90008585cb3f44d598dac0e639f8ed92db8ab3422
+MD5Sum: 341360a28be6293ac35563a1e2ecf9f9
+SHA256sum: 6fc002444be4227aff4cfd33070666acbcb4da31f941d14fb73048412bd80c46
 Size: 618
-Filename: tuxbox-common-dev_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+Filename: tuxbox-common-dev_2+git1150+4055b840+4055b84436-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -7036,15 +7036,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1151+a365b8c0+a365b8ca95-3
+Version: 2+git1150+4055b840+4055b84436-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d648e60e54c1952d7405ef5c1ba83fd0
-SHA256sum: 19b7915a672282e3fc65e7514ea6e95ea3a73a99e0867b8e47857d08a0b8cc78
-Size: 71366
-Filename: tuxbox-common_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+MD5Sum: e09c46cadab79cff6e5cc12ffee7e728
+SHA256sum: a74d17c63e4075989cc8b8dd292cb63719b8a344d859885f9fa3c06411c2b545
+Size: 71386
+Filename: tuxbox-common_2+git1150+4055b840+4055b84436-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
