@@ -1459,9 +1459,9 @@ Version: 216+da844e80+da844e8733-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: f84d3acb252f989cbaa9c81196113154
-SHA256sum: b50d6ade32e3224054618c08fc4761c5dba2547dea234db1873a13af119af31c
-Size: 618
+MD5Sum: be23a7a0916414fe4a59e6c85ddaf9a7
+SHA256sum: fb482f7a8322435fd373978a6c8bd36b08cd1721dab551684e6d2be91cf639b6
+Size: 620
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dbg_216+da844e80+da844e8733-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker - Debugging files
@@ -1476,8 +1476,8 @@ Recommends: enigma2-plugin-extensions-bouquetmakerxtream (= 216+da844e80+da844e8
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6441cbd3d53a02463f2910589aa2b883
-SHA256sum: d6b427aad77c61cef97713a55df331c3ef205dccd227d27bcf9163bcc3a4d797
+MD5Sum: 92bdb198f247b4cc36a411b792a6fe9b
+SHA256sum: 2303221164e78f665c54ef7ce7ca1f032d5d1297ea2e12d1e1c2359806497141
 Size: 680
 Filename: enigma2-plugin-extensions-bouquetmakerxtream-dev_216+da844e80+da844e8733-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
@@ -1493,9 +1493,9 @@ Depends: python3, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5bdddf351db8625c515cdfbd39441436
-SHA256sum: 70c57aa16ab4bfb24ea007a3fc6a4d34c8f8d8a116121789e05fabf6db55fce9
-Size: 1301920
+MD5Sum: a4a0a81c2a0cd1c3c56fec2b6a9cf65d
+SHA256sum: 9cf6305a56bfe289aeaf382dd29eb7ad6b9a62eb6da1b5b2081eae11fe751790
+Size: 1301670
 Filename: enigma2-plugin-extensions-bouquetmakerxtream_216+da844e80+da844e8733-r0_all.ipk
 Source: enigma2-plugin-extensions-bouquetmakerxtream.bb
 Description: IPTV bouquet maker
@@ -1722,8 +1722,8 @@ Version: 1.10-20250902-git27+b6006da0+b6006daae3-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: cf87bdea71c450f472cd5bbac6076ccc
-SHA256sum: 127620e6e2ddb31e74e70392f4841e423e871a8416893e2e75255450ac2acbdf
+MD5Sum: 4212fd46f68cf4cd03796eb8a4a0e7a0
+SHA256sum: fd95b58742acf2ae14c75f0c4d803732a8f3733740528d264ad9f261e2d701e0
 Size: 626
 Filename: enigma2-plugin-extensions-estalker-dbg_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
@@ -1739,9 +1739,9 @@ Recommends: enigma2-plugin-extensions-estalker (= 1.10-20250902-git27+b6006da0+b
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 3d5efbe9ec83871b3218a28f31041db9
-SHA256sum: 53914de950fba6fa722f30dc098e1942f88a1d82fcc222250b368b1cfb0843af
-Size: 724
+MD5Sum: 909b985a8a0af4c779eb01fea990cd03
+SHA256sum: 48449f316cf54bff374dfa7fbe8100556188c01b3658630c28090302ef99dcf9
+Size: 726
 Filename: enigma2-plugin-extensions-estalker-dev_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
@@ -1755,9 +1755,9 @@ Version: 1.10-20250902-git27+b6006da0+b6006daae3-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: c2cee581276eef85a1fd95583cbd1508
-SHA256sum: ddc52c8fc02eb0c126e85347d6156e7c6532fac6afde94d409ae7dfb4dfff088
-Size: 82814
+MD5Sum: 67d5489fde95826c646cbdb4a1d1c297
+SHA256sum: 931e76f9fd0047d5bad2f48b72ad41c57e871323547b6470ab1894756fbba284
+Size: 82824
 Filename: enigma2-plugin-extensions-estalker-src_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
@@ -1772,9 +1772,9 @@ Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d99b9267d90df43bd8088bd2dfbf8bfb
-SHA256sum: 3946bb2f1ffe617c6869cc6ae03f1e4c1f1304ede65c6d143011be356dc3790b
-Size: 2421014
+MD5Sum: 8a8ab5ebea13e086aea6de0f8c7de169
+SHA256sum: e995c1cd287e6e475fbfe36d2d7368f12dc0972c94d09ef8dff755131761d3ae
+Size: 2421098
 Filename: enigma2-plugin-extensions-estalker_1.10-20250902-git27+b6006da0+b6006daae3-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
@@ -2324,9 +2324,9 @@ Version: 1.7+git212+3a985690+3a9856937e-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: a1c1bf1cc1e9505a902c89f1500331c6
-SHA256sum: c3d708168da490af4ebabb15b2a5ece8d14c1799af08d5e17b9f9427768c0581
-Size: 596
+MD5Sum: 63271d6acd543af058223d247d902896
+SHA256sum: cc090af9fcb07dda913f3ee9196893a23acc8df871b42ac059e59e2a5e7e6c8f
+Size: 594
 Filename: enigma2-plugin-extensions-raiplay-dbg_1.7+git212+3a985690+3a9856937e-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Debugging files
@@ -2340,9 +2340,9 @@ Recommends: enigma2-plugin-extensions-raiplay (= 1.7+git212+3a985690+3a9856937e-
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4ae31ddc524bc2b99881872fad5570ca
-SHA256sum: 34397d96576fc8b0fa02b8f83071baf0616ee99dbc00ae15d89a1433455a3726
-Size: 674
+MD5Sum: 3f99c7b0788673747ccaa38ea244fc22
+SHA256sum: 9b775edfc8f100a835a64aa87fd10f4b79749065274d65ec0eaa327da4831e44
+Size: 672
 Filename: enigma2-plugin-extensions-raiplay-dev_1.7+git212+3a985690+3a9856937e-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin - Development files
@@ -2356,9 +2356,9 @@ Depends: python3-image, python3-imaging, python3-multiprocessing, python3-pillow
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 95813a12a00aaaa1e5119df9a651e417
-SHA256sum: 95c60e867e945f4a38da586cb52c40235040e12c66bc46a3a2ce67b322977a19
-Size: 8551008
+MD5Sum: 23db333fe6725797ae039ce92419170d
+SHA256sum: 3b053a156702cc7c5b951efaca85e0f15e683700e019a475993937f6e4172ee9
+Size: 8551004
 Filename: enigma2-plugin-extensions-raiplay_1.7+git212+3a985690+3a9856937e-r0_all.ipk
 Source: enigma2-plugin-extensions-raiplay.bb
 Description: Rai Play View Plugin
@@ -2531,14 +2531,14 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-extensions-subssupport-dbg
-Version: 1.7.0-r27
+Version: 1.7.0-r28
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7f2a41c7ba84b8a7957ca49bdddb9bb9
-SHA256sum: 77d816629a53b738bacdbd43b2b69b6837b3acd7c9ea2a287b2f5ef674beaabf
+MD5Sum: 4ad7b9f1c9fa4649ac446f5d71e6f418
+SHA256sum: 92861bc5ab267707b91f7ec237f4d2a2350c37e5b9894a7e0e52cd186bd18745
 Size: 636
-Filename: enigma2-plugin-extensions-subssupport-dbg_1.7.0-r27_all.ipk
+Filename: enigma2-plugin-extensions-subssupport-dbg_1.7.0-r28_all.ipk
 Source: enigma2-plugin-extensions-subssupport_1.7.0.bb
 Description: Collection of enigma2 subtitles plugins - Debugging files
 OE: enigma2-plugin-extensions-subssupport
@@ -2547,15 +2547,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport-dev
-Version: 1.7.0-r27
-Recommends: enigma2-plugin-extensions-subssupport (= 1.7.0-r27), python3-beautifulsoup4-dev, python3-codecs-dev, python3-compression-dev, python3-difflib-dev, python3-json-dev, python3-requests-dev, python3-xmlrpc-dev, unrar-dev
+Version: 1.7.0-r28
+Recommends: enigma2-plugin-extensions-subssupport (= 1.7.0-r28), python3-beautifulsoup4-dev, python3-codecs-dev, python3-compression-dev, python3-difflib-dev, python3-json-dev, python3-requests-dev, python3-xmlrpc-dev, unrar-dev
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9cd5140f9a9553e8ea71e364ce0c147c
-SHA256sum: 1ca8d919ac774e78a1ea64ff20f93b0649c99331be7865cb34bca64cd1272b6e
+MD5Sum: 84534c7dfa3c5070f083b0ede400eb35
+SHA256sum: 989918ec2386c76978bd57cb3b3d87c8ed7e2a86078d91cd41cc4bf3b64c5ef6
 Size: 732
-Filename: enigma2-plugin-extensions-subssupport-dev_1.7.0-r27_all.ipk
+Filename: enigma2-plugin-extensions-subssupport-dev_1.7.0-r28_all.ipk
 Source: enigma2-plugin-extensions-subssupport_1.7.0.bb
 Description: Collection of enigma2 subtitles plugins - Development files
 OE: enigma2-plugin-extensions-subssupport
@@ -2564,15 +2564,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-subssupport
-Version: 1.7.0-r27
+Version: 1.7.0-r28
 Depends: python3-beautifulsoup4, python3-codecs, python3-compression, python3-difflib, python3-json, python3-requests, python3-xmlrpc, unrar
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 939f4bea198f4d47bbd585ab4a6d474c
-SHA256sum: c5782b41ae9b8a42ded3703aab69deaaa6b33c0b099c475cb1ad7b982c0c986f
-Size: 641436
-Filename: enigma2-plugin-extensions-subssupport_1.7.0-r27_all.ipk
+MD5Sum: 496d8ce3e3cb45113707b85edfc3f98f
+SHA256sum: 2b9749283058ba4cc0ba3c8564d19edd21ed86533338c1cb7eb5d792f78aa8fa
+Size: 641438
+Filename: enigma2-plugin-extensions-subssupport_1.7.0-r28_all.ipk
 Source: enigma2-plugin-extensions-subssupport_1.7.0.bb
 Description: Collection of enigma2 subtitles plugins
 OE: enigma2-plugin-extensions-subssupport
@@ -2813,8 +2813,8 @@ Version: 0.0-111-g1742325-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: e8eccfdf94b6d422dcf6b2526d1165e1
-SHA256sum: 4c452357959fffe711a560c20d74ca15599ad361c7870275acf9f9800716280b
+MD5Sum: 4038a4aea963959d5f72e203a46f9025
+SHA256sum: 269b9419d550e52af75279e93bbacc318911bed07bcb96a4cdf2de4a92743f1e
 Size: 626
 Filename: enigma2-plugin-extensions-xklass-dbg_0.0-111-g1742325-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
@@ -2830,8 +2830,8 @@ Recommends: enigma2-plugin-extensions-xklass (= 0.0-111-g1742325-r1), python3-pi
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 462ab427526d58e599e3440a1724a567
-SHA256sum: 91c250b55e609f00b57539e612da68bec61edecdcaf1d1ceaff0b1e61e658fc7
+MD5Sum: a01ab63a4b3f59fc657d48b048f553bf
+SHA256sum: baaec9fa6e7f52f9d9fe7a8a3fa6bb9a39b5fe209bd0e639f356fd25ba108546
 Size: 690
 Filename: enigma2-plugin-extensions-xklass-dev_0.0-111-g1742325-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
@@ -2846,9 +2846,9 @@ Version: 0.0-111-g1742325-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 1055e80bfca39fc62a2172bc721b65ee
-SHA256sum: 0c898008d37804df7dd2723a71cb76dfc40ba4363d73f4c963e9980bc9ea22a8
-Size: 104660
+MD5Sum: 5d3cbda1073784b158413e0fe6a9417b
+SHA256sum: c706922ac6ce95883057ae573044eae6de83e859627b58b5f21ce15c87e976dc
+Size: 104672
 Filename: enigma2-plugin-extensions-xklass-src_0.0-111-g1742325-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
@@ -2863,9 +2863,9 @@ Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 44af33e479a504c59900ce4add3f7e87
-SHA256sum: 040097f532e75e0549d885ec404118efd9535266ee07252fdcf9f218fd1c3fba
-Size: 5779812
+MD5Sum: 325e284cdf39f7c1233c2e289bf1a9ca
+SHA256sum: 7152f842eded7207c03ca74bf99b3c5072a7c24c2b14f7e72d8185aaa98793a7
+Size: 5779810
 Filename: enigma2-plugin-extensions-xklass_0.0-111-g1742325-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
@@ -4969,8 +4969,8 @@ Version: 7.9.30+git189+7faf6c50+7faf6c5220-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 77ba3b5548c3fed1ed59974c56c853a2
-SHA256sum: 09c2bfcdaa2e3ea93cedddaeb5a4f831ae9ecbca6f96862843dc57c0901b2a5e
+MD5Sum: 6f6eadaa8bccc844bb57e92ba6fe67b3
+SHA256sum: ec1a783757946ea08bf2fe38e32e80840f2ab15c15c84f558842265229a69347
 Size: 586
 Filename: enigma2-plugin-skins-kravenhd-dbg_7.9.30+git189+7faf6c50+7faf6c5220-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
@@ -4985,8 +4985,8 @@ Recommends: enigma2-plugin-extensions-oaweather-dev, enigma2-plugin-skins-kraven
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: 9b7c5a97a0b0fd01de065190ded8432d
-SHA256sum: 5ad109a4f9ae9431a7b87240df0aac02b247311dcdc707e9e918b3a57416e8b9
+MD5Sum: cdacd693256a096de04cb66772c5ca59
+SHA256sum: be744a5e4ab03ffe31251cdfe1324b2cdab1aa571e1b53044901084b43aa363e
 Size: 680
 Filename: enigma2-plugin-skins-kravenhd-dev_7.9.30+git189+7faf6c50+7faf6c5220-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
@@ -5000,9 +5000,9 @@ Version: 7.9.30+git189+7faf6c50+7faf6c5220-r0
 Section: devel
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: f2ed353bd67da9dd35fa285e1f965eb5
-SHA256sum: 833ab13101078d3b98a88641e72508ab38d7eb32ded2380d001e152d7997def9
-Size: 91424
+MD5Sum: b444285bceda11c3ea1cf7afcaca1c00
+SHA256sum: 0672cb8b853b912d4aec11c13300d9b04e238327023d7c7f3a74b2c204489a36
+Size: 91416
 Filename: enigma2-plugin-skins-kravenhd-src_7.9.30+git189+7faf6c50+7faf6c5220-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven - Source files
@@ -5019,9 +5019,9 @@ Conflicts: enigma2-plugin-skins-kravenfhd, enigma2-plugin-skins-kravenvb
 Section: base
 Architecture: all
 Maintainer: Team Kraven
-MD5Sum: eacf670b07e80ceedb1a39decb046422
-SHA256sum: 82545fb12a253da53ccf95ab554f0fb74cc008cbe62f36ab7bfb50aa908af6ae
-Size: 4339310
+MD5Sum: a2b363cc97a0b2b318c6fdd4a4c7c4ec
+SHA256sum: ae383afcb65f31cce36a93fb2f4da3ee6948c80d462681482d8674c60078b141
+Size: 4339240
 Filename: enigma2-plugin-skins-kravenhd_7.9.30+git189+7faf6c50+7faf6c5220-r0_all.ipk
 Source: enigma2-plugin-skins-kravenhd.bb
 Description: KravenHD Skin for Enigma2 by Team Kraven
@@ -5185,32 +5185,32 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dbg
-Version: 0.1+git63+257988c0+257988c6ea-r0
+Version: 1.0+git2+1a761bb0+1a761bb133-r0
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: feaae72c2696931549da85395b3c07e9
-SHA256sum: 0395982e5fb1208cf474397ae87b500982b6b5c2674f4245bf8a8ca5e54ab7fa
+MD5Sum: ef6e15a50815ebac91e0e904e794b6cf
+SHA256sum: b779f274e3dd485fe1bdb64eb3a23cae4be269c4a5e3da62bb2c54716625dcb9
 Size: 570
-Filename: enigma2-plugin-skins-pli-hd-dbg_0.1+git63+257988c0+257988c6ea-r0_all.ipk
+Filename: enigma2-plugin-skins-pli-hd-dbg_1.0+git2+1a761bb0+1a761bb133-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Debugging files
+Description: enigma2-plugin-skins-pli-hd version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd-dev
-Version: 0.1+git63+257988c0+257988c6ea-r0
-Recommends: enigma2-plugin-skins-pli-hd (= 0.1+git63+257988c0+257988c6ea-r0)
+Version: 1.0+git2+1a761bb0+1a761bb133-r0
+Recommends: enigma2-plugin-skins-pli-hd (= 1.0+git2+1a761bb0+1a761bb133-r0)
 Section: devel
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 2d5d148eecf242f89dd3a9f1d6a921c7
-SHA256sum: 19fbff3e1dcac40bc7ba64e6108b24aef26b54c1fc53d518e5958b2f99010c85
-Size: 610
-Filename: enigma2-plugin-skins-pli-hd-dev_0.1+git63+257988c0+257988c6ea-r0_all.ipk
+MD5Sum: 68a1bf56fb7f9284f3f7b26e85df5051
+SHA256sum: 80f62162652d05225d36424547d52da287567cceee7b358b0f03c583c37e3d4c
+Size: 608
+Filename: enigma2-plugin-skins-pli-hd-dev_1.0+git2+1a761bb0+1a761bb133-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0 - Development files
+Description: enigma2-plugin-skins-pli-hd version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
@@ -5262,16 +5262,16 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-skins-pli-hd
-Version: 0.1+git63+257988c0+257988c6ea-r0
+Version: 1.0+git2+1a761bb0+1a761bb133-r0
 Section: base
 Architecture: all
 Maintainer: littlesat
-MD5Sum: 5a2e07a1fa861a209c6eee91fd03683b
-SHA256sum: 7b0ca75db2ef6fdfc8e63586234ef16c72214bc0a67e7002991833dcd8d0d66a
-Size: 2625688
-Filename: enigma2-plugin-skins-pli-hd_0.1+git63+257988c0+257988c6ea-r0_all.ipk
+MD5Sum: 4f4298ee8697d2a74134c78aa66c42f0
+SHA256sum: a5f5eb792877850dadd4da7e3f1b82c46283a682ed677affa34d9743a0c5b458
+Size: 2624358
+Filename: enigma2-plugin-skins-pli-hd_1.0+git2+1a761bb0+1a761bb133-r0_all.ipk
 Source: enigma2-plugin-skins-pli-hd.bb
-Description: enigma2-plugin-skins-pli-hd version 0.1+git-r0
+Description: enigma2-plugin-skins-pli-hd version 1.0+git-r0
 OE: enigma2-plugin-skins-pli-hd
 License: Proprietary
 Priority: optional
@@ -5593,14 +5593,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-timezones-dbg
-Version: git1003+a40a8750+a40a8750d8-r0
+Version: git1004+7c8678b0+7c8678b754-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c6e985e9fc99a2b3711e080fc19de467
-SHA256sum: 47254d9406cd8a6df8860c430e513e40aa734ba8096e38d28247dd921470b7a4
-Size: 590
-Filename: enigma2-timezones-dbg_git1003+a40a8750+a40a8750d8-r0_all.ipk
+MD5Sum: 0516ccf2608b7db770153d63358e5af7
+SHA256sum: b776d58d59da4b71a83923605f215e0e15bd6c903b72ae569c1c262750578e09
+Size: 592
+Filename: enigma2-timezones-dbg_git1004+7c8678b0+7c8678b754-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Debugging files
 OE: enigma2-timezones
@@ -5608,15 +5608,15 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones-dev
-Version: git1003+a40a8750+a40a8750d8-r0
-Recommends: enigma2-timezones (= git1003+a40a8750+a40a8750d8-r0)
+Version: git1004+7c8678b0+7c8678b754-r0
+Recommends: enigma2-timezones (= git1004+7c8678b0+7c8678b754-r0)
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c96743f05b4fe13b1a8c0d7d2d46cef2
-SHA256sum: 97e0dd309090d39ebcb42d6943b28aa7cd88dacaf775c4b29e16a7496fdc5991
+MD5Sum: 5e43024b5d34ac7afc17950908995085
+SHA256sum: 7a45dab3c130999708db6669863174eec38e156ad20b14cf72e77b6cdca229a1
 Size: 624
-Filename: enigma2-timezones-dev_git1003+a40a8750+a40a8750d8-r0_all.ipk
+Filename: enigma2-timezones-dev_git1004+7c8678b0+7c8678b754-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2 - Development files
 OE: enigma2-timezones
@@ -5624,14 +5624,14 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-timezones
-Version: git1003+a40a8750+a40a8750d8-r0
+Version: git1004+7c8678b0+7c8678b754-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4c178e39a392b0da4af1ecbb2b71cdda
-SHA256sum: 725f866396106c4b91b5e00092b357a7e6390b09ef289f31e1c32077ff411559
+MD5Sum: 8440ca16c99c5c1d776463dfb14a5174
+SHA256sum: 45079cd469e60a8503bd7124a6d0d388e9895819b185cd2c86c9b62ba667b68a
 Size: 7342
-Filename: enigma2-timezones_git1003+a40a8750+a40a8750d8-r0_all.ipk
+Filename: enigma2-timezones_git1004+7c8678b0+7c8678b754-r0_all.ipk
 Source: enigma2-timezones.bb
 Description: timezone.xml for enigma2
 OE: enigma2-timezones
@@ -5674,9 +5674,9 @@ Version: 1.0-r0
 Section: base
 Architecture: all
 Maintainer: OpenPli team
-MD5Sum: a13cc764381dcd1ce7591106919671ef
-SHA256sum: be3edfbc822bae86bfde271f95949985df1ecba1f8aeac52bbcc51ff94ce790f
-Size: 1020
+MD5Sum: 5df573b4842e70566f4acc61ab9d6210
+SHA256sum: d2fb1e73e135872c9f61107d03de46cc93fd839843e6144f14b1d1920ac8a096
+Size: 1040
 Filename: fakelocale-locale_1.0-r0_all.ipk
 Source: fakelocale.bb
 Description: LC_TIME locale support
@@ -5686,15 +5686,13 @@ Priority: required
 
 Package: fakelocale
 Version: 1.0-r0
-Provides: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk, virtual-locale-C.UTF-8, virtual-locale-ar, virtual-locale-ar-ae, virtual-locale-bg, virtual-locale-bg-bg, virtual-locale-c.utf-8, virtual-locale-ca, virtual-locale-ca-ad, virtual-locale-cs, virtual-locale-cs-cz, virtual-locale-da, virtual-locale-da-dk, virtual-locale-de, virtual-locale-de-de, virtual-locale-el, virtual-locale-el-gr, virtual-locale-en, virtual-locale-en-gb, virtual-locale-es, virtual-locale-es-es, virtual-locale-et, virtual-locale-et-ee, virtual-locale-fa, virtual-locale-fa-ir, virtual-locale-fi, virtual-locale-fi-fi, virtual-locale-fr, virtual-locale-fr-fr, virtual-locale-fy, virtual-locale-fy-nl, virtual-locale-gl, virtual-locale-gl-es, virtual-locale-he, virtual-locale-he-il, virtual-locale-hr, virtual-locale-hr-hr, virtual-locale-hu, virtual-locale-hu-hu, virtual-locale-id, virtual-locale-id-id, virtual-locale-is, virtual-locale-is-is, virtual-locale-it, virtual-locale-it-it, virtual-locale-ku, virtual-locale-ku-tr, virtual-locale-lt, virtual-locale-lt-lt, virtual-locale-lv, virtual-locale-lv-lv, virtual-locale-mk, virtual-locale-mk-mk, virtual-locale-nb, virtual-locale-nb-no, virtual-locale-nl, virtual-locale-nl-nl, virtual-locale-pl, virtual-locale-pl-pl, virtual-locale-pt, virtual-locale-pt-br, virtual-locale-pt-pt, virtual-locale-ro, virtual-locale-ro-ro, virtual-locale-ru, virtual-locale-ru-ru, virtual-locale-sk, virtual-locale-sk-sk, virtual-locale-sl, virtual-locale-sl-si, virtual-locale-sr, virtual-locale-sr-rs, virtual-locale-sv, virtual-locale-sv-se, virtual-locale-th, virtual-locale-th-th, virtual-locale-tr, virtual-locale-tr-tr, virtual-locale-uk, virtual-locale-uk-ua, virtual-locale-vi, virtual-locale-vi-vn, virtual-locale-zh, virtual-locale-zh-cn, virtual-locale-zh-hk
-Replaces: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk
-Conflicts: locale-base-ar-ae, locale-base-bg-bg, locale-base-c.utf-8, locale-base-ca-ad, locale-base-cs-cz, locale-base-da-dk, locale-base-de-de, locale-base-el-gr, locale-base-en-gb, locale-base-es-es, locale-base-et-ee, locale-base-fa-ir, locale-base-fi-fi, locale-base-fr-fr, locale-base-fy-nl, locale-base-gl-es, locale-base-he-il, locale-base-hr-hr, locale-base-hu-hu, locale-base-id-id, locale-base-is-is, locale-base-it-it, locale-base-ku-tr, locale-base-lt-lt, locale-base-lv-lv, locale-base-mk-mk, locale-base-nb-no, locale-base-nl-nl, locale-base-pl-pl, locale-base-pt-br, locale-base-pt-pt, locale-base-ro-ro, locale-base-ru-ru, locale-base-sk-sk, locale-base-sl-si, locale-base-sr-rs, locale-base-sv-se, locale-base-th-th, locale-base-tr-tr, locale-base-uk-ua, locale-base-vi-vn, locale-base-zh-cn, locale-base-zh-hk
+Provides: virtual-locale-ar, virtual-locale-bg, virtual-locale-ca, virtual-locale-cs, virtual-locale-da, virtual-locale-de, virtual-locale-el, virtual-locale-en, virtual-locale-es, virtual-locale-et, virtual-locale-fa, virtual-locale-fi, virtual-locale-fr, virtual-locale-fy, virtual-locale-gl, virtual-locale-he, virtual-locale-hr, virtual-locale-hu, virtual-locale-id, virtual-locale-is, virtual-locale-it, virtual-locale-ku, virtual-locale-lt, virtual-locale-lv, virtual-locale-mk, virtual-locale-nb, virtual-locale-nl, virtual-locale-nn, virtual-locale-pl, virtual-locale-pt, virtual-locale-ro, virtual-locale-ru, virtual-locale-sk, virtual-locale-sl, virtual-locale-sr, virtual-locale-sv, virtual-locale-th, virtual-locale-tr, virtual-locale-uk, virtual-locale-vi, virtual-locale-zh
 Section: base
 Architecture: all
 Maintainer: OpenPli team
-MD5Sum: f58e63db0e6eaaf47995f4454a36bd4b
-SHA256sum: 18d887feca626e9bad66098d1a1f4f087561b43f749365f87be72d0e70d88fef
-Size: 1043150
+MD5Sum: 2fc586abb133f5a717d2682f9670e658
+SHA256sum: 44a6aea60eec88d58cd14129f813e7aea4f43c5da95303c648fd54e105ce5b92
+Size: 31134
 Filename: fakelocale_1.0-r0_all.ipk
 Source: fakelocale.bb
 Description: LC_TIME locale support
@@ -6461,9 +6459,9 @@ Version: 4.18.0-r0
 Section: base
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 23dbd08d790c6007565a411c3f655b91
-SHA256sum: 7a0b0ef46332d151099eac03e9e865d585fa095d1394482045465b0ad49a3fe2
-Size: 5496746
+MD5Sum: fa8672e6dc2f0818df70891fea5d7ab3
+SHA256sum: 2b480a47af58cd245dc6ec9499224b33853d4d18fefffe75dba06bd79561be2c
+Size: 5496936
 Filename: iso-codes-locale_4.18.0-r0_all.ipk
 Source: iso-codes_4.18.0.bb
 Description: ISO language, territory, currency, script codes and their translations
@@ -7007,14 +7005,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1150+4055b840+4055b84436-3
+Version: 2+git1151+a365b8c0+a365b8ca95-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 85148a576bc47ccfde33a55401aa8612
-SHA256sum: 1e7ea7e48d5fc2a79fe1596fdea06cead479b6f7cbccd3229c2db114f23fc06a
+MD5Sum: 48145b6c8e8f28fa58e27e9cebfe6776
+SHA256sum: 525d66ed6a5d303114530d5ea562122ac3ed8fe232453a7af7db7c5a9e6e186f
 Size: 566
-Filename: tuxbox-common-dbg_2+git1150+4055b840+4055b84436-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -7022,15 +7020,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1150+4055b840+4055b84436-3
-Recommends: tuxbox-common (>= 2+git1150+4055b840+4055b84436-3), tuxbox-common (<< 2+git1150+4055b840+4055b84436-3.0), xz-dev
+Version: 2+git1151+a365b8c0+a365b8ca95-3
+Recommends: tuxbox-common (>= 2+git1151+a365b8c0+a365b8ca95-3), tuxbox-common (<< 2+git1151+a365b8c0+a365b8ca95-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 341360a28be6293ac35563a1e2ecf9f9
-SHA256sum: 6fc002444be4227aff4cfd33070666acbcb4da31f941d14fb73048412bd80c46
+MD5Sum: 2624c24038fc7c276bbea60b979d10ca
+SHA256sum: f29a9fe0b78283347b37f8f90008585cb3f44d598dac0e639f8ed92db8ab3422
 Size: 618
-Filename: tuxbox-common-dev_2+git1150+4055b840+4055b84436-3_all.ipk
+Filename: tuxbox-common-dev_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -7038,15 +7036,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1150+4055b840+4055b84436-3
+Version: 2+git1151+a365b8c0+a365b8ca95-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: e09c46cadab79cff6e5cc12ffee7e728
-SHA256sum: a74d17c63e4075989cc8b8dd292cb63719b8a344d859885f9fa3c06411c2b545
-Size: 71386
-Filename: tuxbox-common_2+git1150+4055b840+4055b84436-3_all.ipk
+MD5Sum: d648e60e54c1952d7405ef5c1ba83fd0
+SHA256sum: 19b7915a672282e3fc65e7514ea6e95ea3a73a99e0867b8e47857d08a0b8cc78
+Size: 71366
+Filename: tuxbox-common_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common
