@@ -832,6 +832,22 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-metrixfhd-neo-v3
+Version: v.7.5.6-b
+Section: skins
+OE: enigma2-plugin-skins
+License: open
+Priority: optional
+Architecture: all
+Maintainer: neo
+MD5Sum: ec5e4d937af8e8590da66cdbffd67d68
+SHA256sum: 1ca2a978c05448c0c317d3bfd8ce4771a38229ad55c40af879a75ce5b6eb0127
+Size: 779896
+Filename: enigma2-plugin-skins-metrixfhd-neo-v3_oatv-v.7.5.6-b-version_all.ipk
+Description: Skin Metrix-FHD-neo-v3
+Source: https://www.open.tv/
+Homepage: https://www.open.tv/
+
 Package: enigma2-plugin-skins-moderon-fhd
 Version: 2.0
 Section: skins
@@ -843,6 +859,21 @@ Size: 7721518
 Filename: enigma2-plugin-skins-moderon-fhd_2.0_all.ipk
 Source: enigma2-plugin-skins-moderon-fhd.bb
 Description: Skin Moderon-FHD
+OE: enigma2-plugin-skins
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: enigma2-plugin-skins-nacht-fhd
+Version: 1.2
+Section: skins
+Architecture: all
+Maintainer: digiteng
+MD5Sum: cd82daf00e1843a8bfb3d3c3de03e5ee
+SHA256sum: 611bf38d9e571fb2e010ded66d2ad44c57892909a7e697e45f1691f261b49195
+Size: 11151544
+Filename: enigma2-plugin-skins-nacht_7.0_all.ipk
+Source: enigma2-plugin-skins-nacht.bb
+Description: Skin Nacht-FHD
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional

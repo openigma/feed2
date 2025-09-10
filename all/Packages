@@ -2809,14 +2809,14 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-extensions-xklass-dbg
-Version: 0.0-111-g1742325-r1
+Version: 1.64-20250909-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4038a4aea963959d5f72e203a46f9025
-SHA256sum: 269b9419d550e52af75279e93bbacc318911bed07bcb96a4cdf2de4a92743f1e
+MD5Sum: e01d269943c71f3a77d41aac8a61e5e8
+SHA256sum: 6e10e5c2ae3d8fb5ec83b64e9b8d6bf0f4ced9efc6e44594084e0e1fda0b900a
 Size: 626
-Filename: enigma2-plugin-extensions-xklass-dbg_0.0-111-g1742325-r1_all.ipk
+Filename: enigma2-plugin-extensions-xklass-dbg_1.64-20250909-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Debugging files
 OE: enigma2-plugin-extensions-xklass
@@ -2825,15 +2825,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dev
-Version: 0.0-111-g1742325-r1
-Recommends: enigma2-plugin-extensions-xklass (= 0.0-111-g1742325-r1), python3-pillow-dev, python3-requests-dev, wget-dev
+Version: 1.64-20250909-r1
+Recommends: enigma2-plugin-extensions-xklass (= 1.64-20250909-r1), python3-pillow-dev, python3-requests-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: a01ab63a4b3f59fc657d48b048f553bf
-SHA256sum: baaec9fa6e7f52f9d9fe7a8a3fa6bb9a39b5fe209bd0e639f356fd25ba108546
-Size: 690
-Filename: enigma2-plugin-extensions-xklass-dev_0.0-111-g1742325-r1_all.ipk
+MD5Sum: d9709c83b32f3828c72709164b5aba29
+SHA256sum: 9e3358dd9bcd3fcdad5bf5adf94ff846f39018147b8441cb2b6a54a58bc76e41
+Size: 688
+Filename: enigma2-plugin-extensions-xklass-dev_1.64-20250909-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Development files
 OE: enigma2-plugin-extensions-xklass
@@ -2842,14 +2842,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-src
-Version: 0.0-111-g1742325-r1
+Version: 1.64-20250909-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 5d3cbda1073784b158413e0fe6a9417b
-SHA256sum: c706922ac6ce95883057ae573044eae6de83e859627b58b5f21ce15c87e976dc
-Size: 104672
-Filename: enigma2-plugin-extensions-xklass-src_0.0-111-g1742325-r1_all.ipk
+MD5Sum: 94b07ab0f2e6a8804ce1eae9480d3c8a
+SHA256sum: 06ef1388065f50144adfa86b1764f57ad4203e5784e5329cf45ff39a145a0798
+Size: 105076
+Filename: enigma2-plugin-extensions-xklass-src_1.64-20250909-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
 OE: enigma2-plugin-extensions-xklass
@@ -2858,15 +2858,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass
-Version: 0.0-111-g1742325-r1
+Version: 1.64-20250909-r1
 Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 325e284cdf39f7c1233c2e289bf1a9ca
-SHA256sum: 7152f842eded7207c03ca74bf99b3c5072a7c24c2b14f7e72d8185aaa98793a7
-Size: 5779810
-Filename: enigma2-plugin-extensions-xklass_0.0-111-g1742325-r1_all.ipk
+MD5Sum: e0be942de5e2a268af8aee7bfb07b112
+SHA256sum: 1ca5f0b8434b60ec209cbfe649af616ae5676e70099a9a6332b482005e837268
+Size: 6038116
+Filename: enigma2-plugin-extensions-xklass_1.64-20250909-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
 OE: enigma2-plugin-extensions-xklass
@@ -7005,14 +7005,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dbg
-Version: 2+git1151+a365b8c0+a365b8ca95-3
+Version: 2+git1152+2c7a8f00+2c7a8f0af3-3
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 48145b6c8e8f28fa58e27e9cebfe6776
-SHA256sum: 525d66ed6a5d303114530d5ea562122ac3ed8fe232453a7af7db7c5a9e6e186f
+MD5Sum: 871c0fcc1ef79fdafbc23545e2f07f82
+SHA256sum: 7e3ec96fccbe33ac0c2c3979080fd486fdfd9e81233db34e29f30b00d9dc53dc
 Size: 566
-Filename: tuxbox-common-dbg_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+Filename: tuxbox-common-dbg_2+git1152+2c7a8f00+2c7a8f0af3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Debugging files
 OE: tuxbox-common
@@ -7020,15 +7020,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common-dev
-Version: 2+git1151+a365b8c0+a365b8ca95-3
-Recommends: tuxbox-common (>= 2+git1151+a365b8c0+a365b8ca95-3), tuxbox-common (<< 2+git1151+a365b8c0+a365b8ca95-3.0), xz-dev
+Version: 2+git1152+2c7a8f00+2c7a8f0af3-3
+Recommends: tuxbox-common (>= 2+git1152+2c7a8f00+2c7a8f0af3-3), tuxbox-common (<< 2+git1152+2c7a8f00+2c7a8f0af3-3.0), xz-dev
 Section: devel
 Architecture: all
 Maintainer: PLi team
-MD5Sum: 2624c24038fc7c276bbea60b979d10ca
-SHA256sum: f29a9fe0b78283347b37f8f90008585cb3f44d598dac0e639f8ed92db8ab3422
+MD5Sum: 8b69b095d2b8e3c1ab5747e73141fecb
+SHA256sum: c40c5802be2ea97ac29f6d18dc468c1f8feda2f34dfc6a148acc661fd1874e96
 Size: 618
-Filename: tuxbox-common-dev_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+Filename: tuxbox-common-dev_2+git1152+2c7a8f00+2c7a8f0af3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3 - Development files
 OE: tuxbox-common
@@ -7036,15 +7036,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: tuxbox-common
-Version: 2+git1151+a365b8c0+a365b8ca95-3
+Version: 2+git1152+2c7a8f00+2c7a8f0af3-3
 Depends: xz
 Section: base
 Architecture: all
 Maintainer: PLi team
-MD5Sum: d648e60e54c1952d7405ef5c1ba83fd0
-SHA256sum: 19b7915a672282e3fc65e7514ea6e95ea3a73a99e0867b8e47857d08a0b8cc78
-Size: 71366
-Filename: tuxbox-common_2+git1151+a365b8c0+a365b8ca95-3_all.ipk
+MD5Sum: 2157cb1f7fd4f08a2d3ec9f91eee6a09
+SHA256sum: f06de4adbd9d582ce2f55910992ea55f2f5981a328239f3e6c9ec24cfa9c6c58
+Size: 71368
+Filename: tuxbox-common_2+git1152+2c7a8f00+2c7a8f0af3-3_all.ipk
 Source: tuxbox-common.bb
 Description: tuxbox-common version 2+git-3
 OE: tuxbox-common

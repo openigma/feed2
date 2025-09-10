@@ -311,9 +311,9 @@ Conflicts: enigma-kernel-module
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 0ed2c8af56d53929c04cd196b0520368
-SHA256sum: a2936e05607cce00295f71e54aec9fb150b9916255cc1ec416b37f33428c54f6
-Size: 1352
+MD5Sum: f6e6572e1fe827285192c0bcdd744784
+SHA256sum: 467abed02363597881be47073e778b31611339bfb635172c14ac79ca413dd394
+Size: 1350
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
 Description: enigma.info used by BoxInfo
@@ -25793,9 +25793,9 @@ Recommends: glibc-dbg
 Section: devel
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 5547a85009b81ea660d62587bdf47fa0
-SHA256sum: 5437f314143f05ce41aca09ea7649107581b2fb8b5ed203b00a689c151ba69fe
-Size: 95434
+MD5Sum: cba8cce63e202e0a69500401d7e6632e
+SHA256sum: 8b484db128e018a231eee3d8212bf6cc5b488160d689a30d53e0665a022b16ed
+Size: 95386
 Filename: oe-alliance-branding-dbg_git1163+7f7da300+7f7da30f2e-r0_dm920.ipk
 Source: oe-alliance-branding.bb
 Description: oe-alliance-branding version git-r0 - Debugging files
@@ -25840,8 +25840,8 @@ Depends: libc6 (>= 2.42+git0+d2097651cc)
 Section: base
 Architecture: dm920
 Maintainer: oe-alliance team
-MD5Sum: 640b36a530e37cc8325337283608b4f1
-SHA256sum: 8f199448d0fe0bb8840f335e015487392041ff74bfd04450e6e148fdd5ddd1b1
+MD5Sum: cb3f5a357de71041f724c149494b9ebe
+SHA256sum: bfe2359ee058589cda1b82a7fc5a03e5fbafc09f44049b4c944c0492d3a98be8
 Size: 266240
 Filename: oe-alliance-branding_git1163+7f7da300+7f7da30f2e-r0_dm920.ipk
 Source: oe-alliance-branding.bb
