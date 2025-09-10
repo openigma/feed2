@@ -2176,14 +2176,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-m3uconverter-dbg
-Version: 1.7+git59+95e988f0+95e988fef3-r0
+Version: 1.7+git61+f6cc13d0+f6cc13d834-r0
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 0c3f45d0ea4ab4e75dd021d9784eee63
-SHA256sum: add750ad87e5b09423e2cdbe5edd7ff00995a12fb0662784bc4602b9a8a96ce5
-Size: 650
-Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
+MD5Sum: 09e469049d454e4b98b4c984791aaec7
+SHA256sum: 46f21d5640cac91553d2d71606bad84e2cb8bd3c9869d45d0087e1fe9fb98e4d
+Size: 648
+Filename: enigma2-plugin-extensions-m3uconverter-dbg_1.7+git61+f6cc13d0+f6cc13d834-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Debugging files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -2192,15 +2192,15 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter-dev
-Version: 1.7+git59+95e988f0+95e988fef3-r0
-Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git59+95e988f0+95e988fef3-r0)
+Version: 1.7+git61+f6cc13d0+f6cc13d834-r0
+Recommends: enigma2-plugin-extensions-m3uconverter (= 1.7+git61+f6cc13d0+f6cc13d834-r0)
 Section: devel
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 4e593208acb3a42a909f324a59ad3114
-SHA256sum: f8f8575925e4e7b775094be3453d61046aa53bb40b2e0984de17aa5998465ce5
-Size: 688
-Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
+MD5Sum: dda98ae1c77b69e3dea16fba04f29f54
+SHA256sum: fd23c0448927a33f4b8f2bd708381788c095afaa4ea4d3a9b4695a26d0413097
+Size: 686
+Filename: enigma2-plugin-extensions-m3uconverter-dev_1.7+git61+f6cc13d0+f6cc13d834-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter - Development files
 OE: enigma2-plugin-extensions-m3uconverter
@@ -2209,14 +2209,14 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-extensions-m3uconverter
-Version: 1.7+git59+95e988f0+95e988fef3-r0
+Version: 1.7+git61+f6cc13d0+f6cc13d834-r0
 Section: base
 Architecture: all
 Maintainer: Lululla
-MD5Sum: 2197bc14009702270a4236a58d406c6e
-SHA256sum: 067200dde99ea0d7d715a71e15f63a620d5252b0816691f909d4f8df26170fe8
-Size: 75398
-Filename: enigma2-plugin-extensions-m3uconverter_1.7+git59+95e988f0+95e988fef3-r0_all.ipk
+MD5Sum: d46096bb81f78e91e56d898a915316d3
+SHA256sum: 1545b00799ddef7084dd7c87aeeab6990d11f24b9b946cc61d78c76e32702ab0
+Size: 80510
+Filename: enigma2-plugin-extensions-m3uconverter_1.7+git61+f6cc13d0+f6cc13d834-r0_all.ipk
 Source: enigma2-plugin-extensions-m3uconverter.bb
 Description: M3U Playlist Converter
 OE: enigma2-plugin-extensions-m3uconverter
