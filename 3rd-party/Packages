@@ -444,7 +444,7 @@ MD5Sum: dd0fd1300a6b11d79ea715de37b4d03f
 SHA256sum: 6ad98b01ed00fb9ed5c7ba6387845c0938e154015e1feaf162370fcafaf2b934
 
 Package: enigma2-plugin-extensions-rakutentv
-Version: 20250505
+Version: 20250701
 Section: extensions
 Priority: optional
 Architecture: all
@@ -453,11 +453,11 @@ Description: Rakuten TV - Free ad-supported streaming TV
 Recommends: enigma2-plugin-systemplugins-serviceapp
 Source: enigma2-plugin-extensions-rakutentv.bb
 Homepage: https://github.com/Billy2011
-Filename: enigma2-plugin-extensions-rakutentv_20250505_all.ipk
+Filename: enigma2-plugin-extensions-rakutentv_20250701_all.ipk
 OE: enigma2-plugin-extensions
-Size: 597398
-MD5Sum: 0b863d976b9f459e0c3de29160868289
-SHA256sum: 89309aa7eed33f417b425a59534a82bec07749f678fc2fccd7f7cc82e0e3c3d2
+Size: 617814
+MD5Sum: 7ff04a5254cf5543fdca5d32662f596f
+SHA256sum: 31bc6f4d06f46e3fde1c4a576a2f20d16ceb4f61b8dcf5e458f796ca20b3aaaa
 
 Package: enigma2-plugin-extensions-samsungtvplus
 Version: 20250815
