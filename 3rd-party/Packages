@@ -444,7 +444,7 @@ MD5Sum: dd0fd1300a6b11d79ea715de37b4d03f
 SHA256sum: 6ad98b01ed00fb9ed5c7ba6387845c0938e154015e1feaf162370fcafaf2b934
 
 Package: enigma2-plugin-extensions-rakutentv
-Version: 20250701
+Version: 20250701-r1
 Section: extensions
 Priority: optional
 Architecture: all
@@ -455,9 +455,9 @@ Source: enigma2-plugin-extensions-rakutentv.bb
 Homepage: https://github.com/Billy2011
 Filename: enigma2-plugin-extensions-rakutentv_20250701_all.ipk
 OE: enigma2-plugin-extensions
-Size: 617814
-MD5Sum: 7ff04a5254cf5543fdca5d32662f596f
-SHA256sum: 31bc6f4d06f46e3fde1c4a576a2f20d16ceb4f61b8dcf5e458f796ca20b3aaaa
+Size: 617816
+MD5Sum: 759ade5f2b87ca5b4d474372e59d8d84
+SHA256sum: d2e55eb7b3b193f6586698b57a447b447da9188f6bc17d97315cdb140191cd49
 
 Package: enigma2-plugin-extensions-samsungtvplus
 Version: 20250815
