@@ -18,6 +18,7 @@
 1757162552 enigma2-plugin-extensions-ipaudiopro_1.5_cortexa15hf-neon-vfpv4_py3.13_ff7.1.ipk
 1757162552 enigma2-plugin-extensions-iptvarchive_2.0.91_all.ipk
 1757162552 enigma2-plugin-extensions-jedimakerxtream_6.38.20241030_all.ipk
+1757162552 enigma2-plugin-extensions-kodi_22-r3_cortexa15hf-neon-vfpv4.ipk
 1757162552 enigma2-plugin-extensions-lottoextended_git3790+a132b610+a132b6120d-r0_dm920.ipk
 1757162552 enigma2-plugin-extensions-mediastream_20250507-python3.13-r0_cortexa15hf-neon-vfpv4.ipk
 1757162552 enigma2-plugin-extensions-merlinmusicplayer_7.6-beta+gitr7789+38d912b0+38d912b4e8-r8_dm920.ipk
@@ -97,6 +98,5 @@
 1757162552 nodejs-npm_22.19.0-r0_cortexa15hf-neon-vfpv4.ipk
 1757162552 python3-httptools_0.6.4-r0_cortexa15hf-neon-vfpv4.ipk
 1757162552 python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
-1757162552 stb-kodi-hd51_22-Piers-r2_hd51.ipk
 1757162552 streamlinksrv_1.8.6_all.ipk
 1757162552 wireguard-module_1.0.20200520-r0_dm920.ipk
