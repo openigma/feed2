@@ -4860,8 +4860,8 @@ Version: 1.0+git273+3a86ced0+3a86ceda43-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: d43163d4e83cd6df2c70c0edaf10b05e
-SHA256sum: 47096c6b37091595816f1b6404554ac7e9bcf8a13399e602a4778b912899d9e8
+MD5Sum: 3b18142fe160e4b7eef841da13467786
+SHA256sum: d413539d8994055071aeb064de8551fb3b4a05db39148e3cf8b86514ed40dfa9
 Size: 598
 Filename: enigma2-plugin-skins-e2darkos-dbg_1.0+git273+3a86ced0+3a86ceda43-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
@@ -4876,8 +4876,8 @@ Recommends: enigma2-plugin-skins-e2darkos (= 1.0+git273+3a86ced0+3a86ceda43-r0)
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 20a9d4f25c82e074c5b29e9826ca2613
-SHA256sum: ec23583859833d030cbd19b5577355f7d08fc3b14db813016a766cd91768ca8a
+MD5Sum: 42996070f6c17180aca89326719a71d9
+SHA256sum: 66724c912a17efa8ce77ab21f8c3cb043bde93cca23f7f9d06337632de282bd2
 Size: 634
 Filename: enigma2-plugin-skins-e2darkos-dev_1.0+git273+3a86ced0+3a86ceda43-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
@@ -4892,9 +4892,9 @@ Recommends: enigma2-boxlogos
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 615759ad12bac77bb0bd85fb6bcbbe67
-SHA256sum: 4015d46615268f297f6e747f4cd1bf4adfd0449299c6b5faca5b87f1f809116b
-Size: 3072172
+MD5Sum: 4569eca58be8216fc09860bf02ddbe80
+SHA256sum: ee486fe3067441829682140346e4f56029f0c25a754a4f13e1cc73dfb65d90b0
+Size: 3072610
 Filename: enigma2-plugin-skins-e2darkos_1.0+git273+3a86ced0+3a86ceda43-r0_all.ipk
 Source: enigma2-plugin-skins-e2darkos.bb
 Description: enigma2-plugin-skins-e2darkos version 1.0+git-r0
