@@ -817,16 +817,17 @@ License: GPL-2.0-or-later
 MD5Sum: 8c4601f789988c2e271400c6ccaad64c
 SHA256sum: fa0d889442bb7e9d2b56d3f04bdf9a1cfc10b31fcaf33e083f0beb55d21c87e8
 
-Package: enigma2-plugin-skins-maxy-fhd-pli
-Version: 1.0
+Package: enigma2-plugin-skins-maxy-fhd
+Version: 1.3
 Section: skins
 Architecture: all
 Maintainer: mnasr
-MD5Sum: 7bcba6101190392a35e54465532c45b9
-SHA256sum: 35b73843f56d13e229e05466c573f18d776507fe15a7886cf0e8b7b5d9fb02b5
-Size: 5794160
-Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
-Source: enigma2-plugin-skins-maxy-fhd-pli.bb
+MD5Sum: 428228e41e5837e2d92e78ae55c15f89
+SHA256sum: 1b78cf3ae003bf4d60a8158fffb2d73bc1cc2d45b4329c1959047d5e5bd3d23b
+Size: 6061106
+Filename: maxyatv.ipk
+Source: enigma2-plugin-skins-maxy-fhd.bb
+Homepage: https://github.com/popking159/skins
 Description: Skin Maxy-FHD
 OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
@@ -845,7 +846,7 @@ SHA256sum: 1ca2a978c05448c0c317d3bfd8ce4771a38229ad55c40af879a75ce5b6eb0127
 Size: 779896
 Filename: enigma2-plugin-skins-metrixfhd-neo-v3_oatv-v.7.5.6-b-version_all.ipk
 Description: Skin Metrix-FHD-neo-v3
-Source: https://www.open.tv/
+Source: enigma2-plugin-skins-metrixfhd-neo-v3.bb
 Homepage: https://www.open.tv/
 
 Package: enigma2-plugin-skins-moderon-fhd
