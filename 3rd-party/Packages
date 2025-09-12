@@ -287,7 +287,7 @@ Priority: optional
 
 Package: enigma2-plugin-extensions-kodi
 Version: 22-r3
-Depends: kodi-addons-meta, libc6 (>= 2.42+git0+d2097651cc), virtual-kodi
+Depends: kodi-addons-meta, libc6 (>= 2.42)
 Recommends: enigma2-plugin-extensions-subssupport
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
