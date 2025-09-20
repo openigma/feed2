@@ -6620,9 +6620,9 @@ Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libdca-dbg, libgstaudio-1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 30cbf7f6df96c49a23a6d26a5af2c396
-SHA256sum: bbebc26b0dd088d38785f7e2b19c8c4a678fce151982effc45526ce6c3e9b0d4
-Size: 135424
+MD5Sum: fa7e7b8ef4b0fcd6faf0ae058e7a0bae
+SHA256sum: 6525737de5b77d3935e43b0e4b0c447eb6813db62fb385cfb5638940d2451d29
+Size: 133640
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink-dbg_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0 - Debugging files
@@ -6652,9 +6652,9 @@ Depends: gstreamer1.0-plugin-multibox-dvbmediasink-dev (= 1.0+git252+c1ca5200+c1
 Section: devel
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3a8c8d73e4891b2950dc0c66a5bd2416
-SHA256sum: c0719bd6c39a2f017ccc74e452f8ddb17d8bf14d99262396f10bdfe5d3caca1a
-Size: 179874
+MD5Sum: d6dd3d01c9abdc3657273003ee97a4cc
+SHA256sum: 232be77c75d2a52df5af833be19ae3d97a8ae0fb1b13867e46335df23632fae8
+Size: 177970
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink-staticdev_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0 - Development files (Static Libraries)
@@ -6669,9 +6669,9 @@ Provides: virtual-gstreamer1.0-dvbmediasink
 Section: multimedia
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f745477e03b65798fdb5e95e96205b0c
-SHA256sum: 48e64c34968da9fc179e8d053ee2ca59d239d2856b6a056db85d145bd6fc1a8e
-Size: 43712
+MD5Sum: 58841755b66467deffb5fb11cfc21988
+SHA256sum: 5cbb2937dbcd5e467423c5622c563d59792caba0f9bf28f16425ca1408fb2f31
+Size: 42846
 Filename: gstreamer1.0-plugin-multibox-dvbmediasink_1.0+git252+c1ca5200+c1ca520b9e-r0_dm920.ipk
 Source: gstreamer1.0-plugin-multibox-dvbmediasink.bb
 Description: gstreamer1.0-plugin-multibox-dvbmediasink version 1.0+git-r0
@@ -27051,13 +27051,13 @@ Priority: optional
 
 Package: packagegroup-machine-base
 Version: 1.0-r0
-Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-subsink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-snd-oss, kernel-module-snd-pcm-oss, libpagecache, libpassthrough, libvc5dream
+Recommends: gstreamer1.0-libav, gstreamer1.0-plugin-multibox-dvbmediasink, gstreamer1.0-plugin-subsink, kernel-module-autofs4, kernel-module-cifs, kernel-module-ecb, kernel-module-exportfs, kernel-module-fuse, kernel-module-hmac, kernel-module-md4, kernel-module-nfsd, kernel-module-snd-oss, kernel-module-snd-pcm-oss, libpagecache, libpassthrough, libvc5dream
 Section: base
 Architecture: dm920
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 099928e6e8514db25f446f83ba48c5ee
-SHA256sum: 302debec63f3684430352ad8150a3acc431136807b448e9db79eae2530307735
-Size: 690
+MD5Sum: 1a38a22cdf817f34114e47e262dafffe
+SHA256sum: d9a19dafe3b4038683fd70321f124f1429ab1ffc64320d2c26b008f9a59ec989
+Size: 706
 Filename: packagegroup-machine-base_1.0-r0_dm920.ipk
 Source: packagegroup-base.bb
 Description: Extra packages required to fully support dm920 hardware
