@@ -1177,16 +1177,16 @@ MD5Sum: 085dfd195056423fef8cb9c8f98b8b34
 SHA256sum: 18bd1c467291d87488bc5a1b961ce089d1d49a895359fe861e8394e42abaec3b
 
 Package: ffmpeg
-Version: 8.0
-Depends: libavcodec62 (>= 8.0), libavdevice62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42), libswresample6 (>= 8.0), libswscale9 (>= 8.0), libz1 (>= 1.3.1)
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavdevice61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42), libpostproc58 (>= 7.1.1), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 66a4dc76f1c4897ead6b9febd7b3a789
-SHA256sum: 2fa665f69ba9bb5d3a966c8a27ef9ce463d2d986fd0cb0bfbc5d4c9e8663d173
-Size: 289980
-Filename: ffmpeg_8.0_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 7be10247f194beb8f746a33d8dc97e79
+SHA256sum: 25e3e1b5b82262bffc0251863d8fc3d6674cfca6b616f5d7f96f877914b3a41c
+Size: 224700
+Filename: ffmpeg_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -1194,15 +1194,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: ffmpeg-examples
-Version: 8.0
+Version: 7.1.1-r1
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3442aa56b70cf75be8e1fd75b3db1181
-SHA256sum: 53381fa13306c99b3a3ab428dda09646c7e73dc4153dd85bce244a12c4c287a2
-Size: 48848
-Filename: ffmpeg-examples_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: c41015a485da9dcdb1ae061017f4a753
+SHA256sum: 60177e2e9194356577347071332def1477f96a564cc9996f39e89a26435aef3a
+Size: 48622
+Filename: ffmpeg-examples_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -1230,54 +1230,54 @@ Filename: libavcodec60_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 5559286
 MD5Sum: 45a5e164f308138ca87f61c4c766241f
 
-Package: libavcodec62
-Version: 8.0
-Depends: aom (>= 3.12.1), dav1d (>= 1.5.2), libavutil60 (>= 8.0), libc6 (>= 2.42), libfdk-aac2 (>= 2.0.2), liblzma5 (>= 5.8.1), libopus0 (>= 1.5.2), libswresample6 (>= 8.0), libtheora (>= 1.2.0), libvorbis (>= 1.3.7), libx264-165 (>= r2970), libz1 (>= 1.3.1), x265 (>= 4.1)
+Package: libavcodec61
+Version: 7.1.1-r1
+Depends: dav1d (>= 1.5.2), libavutil59 (>= 7.1.1), libc6 (>= 2.42), liblzma5 (>= 5.8.1), libswresample5 (>= 7.1.1), libx264-165 (>= r3222+git0+b35605ace3), libz1 (>= 1.3.1)
 Provides: libavcodec
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4bd2545292b4119acb06b38031515f88
-SHA256sum: 708f868c07f284859fc2d1e5f2212222eb72c39c9907466378526730d0aaaaf9
-Size: 7949944
-Filename: libavcodec62_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: e69855ce1d4b4083add8b0f715b42526
+SHA256sum: d64d7663d6638933d179b93160eb134fdfa1ed2d5f75431d1e8ed15be582ba49
+Size: 5987232
+Filename: libavcodec61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libavdevice62
-Version: 8.0
-Depends: libasound2 (>= 1.2.14), libavcodec62 (>= 8.0), libavfilter11 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42), libdrm2 (>= 2.4.125), libv4l (>= 1.28.1)
+Package: libavdevice61
+Version: 7.1.1-r1
+Depends: libasound2 (>= 1.2.14), libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42)
 Provides: libavdevice
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: bda96c6b3cfe6ec1ca347548a6ac349f
-SHA256sum: 3794fc25332e85266ac681e2aa638fc59d1667f71ff2df2ee66b8789fd143e85
-Size: 37160
-Filename: libavdevice62_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: df80bf47397bfe8ed4eccbcecb21529b
+SHA256sum: 87e663b1dd9e6c92a3819b2bcacaa672a39085be9a442daf779da5f98e563ebb
+Size: 29700
+Filename: libavdevice61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libavfilter11
-Version: 8.0
-Depends: ffmpeg (>= 8.0), libass9 (>= 0.17.4), libavcodec62 (>= 8.0), libavformat62 (>= 8.0), libavutil60 (>= 8.0), libc6 (>= 2.42), libfontconfig1 (>= 2.15.0), libfreetype6 (>= 2.13.3), libswresample6 (>= 8.0), libswscale9 (>= 8.0)
+Package: libavfilter10
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libc6 (>= 2.42), libfreetype6 (>= 2.13.3), libpostproc58 (>= 7.1.1), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1)
 Provides: libavfilter
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f5582d7f483733e41ae385e0965e4355
-SHA256sum: 3a799411ae75dae06e9230667dc5e4e9018f4d5199ec6110f3bb67141485d1f5
-Size: 2000808
-Filename: libavfilter11_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 5b6c41a7ad331d17cbd8a5c4a764812b
+SHA256sum: 9cce46767f6d0059746103b3dc80822f843b4949410fa228030949b245278b4a
+Size: 1668916
+Filename: libavfilter10_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -1305,18 +1305,18 @@ Filename: libavformat60_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 1031236
 MD5Sum: ed9719784b9f8c74ab88a03cb27b7b7d
 
-Package: libavformat62
-Version: 8.0
-Depends: libavcodec62 (>= 8.0), libavutil60 (>= 8.0), libbluray (>= v1.4.0), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.5.2), libxml2 (>= 2.14.5), libz1 (>= 1.3.1), rtmpdump (>= 2.6)
+Package: libavformat61
+Version: 7.1.1-r1
+Depends: libavcodec61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0+git3074+d41111c0+d41111c1eb), libbz2-1 (>= 1.0.8), libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libsrt1.4 (>= 1.4.4), libssl3 (>= 3.5.2), libxml2 (>= 2.14.6), libz1 (>= 1.3.1), rtmpdump (>= 2.6+git0+6f6bb1353f)
 Provides: libavformat
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9070d35d6667643616bd1785760643d3
-SHA256sum: 415e7cae87e3cb8d3f7ed314c2ff5ba5ba724631ef4c61d8182a2e3e4951fd37
-Size: 1458830
-Filename: libavformat62_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: a525a6ca95c90cd8eed6a0c78c9bd602
+SHA256sum: 51c975d77111bb39f72aa83f5bcbbfb74deb2dec3d4f600cb5fcfb8c96eec639
+Size: 1109834
+Filename: libavformat61_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -1344,25 +1344,25 @@ Filename: libavutil58_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 339958
 MD5Sum: 187db2b911b4a313b0d8efc4e72ec0f7
 
-Package: libavutil60
-Version: 8.0
-Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2), libdrm2 (>= 2.4.125)
+Package: libavutil59
+Version: 7.1.1-r1
+Depends: libc6 (>= 2.42), libcrypto3 (>= 3.5.2)
 Provides: libavutil
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b829a7eac0ea03c35b5e327f9d3206a6
-SHA256sum: 5694f4bb099e2e648046fddbe0ac6f6e33151fed79aae1c4c68d994114edfa83
-Size: 371392
-Filename: libavutil60_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: a87a74b0f0012db770bce8361e54f97f
+SHA256sum: 61f29ab25c707a0c00fbe0dc97a865d167af67254d2f38f1705c4bc3b754d3ca
+Size: 339486
+Filename: libavutil59_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libcrypto1.0.2
+ackage: libcrypto1.0.2
 Version: 1.0.2u-r0
 Description: Secure Socket Layer
  Secure Socket Layer (SSL) binary and related cryptographic tools.
@@ -1440,6 +1440,24 @@ Filename: libfmt11_11.1.1-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 39906
 MD5Sum: 0bb01742864f89c8bb5e360c804cebd7
 
+Package: libpostproc58
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
+Provides: libpostproc
+Section: libs
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: dde1ef52deb9195bc2b2e714098204ba
+SHA256sum: 431cdb2e1a28735078f94534533847f801d49b44788a4c9ec400ae5a0c075432
+Size: 24960
+Filename: libpostproc58_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
+Description: A complete, cross-platform solution to record, convert and stream audio and video.
+OE: ffmpeg
+HomePage: https://www.ffmpeg.org/
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: libssl1.0.2
 Version: 1.0.2u-r0
 Description: Secure Socket Layer
@@ -1479,36 +1497,36 @@ Filename: libswresample4_6.1.1-r3_cortexa15hf-neon-vfpv4.ipk
 Size: 47054
 MD5Sum: a829b4b80014c17b4ba2bfb5abd39a2b
 
-Package: libswresample6
-Version: 8.0
-Depends: libavutil60 (>= 8.0), libc6 (>= 2.42)
+Package: libswresample5
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
 Provides: libswresample
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: daa27174b2301ee801606ab26679981c
-SHA256sum: 3c8b53431e934f40afe8743fcc854ce176dc9fc4b85a9f223192b112b2a2d4ff
-Size: 63236
-Filename: libswresample6_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: 3a5abcf96f2f4959b65617ae8f55ba7b
+SHA256sum: f429dc04120a5ee6a291b00cf14387ad7ab860d2c422f85e03807e890aeef89d
+Size: 46456
+Filename: libswresample5_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libswscale9
-Version: 8.0
-Depends: libavutil60 (>= 8.0), libc6 (>= 2.42)
+Package: libswscale8
+Version: 7.1.1-r1
+Depends: libavutil59 (>= 7.1.1), libc6 (>= 2.42)
 Provides: libswscale
 Section: libs
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a95a6461aada81eeb4693e96031cb611
-SHA256sum: 04d5cf9895d54bdafe4eddd11968e2ca7931b9e9959fc3d7134c7ac711d53480
-Size: 573002
-Filename: libswscale9_8.0+git120686+08a81b00+08a81b090b-r2_cortexa15hf-neon-vfpv4.ipk
-Source: ffmpeg_8.0.bb
+MD5Sum: f61e7999ba6c29a743aa4905c8468e4d
+SHA256sum: 2817b545d0dafdcbc3ffb2b6756b27a41ab911214aca548d7d2c60d5088ac3de
+Size: 176898
+Filename: libswscale8_7.1.1-r1_cortexa15hf-neon-vfpv4.ipk
+Source: ffmpeg_7.1.1.bb
 Description: A complete, cross-platform solution to record, convert and stream audio and video.
 OE: ffmpeg
 HomePage: https://www.ffmpeg.org/
@@ -1598,24 +1616,6 @@ Filename: python3-rapidfuzz_3.11.0_cortexa15hf-neon-vfpv4.ipk
 Size: 1570088
 MD5Sum: 5f340a8e6dc6f4d68f531f2cc41f063a
 SHA256sum: e32ee49f298b0e42acc2e963aac643f6397bcd7c76347557a3d9a604ea552697
-
-Package: stb-kodi-dm920
-Version: 22.0+gitr0+4434c17e41-r3
-Depends: bluez5 (>= 5.83), exiv2 (>= 0.28.2), fstrcmp (>= 0.7), gstreamer1.0 (>= 1.26.5), lcms (>= 2.16), libasound2 (>= 1.2.14), libass9 (>= 0.17.4), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libavcodec61 (>= 7.1.1), libavfilter10 (>= 7.1.1), libavformat61 (>= 7.1.1), libavutil59 (>= 7.1.1), libbluray (>= v1.4.0+git3074+d41111c0+d41111c1eb), libc6 (>= 2.42+git0+d2097651cc), libcap (>= 2.76), libcdio19 (>= 2.1.0), libcec7 (>= 7.1.1), libcrypto3 (>= 3.5.2), libcurl4 (>= 8.15.0), libdbus-1-3 (>= 1.16.2), libfmt11 (>= 11.2.0), libfreetype6 (>= 2.13.3), libfribidi0 (>= 1.0.16), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.86.0), libgstpbutils-1.0-0 (>= 1.26.5), libharfbuzz0 (>= 11.4.5), libinput10 (>= 1.29.1), libiso9660-11 (>= 2.1.0), liblzo2-2 (>= 2.10), libmicrohttpd12 (>= 1.0.2), libpcre2 (>= 10.46), libplist-2.0-4 (>= 2.6.0), libpostproc58 (>= 7.1.1), libpulse-simple0 (>= 17.0), libpulse0 (>= 17.0), libpython3.13-1.0 (>= 3.13.7), libspdlog1.15 (>= 1.15.3), libsqlite3-0 (>= 3.48.0), libstdc++6 (>= 15.2.0), libswresample5 (>= 7.1.1), libswscale8 (>= 7.1.1), libtag2 (>= 2.1.1), libtinyxml2-11 (>= 11.0.0), libtinyxml2.6.2 (>= 2.6.2), libudev1 (>= 3.2.14), libudfread3 (>= 1.2.0+git126+139a2190+139a219452), libuuid1 (>= 2.41.1), libvc5dream (>= 1.0.5), libxkbcommon0 (>= 1.11.0), libxml2 (>= 2.14.6), libxslt (>= 1.1.43)
-Provides: kodi, virtual-kodi
-Recommends: alsa-plugins, glibc-charmap-ibm437, glibc-charmap-ibm850, glibc-charmap-utf-8, glibc-gconv-ibm437, glibc-gconv-ibm850, glibc-gconv-unicode, glibc-gconv-utf-32, glibc-localedata-en-us, kodi-addon-inputstream-adaptive-piers, kodi-addon-inputstream-rtmp-piers, libcec, libcurl, libnfs, nss, os-release, python3, python3-compression, python3-ctypes, python3-difflib, python3-html, python3-json, python3-mechanize, python3-netclient, python3-profile, python3-pycryptodomex, python3-shell, python3-sqlite3, python3-xmlrpc, tzdata-africa, tzdata-americas, tzdata-antarctica, tzdata-arctic, tzdata-asia, tzdata-atlantic, tzdata-australia, tzdata-europe, tzdata-pacific, xkeyboard-config
-Section: base
-Architecture: dm920
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: daa833c6e76e647aecd73dc2ee83a1a7
-SHA256sum: 72c6aeac76b07f58131fa51e3e50a8bba09c9b44c16b58460f6c92353c5ce340
-Size: 28012908
-Filename: stb-kodi-dm920_22.0+gitr0+4434c17e41-r3_dm920.ipk
-Source: stb-kodi-dm920_22.bb
-Description: Kodi Media Center
-OE: stb-kodi-dm920
-License: GPL-2.0-only
-Priority: optional
 
 Package: streamlinksrv
 Version: 1.8.6

@@ -1718,14 +1718,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dbg
-Version: 1.12-20250917-git29+27456f50+27456f5e38-r0
+Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 4458b2a72bd2a6b406c1dce647bf5dab
-SHA256sum: 008cff52343ed74af6bb03ad3b70d1fa7a6946222c8e14c0b21973d0f86b3b5f
-Size: 628
-Filename: enigma2-plugin-extensions-estalker-dbg_1.12-20250917-git29+27456f50+27456f5e38-r0_all.ipk
+MD5Sum: 384fd82f8d267db9c834e499720e92df
+SHA256sum: b0f6f8d4ca77bc59b6596dca09916b6655e780a2faf307a9dc7e043edfc7b138
+Size: 626
+Filename: enigma2-plugin-extensions-estalker-dbg_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Debugging files
 OE: enigma2-plugin-extensions-estalker
@@ -1734,15 +1734,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-dev
-Version: 1.12-20250917-git29+27456f50+27456f5e38-r0
-Recommends: enigma2-plugin-extensions-estalker (= 1.12-20250917-git29+27456f50+27456f5e38-r0), enigma2-plugin-systemplugins-serviceapp-dev, gstplayer-dev, gstplayer2-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
+Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
+Recommends: enigma2-plugin-extensions-estalker (= 1.14-20250920-git31+075373b0+075373b9c4-r0), enigma2-plugin-systemplugins-serviceapp-dev, gstplayer-dev, gstplayer2-dev, python3-multiprocessing-dev, python3-pillow-dev, python3-requests-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 778f52cdc764ee846521354d8567b338
-SHA256sum: c239c197d0427192afde0b5df6fc53132802a6bbe84f1141fb39abd0f0d099fc
+MD5Sum: f5904560e6d3cabd62840971c277ddd7
+SHA256sum: c351288e4b1118d7bfbf06a24201d02cee0e63dd4a863e4c96a62011acf650cd
 Size: 726
-Filename: enigma2-plugin-extensions-estalker-dev_1.12-20250917-git29+27456f50+27456f5e38-r0_all.ipk
+Filename: enigma2-plugin-extensions-estalker-dev_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Development files
 OE: enigma2-plugin-extensions-estalker
@@ -1751,14 +1751,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker-src
-Version: 1.12-20250917-git29+27456f50+27456f5e38-r0
+Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 601ca93d86c02986674b35f70300c19d
-SHA256sum: 980217e2e65d429efc927abd49fbb22617c7b1d082d57b4163337d4b3cd8fc0f
-Size: 83180
-Filename: enigma2-plugin-extensions-estalker-src_1.12-20250917-git29+27456f50+27456f5e38-r0_all.ipk
+MD5Sum: 468eee05c5cb4c728483490ed8760684
+SHA256sum: f6ca61094ff67491208a9b8d771d30bc1c6d7b5292aac7df99dec0c88cd52470
+Size: 83248
+Filename: enigma2-plugin-extensions-estalker-src_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC - Source files
 OE: enigma2-plugin-extensions-estalker
@@ -1767,15 +1767,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-estalker
-Version: 1.12-20250917-git29+27456f50+27456f5e38-r0
+Version: 1.14-20250920-git31+075373b0+075373b9c4-r0
 Depends: enigma2-plugin-systemplugins-serviceapp, gstplayer, gstplayer2, python3-multiprocessing, python3-pillow, python3-requests
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 27eeae958c6c55fb70287d5230b7cfb6
-SHA256sum: 242ba9bd3dcb04cf099a3e45a600e91c4aa825252e563973f5cb6123f9d0f1c9
-Size: 2678484
-Filename: enigma2-plugin-extensions-estalker_1.12-20250917-git29+27456f50+27456f5e38-r0_all.ipk
+MD5Sum: c1fc54cd1ffa2d045ce34686c8b0b2cd
+SHA256sum: 41d3ac51866603f2d104e5308520acfe16e4f09aa8d72299c10987f7ac6f2c8d
+Size: 2678446
+Filename: enigma2-plugin-extensions-estalker_1.14-20250920-git31+075373b0+075373b9c4-r0_all.ipk
 Source: enigma2-plugin-extensions-estalker.bb
 Description: IPTV Ministra stalker player by KiddaC
 OE: enigma2-plugin-extensions-estalker
@@ -2809,14 +2809,14 @@ License: GPL-2.0-only
 Priority: required
 
 Package: enigma2-plugin-extensions-xklass-dbg
-Version: 1.65-20250917-r1
+Version: 1.66-20250920-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 6dbca104d6bb3de8e0dc241e6b9d8d58
-SHA256sum: ec70aad8a708f53abcb6e82ac7ade9801732a9f477fb3c62952cdec95fa0fd51
+MD5Sum: cc2644fbdf7de542ada1114df4887aed
+SHA256sum: 14dd08e5931da735dc596054ff50047edcd6e5bc5f57fa1c3d77ce42f1b94100
 Size: 626
-Filename: enigma2-plugin-extensions-xklass-dbg_1.65-20250917-r1_all.ipk
+Filename: enigma2-plugin-extensions-xklass-dbg_1.66-20250920-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Debugging files
 OE: enigma2-plugin-extensions-xklass
@@ -2825,15 +2825,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-dev
-Version: 1.65-20250917-r1
-Recommends: enigma2-plugin-extensions-xklass (= 1.65-20250917-r1), python3-pillow-dev, python3-requests-dev, wget-dev
+Version: 1.66-20250920-r1
+Recommends: enigma2-plugin-extensions-xklass (= 1.66-20250920-r1), python3-pillow-dev, python3-requests-dev, wget-dev
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 93adfcc5dd5ede26f4948ac8def8414d
-SHA256sum: f214074b2377a31c5b406ccc779a66841553f2297dbf38c99a2c7fadf8a96488
+MD5Sum: db15dc9ac07b6a230ac667e7e98adc83
+SHA256sum: be6ca6f7c1c210d267dd4d1291ec9ce9fe2a428a57f723eded51b71926f04d1c
 Size: 688
-Filename: enigma2-plugin-extensions-xklass-dev_1.65-20250917-r1_all.ipk
+Filename: enigma2-plugin-extensions-xklass-dev_1.66-20250920-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Development files
 OE: enigma2-plugin-extensions-xklass
@@ -2842,14 +2842,14 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass-src
-Version: 1.65-20250917-r1
+Version: 1.66-20250920-r1
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 11c074bf0c6bf0ea4575b69ba41930c6
-SHA256sum: 48ac2b58aeb40dc51b50135d9fa2492087bdf0a6354f223364b4c31dc5820d1a
-Size: 105062
-Filename: enigma2-plugin-extensions-xklass-src_1.65-20250917-r1_all.ipk
+MD5Sum: 95d1ee235b6a7b928d0d70f1a5be4579
+SHA256sum: 78097920977fadfdb1543eb0efca9dc8f4ce557f1d107785abe66db0309b409b
+Size: 105234
+Filename: enigma2-plugin-extensions-xklass-src_1.66-20250920-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists. - Source files
 OE: enigma2-plugin-extensions-xklass
@@ -2858,15 +2858,15 @@ License: GPL-2.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-xklass
-Version: 1.65-20250917-r1
+Version: 1.66-20250920-r1
 Depends: python3-pillow, python3-requests, wget
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 9c1b67e181c4766fe25248006662373b
-SHA256sum: 6abeacbc010c9820e0be128f2ea22c8be84643743d810c325d83d79e63c962a7
-Size: 6037352
-Filename: enigma2-plugin-extensions-xklass_1.65-20250917-r1_all.ipk
+MD5Sum: 7652a3166add36389f08edace9cdafdc
+SHA256sum: a011088fc02f314d4c9034c5063233b210843e6ff46078cacbab9c892fdad5f2
+Size: 6037812
+Filename: enigma2-plugin-extensions-xklass_1.66-20250920-r1_all.ipk
 Source: enigma2-plugin-extensions-xklass.bb
 Description: Enigma2 plugin for playing official Xtream Codes IPTV playlists.
 OE: enigma2-plugin-extensions-xklass
