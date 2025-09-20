@@ -5354,12 +5354,12 @@ Version: 1.0+git458+268f4410+268f4410d9-r0
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 9fc244b1e4004e4db0a2884a13b8a745
-SHA256sum: 6e05191053f07f4058b5a247c5c866fdc3f2e5898e4d3679bd2869509d08595d
-Size: 622
+MD5Sum: b67820d34a8a1a751baec65b644bca0b
+SHA256sum: d1fdf5dfe4a8eb34eeb08221a0b7f25a80455638258fdaa7f10b9034b754bb3d
+Size: 616
 Filename: enigma2-plugin-systemplugins-m3uiptv-dbg_1.0+git458+268f4410+268f4410d9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Debugging files
+Description: IPTV list dynamic reader and runner - Debugging files
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
@@ -5371,12 +5371,28 @@ Recommends: enigma2-plugin-systemplugins-m3uiptv (= 1.0+git458+268f4410+268f4410
 Section: devel
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: f6537c13f2800e24b90ac18474906734
-SHA256sum: c7868dacbc01f20fa515cbdc6d10b446b1fe8a79ac5d9ca374a862d0e86bd64c
-Size: 700
+MD5Sum: 99aa46edbaf6058f2760ef7a1dd42e50
+SHA256sum: 48950e725c8aba27a7cbcbb50a24433f89607626391d00d8ef579b8f1dda67f9
+Size: 694
 Filename: enigma2-plugin-systemplugins-m3uiptv-dev_1.0+git458+268f4410+268f4410d9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0 - Development files
+Description: IPTV list dynamic reader and runner - Development files
+OE: enigma2-plugin-systemplugins-m3uiptv
+HomePage: https://github.com/DimitarCC
+License: GPL-3.0-only
+Priority: optional
+
+Package: enigma2-plugin-systemplugins-m3uiptv-src
+Version: 1.0+git458+268f4410+268f4410d9-r0
+Section: devel
+Architecture: all
+Maintainer: DimitarCC
+MD5Sum: b4e519ad3ffe6857fd321ff88534ffd8
+SHA256sum: f82779c3bb27f0b6fc899e2e615ac84a8938084086d91df56077fe5f53b3e21a
+Size: 57764
+Filename: enigma2-plugin-systemplugins-m3uiptv-src_1.0+git458+268f4410+268f4410d9-r0_all.ipk
+Source: enigma2-plugin-systemplugins-m3uiptv.bb
+Description: IPTV list dynamic reader and runner - Source files
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
@@ -5385,16 +5401,15 @@ Priority: optional
 Package: enigma2-plugin-systemplugins-m3uiptv
 Version: 1.0+git458+268f4410+268f4410d9-r0
 Depends: python3-core, python3-multiprocessing, python3-requests, python3-zoneinfo
-Recommends: enigma2-plugin-extensions-tmbd
 Section: base
 Architecture: all
 Maintainer: DimitarCC
-MD5Sum: 2b5739c1aef36d5f8e1159a435dada7d
-SHA256sum: f42b0d315218eab7d0d8cc1451708cc069a38d903cfa85d5a1cb8d610f0da02e
-Size: 284084
+MD5Sum: d2fcba0375275fc9c68235b7bf4ee318
+SHA256sum: 4239fd68b56cdd2ddcd319505f0d0c3d00a7d6a4e60b798ffb41551d50672cee
+Size: 232316
 Filename: enigma2-plugin-systemplugins-m3uiptv_1.0+git458+268f4410+268f4410d9-r0_all.ipk
 Source: enigma2-plugin-systemplugins-m3uiptv.bb
-Description: enigma2-plugin-systemplugins-m3uiptv version 1.0+git-r0
+Description: IPTV list dynamic reader and runner
 OE: enigma2-plugin-systemplugins-m3uiptv
 HomePage: https://github.com/DimitarCC
 License: GPL-3.0-only
