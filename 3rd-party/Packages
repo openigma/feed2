@@ -691,14 +691,14 @@ Size: 491660
 MD5Sum: 52f0138fd0fb5307fa60871a29e07f8f
 
 Package: enigma2-plugin-extensions-wireguard-vpn
-Version: 15.8
+Version: 15.9
 Section: enigma2
 Architecture: all
 Maintainer: madhouse
-MD5Sum: 9f71e9b7eed13c0af7e2995e63f32f39
-SHA256sum: aa98ea9210cf7cca9016f695e5f501b114db55acc872d73be0d6ed0a96ab95a0
-Size: 2973744
-Filename: enigma2-plugin-extensions-wireguard-vpn_15.8_all.ipk
+MD5Sum: af3f217e59fce631393ab639371eeb54
+SHA256sum: 39a7b61ea6658d823fc97831107d74b27018cf7e462484284e54fb60a522d8ec
+Size: 2973760
+Filename: enigma2-plugin-extensions-wireguard-vpn_15.9_all.ipk
 Depends: kernel-module-wireguard, wireguard-module, wireguard-tools, wireguard-tools-bash-completion, openresolv, python3-requests, iptables, alsa-utils
 Source: enigma2-plugin-extensions-wireguard-vpn.bb
 Description: Wireguard Vpn for enigma2 boxes
