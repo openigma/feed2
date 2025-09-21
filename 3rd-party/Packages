@@ -786,23 +786,6 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-skins-fury-fhd
-Version: 5.1
-Section: skins
-Priority: optional
-Architecture: all
-Maintainer: Islam Salama
-MD5Sum: 9489ddbf82d75cd6b54d18bd6a173494
-SHA256sum: f8194a9216139f18c4c7593dc562321b7977f62ac2af18dec656bc48b861cfdf
-Size: 12953538
-Filename: enigma2-plugin-skins-fury-fhd_5.1_all.ipk
-Description: Skins Fury-FHD
-Depends: enigma2-plugin-extensions-bitrate, python3-pillow
-Source: enigma2-plugin-skins-fury-fhd.bb
-Homepage: 
-OE: enigma2-plugin-skins
-License: GPL-2.0-or-later
-
 Package: enigma2-plugin-skins-glamouraurafhd
 Version: 6.0.5
 Section: skins
