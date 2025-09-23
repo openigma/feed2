@@ -5,9 +5,9 @@ Recommends: enigma2-plugin-extensions-subssupport
 Section: base
 Architecture: cortexa15hf-neon-vfpv4
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a324c4c46d768f9dac768a984895c176
-SHA256sum: e4d0521d920d8282ad522c35eba97c49a4fe41a36575781a292e7fd696416db0
-Size: 85450
+MD5Sum: e4119db9070d44ca0136c70f9505e5af
+SHA256sum: 5a9946282f0fd173be2a18e64c5a63e6a8b2cac82d746b020522aed7896567b1
+Size: 85948
 Filename: enigma2-plugin-extensions-kodi_22-r3_cortexa15hf-neon-vfpv4.ipk
 Source: enigma2-plugin-extensions-kodi.bb
 Description: enigma2-plugin-extensions-kodi version 22-r3
