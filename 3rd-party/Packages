@@ -802,7 +802,7 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-luka-fhd
-Version: 1.2
+Version: 1.3
 Section: skins
 Priority: optional
 Architecture: all
@@ -811,11 +811,11 @@ Description: Skin Luka-FHD
 Source: enigma2-plugin-skins-luka-fhd.bb
 Depends: enigma2-plugin-extensions-bitrate , enigma2-plugin-extensions-oaweather
 OE: enigma2-plugin-skins
-Filename: enigma2-plugin-skins-luka-fhd_1.2_all.ipk
-Size: 10291102
+Filename: enigma2-plugin-skins-luka-fhd_1.3_all.ipk
+Size: 13700660
 License: GPL-2.0-or-later
-MD5Sum: 8c4601f789988c2e271400c6ccaad64c
-SHA256sum: fa0d889442bb7e9d2b56d3f04bdf9a1cfc10b31fcaf33e083f0beb55d21c87e8
+MD5Sum: f46c9bab6ffd9f4f64c0154924107ed2
+SHA256sum: 6d52c7fea4ba6a86be4fc5cc604586810bbefed8b9e5c3a64c9b24738c9d5512
 
 Package: enigma2-plugin-skins-maxy-fhd-pli
 Version: 1.0
@@ -832,20 +832,20 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-skins-metrixfhd-neo-v3
-Version: v.7.5.6-b
+Package: enigma2-plugin-skins-metrixfhd-neo
+Version: 7.6
 Section: skins
 OE: enigma2-plugin-skins
 License: open
 Priority: optional
 Architecture: all
 Maintainer: neo
-MD5Sum: ec5e4d937af8e8590da66cdbffd67d68
-SHA256sum: 1ca2a978c05448c0c317d3bfd8ce4771a38229ad55c40af879a75ce5b6eb0127
-Size: 779896
-Filename: enigma2-plugin-skins-metrixfhd-neo-v3_oatv-v.7.5.6-b-version_all.ipk
-Description: Skin Metrix-FHD-neo-v3
-Source: enigma2-plugin-skins-metrixfhd-neo-v3.bb
+MD5Sum: fcd8d2142d7069ecb93d0ea0ffb17259
+SHA256sum: 982da4a4bba8f557637f55f1bfd41b93a674b6b4793ac24ef81b41338403a144
+Size: 777688
+Filename: enigma2-plugin-skins-metrixfhd-neo_V.7.6_beta_version_all.ipk
+Description: Skin Metrix-FHD-neo
+Source: enigma2-plugin-skins-metrixfhd-neo.bb
 Homepage: https://www.open.tv/
 
 Package: enigma2-plugin-skins-moderon-fhd
