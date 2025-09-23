@@ -285,21 +285,20 @@ HomePage: https://github.com/kiddac
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-extensions-kodi
-Version: 22-r3
-Depends: kodi-addons-meta, libc6 (>= 2.42), virtual-kodi
-Recommends: enigma2-plugin-extensions-subssupport
-Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e4119db9070d44ca0136c70f9505e5af
-SHA256sum: 5a9946282f0fd173be2a18e64c5a63e6a8b2cac82d746b020522aed7896567b1
-Size: 85948
-Filename: enigma2-plugin-extensions-kodi_22-r3_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-kodi.bb
-Description: enigma2-plugin-extensions-kodi version 22-r3
-OE: enigma2-plugin-extensions-kodi
-License: GPL-2.0-only
+Package: enigma2-plugin-extensions-kiddac-skin-e2sentials
+Version: 1.04.20250920
+Section: misc
+Architecture: all
+Maintainer: kiddac
+Description: Skin additions - Top Picks, Movie Planner Mods, Screen Names
+Source: https://github.com/kiddac
+MD5Sum: a4589144fbbf080e8e540f6e42471182
+SHA256sum: 1efe4993612fec0124a70e9fb99e9b33db4fe09c127116c4d2f6a231e078d0d2
+Size: 3693448
+Filename: enigma2-plugin-extensions-kiddac-skin-e2sentials_1.04.20250920_all.ipk
+OE: enigma2-plugin-extensions
+HomePage: https://github.com/kiddac
+License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-lottoextended
