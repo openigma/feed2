@@ -1000,16 +1000,16 @@ OE: enigma2-plugin-skins
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: enigma2-plugin-skins-xDreamy
-Version: 6.4.1
+Package: enigma2-plugin-skins-xdreamy
+Version: 6.4.2
 Section: base
 Architecture: all
 Maintainer: Mahmoud Hussein
-MD5Sum: 5832a8bb3aa2092c9631e9ca2278a04a
-SHA256sum: e041e3c8bcae1abe62fdafc66386e9fff2bee3286fba8d4c6b41c456863ef529
-Size: 18015316
-Filename: enigma2-plugin-skins-xdreamy_6.4.1_all.ipk
-Source: enigma2-plugin-skins-xDreamy.bb
+MD5Sum: 0a669a0af5a7fd3cc42b020b29b4a2fd
+SHA256sum: e5a57e455734397b1d9ea1c5866866f0340c05d1c2174b4970bd84eb981537d8
+Size: 17978734
+Filename: enigma2-plugin-skins-xdreamy_6.4.2_all.ipk
+Source: enigma2-plugin-skins-xdreamy.bb
 Depends: python3-image, python3-imaging, python3-pillow, python3-requests, python3-urllib3
 Description: Skin xDreamy FHD - New Vision Skin By Inspiron
 OE: enigma2-plugin-skins
